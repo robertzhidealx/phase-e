@@ -6,23 +6,23 @@
     include 'open.php';
 
     // collect the posted value in a variable called $item
-    $date = $_POST['date'];
+    $user = $_POST['committer'];
 
     echo "<h2>List package name, score, and total downloads for package that gets more than 100000 downloads on $date</h2><br>";
 
-    if (!empty($date)) {
-        $result = $conn->query("CALL DownloadsNum('".$date."');");
+    if (!empty($user)) {
+        $result = $conn->query("CALL VerifiedCommitsPercentage('".$user."');");
         if ($result) {
             echo "<table border=\"2px solid black\">";
-            echo "<tr><td>package name</td><td>score</td><td>downloads count</td></tr>";
+            echo "<tr><td>Percentage of verified commits committed by by Github</td></tr>";
 
             foreach($result as $row) {
-                echo "<tr><td>".$row["packageName"]."</td><td>".$row["score"]."</td><td>".$row["total downloads"]."</td></tr>";
+                echo "<tr><td>".$row["Percentage of verified commits committed by by Github"]."</td></tr>";
             }
             
             echo "</table>";
         } else {
-            echo "Call to DownloadsNum failed<br>";
+            echo "Call to VerifiedCommitsPercentage failed<br>";
         }
     } else {
         echo "invalid input";

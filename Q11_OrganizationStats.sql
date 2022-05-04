@@ -3,15 +3,15 @@
 
 DELIMITER //
 
--- DownloadsNum
+-- OrganizationStats
 
-DROP PROCEDURE IF EXISTS DownloadsNum //
+DROP PROCEDURE IF EXISTS OrganizationStats //
 
-CREATE PROCEDURE DownloadsNum(IN createdYear VARCHAR(15))
+CREATE PROCEDURE OrganizationStats(IN createdYear VARCHAR(15))
 BEGIN
     WITH userCount AS (SELECT InOrg.orgID AS orgID, COUNT(InOrg.userID) AS userNum
     FROM Organization AS Org, InOrg
-    WHERE Org.orgID = InOrg.orgID AND Org.createdAt > '2015-01-01'
+    WHERE Org.orgID = InOrg.orgID AND Org.createdAt > CONCAT('',createdYear, '-01-01')
     GROUP BY InOrg.orgID)
     SELECT userCount.orgID AS "orgnization ID", Org.name, Org.createdAt, Org.updatedAt, userCount.userNum
     FROM userCount, Organization AS Org
