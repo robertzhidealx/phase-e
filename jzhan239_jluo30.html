@@ -4,35 +4,37 @@
    <body>
 
 	<!-- (1) -->
-	<h2>Rank GitHub Organizations</h2>
+	<h2>1. Rank GitHub Organizations</h2>
 	<form action="Q1_RankGitHubOrganizations.php" method="post">
-		keyword: <input type="text" name="keyword"> <br/>
+		Keyword: <input type="text" name="keyword"> <br/>
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<!-- (b) -->
-	<h2> Show Percentages and Weighted Averages</h2>
-	<form action="HW4_ShowPercentages.php" method="post">
-		SID: <input type="text" name="SID"> <br/>
+	<h2>2. Rank organizations by average package score</h2>
+	<form action="Q2_AveragePackageScore.php" method="post">
+		Keyword: <input type="text" name="keyword"> <br/>
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<!-- (c) -->
-	<h2> Full Table of Raw Scores</h2>
-	<form action="HW4_ShowAllRawScores.php" method="post">
-		password: <input type="text" name="password"> <br/>
+	<h2>3. Rank select organizations by average package downloads</h2>
+	<form action="Q3_AveragePackageDownloads.php" method="post">
+        Order in <br/>
+		descending order <input type="radio" name="order" value="desc" checked> <br/>
+		ascending order <input type="radio" name="order" value="asc"> <br/>
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<!-- (d) -->
-	<h2> Full Table of Percentages with Weighted Averages</h2>
-	<form action="HW4_ShowAllCourseAverages.php" method="post">
-		password: <input type="text" name="password"> <br/>
+	<h2>4. Rank packages by downloads gained</h2>
+	<form action="Q4_PackageDownloadsGained.php" method="post">
+		Start date: <input type="text" name="startDate"> <br/>
+		End date: <input type="text" name="endDate"> <br/>
 		<input type="submit">
 	</form>
-
    </body>
 </html>

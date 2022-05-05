@@ -3,9 +3,9 @@
 
     $keyword = $_POST['keyword'];
 
-    echo "<h2>Rank GitHub organizations</h2>";
+    echo "<h2>Average Package Score</h2>";
 
-	$dataPoints = array();
+    $dataPoints = array();
 
     if (!empty($keyword)) {
         echo "<p style='margin-bottom: 10px'>You have selected <span style='font-weight: bold'>".$keyword."</span> as the search term.</p><br>";
@@ -14,18 +14,18 @@
         if ($len > 15) {
             echo "Bad input. please make sure the keyword is between 1 and 15 characters long.";
         } else {
-            if ($result = $conn->query("CALL RankGitHubOrganizations('".$keyword."');")) {
+            if ($result = $conn->query("CALL AveragePackageScore('".$keyword."');")) {
                 echo "<table border=\"2px solid black\">";
-                echo "<tr><td>user ID</td><td>user name</td><td>total stars</td></tr>";
+                echo "<tr><td>organization ID</td><td>organization name</td><td>average package score</td></tr>";
 
                 foreach($result as $row) {
-                    echo "<tr><td>".$row["userID"]."</td><td>".$row["username"]."</td><td>".$row["totalStars"]."</td></tr>";
-                    array_push($dataPoints, array( "label"=> $row["username"], "y"=> $row["totalStars"]));
+                    echo "<tr><td>".$row["orgID"]."</td><td>".$row["orgName"]."</td><td>".$row["averageScore"]."</td></tr>";
+                    array_push($dataPoints, array( "label"=> $row["orgName"], "y"=> $row["averageScore"]));
                 }
-                
+
                 echo "</table>";
             } else {
-                echo "Call to RankGitHubOrganizations failed<br>";
+                echo "Call to AveragePackageScore failed<br>";
             }
         }
     } else {
@@ -38,20 +38,20 @@
     <head>
         <title>Rank GitHub Organizations</title>
         <script>
-        window.onload = function () { 
+        window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
                 exportEnabled: true,
                 theme: "light1", // "light1", "light2", "dark1", "dark2"
                 title:{
-                    text: "Organization Total Stars"
+                    text: "Average Package Score"
                 },
                 data: [{
-                    type: "column", //change type to column, bar, line, area, pie, etc  
+                    type: "column", //change type to column, bar, line, area, pie, etc
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render(); 
+            chart.render();
         }
         </script>
     </head>
