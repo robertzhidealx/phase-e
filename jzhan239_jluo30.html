@@ -1,7 +1,8 @@
 <!-- hw4.html  Do not modify this file. -->
 
 <html>
-   <body>
+
+<body>
 
 	<!-- (1) -->
 	<h2>1. Rank GitHub Organizations</h2>
@@ -9,7 +10,7 @@
 		Keyword: <input type="text" name="keyword"> <br/>
 		<input type="submit">
 	</form>
-	<br/><br/>
+	<br /><br />
 
 	<!-- (b) -->
 	<h2>2. Rank organizations by average package score</h2>
@@ -17,7 +18,7 @@
 		Keyword: <input type="text" name="keyword"> <br/>
 		<input type="submit">
 	</form>
-	<br/><br/>
+	<br /><br />
 
 	<!-- (c) -->
 	<h2>3. Rank select organizations by average package downloads</h2>
@@ -27,7 +28,7 @@
 		ascending order <input type="radio" name="order" value="asc"> <br/>
 		<input type="submit">
 	</form>
-	<br/><br/>
+	<br /><br />
 
 	<!-- (d) -->
 	<h2>4. Rank packages by downloads gained</h2>
@@ -36,5 +37,72 @@
 		End date: <input type="text" name="endDate"> <br/>
 		<input type="submit">
 	</form>
-   </body>
+
+	<!-- 9 -->
+	<h2> 9. For specific organization, list organization ID, name, description, and the total number of stars in its
+		packages, by descending number of stars.</h2>
+	<form action="Q10_DownloadsNum.php" method="post">
+		organization name: <input type="text" name="name"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 10 -->
+	<h2> 10. For package gets more than 100000 downloads on ________ , list package name, score, and
+		total downloads during the period.</h2>
+	<form action="Q10_DownloadsNum.php" method="post">
+		date: <input type="text" name="date"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 11 -->
+	<h2> 11. For organization that have "js" in its name and is created after ________ , list orgID, orgName, created,
+		updated date, and users nums, by created date ascending order.</h2>
+	<form action="Q11_OrganizationStats.php" method="post">
+		year: <input type="text" name="year"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 12 -->
+	<h2> 12. Out of all commits whose committer is ______ , what percentage is verified?</h2>
+	<form action="Q12_VerifiedCommitsPercentage.php" method="post">
+		committer name: <input type="text" name="committer"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 13 -->
+	<h2> 13. For repo that has the most __forksCount/stargazersCount/watchersCount/openIssuesCount__, list its userID,
+		userLogin, userURL, and repo name and description.</h2>
+	<form action="Q13_MostCount.php" method="post">
+		count type: <input type="text" name="count"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 14 -->
+	<h2> 14. For orgnization located in _____, list their ID, name, create date, and name of package they own,
+		-- by ascending order of the date organizartion is created.</h2>
+	<form action="Q14_OrganizationLocation.php" method="post">
+		location: <input type="text" name="location"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 15 -->
+	<h2> 15. For commits that have more than average ___total changes/additions/deletions___, list commitID, amount of
+		additions and deletions,
+		-- its author and the name of repo committed to order by descending additions.</h2>
+	<form action="Q15_CommitChange.php" method="post">
+		type of change: <input type="text" name="type"> <br />
+		<input type="submit">
+	</form>
+
+	<!-- 16 -->
+	<h2> 16. Calculate average stars and scores for package with versions start with ____ , ____ , ____ , and list how
+		many package in each category, order by version descending order.</h2>
+	<form action="Q15_CommitChange.php" method="post">
+		version 1: <input type="text" name="v1"> <br />
+		version 2: <input type="text" name="v2"> <br />
+		version 3: <input type="text" name="v3"> <br />
+		<input type="submit">
+	</form>
+</body>
+
 </html>
