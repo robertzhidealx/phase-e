@@ -3,28 +3,24 @@
 
 DELIMITER //
 
--- OrganizationLocation
+-- PackageVersion
 
-DROP PROCEDURE IF EXISTS OrganizationLocation //
+DROP PROCEDURE IF EXISTS PackageVersion //
 
-CREATE PROCEDURE OrganizationLocation(IN _location VARCHAR(150))
+CREATE PROCEDURE PackageVersion(IN v1 INT, IN v2 INT,IN v2 INT)
 BEGIN
-SELECT '1.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
-FROM Package
-Where version LIKE "1.%"
-UNION
-SELECT '2.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
-FROM Package
-Where version LIKE "2.%"
-UNION
-SELECT '3.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
-FROM Package
-Where version LIKE "3.%"
-UNION
-SELECT '4.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
-FROM Package
-Where version LIKE "4.%"
-ORDER BY packageVersion DESC;
+    SELECT CONCAT(v1, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    FROM Package
+    Where version LIKE CONCAT(v1, '.%')
+    UNION
+    SELECT CONCAT(v2, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    FROM Package
+    Where version LIKE CONCAT(v2, '.%')
+    UNION
+    SELECT CONCAT(v3, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    FROM Package
+    Where version LIKE CONCAT(v3, '.%')
+    ORDER BY packageVersion DESC;
 END; //
 
 DELIMITER ;
