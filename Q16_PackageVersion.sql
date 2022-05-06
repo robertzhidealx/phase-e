@@ -7,20 +7,24 @@ DELIMITER //
 
 DROP PROCEDURE IF EXISTS PackageVersion //
 
-CREATE PROCEDURE PackageVersion(IN v1 INT, IN v2 INT,IN v3 INT)
+CREATE PROCEDURE PackageVersion()
 BEGIN
-    SELECT CONCAT(v1, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    SELECT '1.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
     FROM Package
-    Where version LIKE CONCAT(v1, '.%')
+    Where version LIKE "1.%"
     UNION
-    SELECT CONCAT(v2, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    SELECT '2.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
     FROM Package
-    Where version LIKE CONCAT(v2, '.%')
+    Where version LIKE "2.%"
     UNION
-    SELECT CONCAT(v3, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    SELECT '3.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
     FROM Package
-    Where version LIKE CONCAT(v3, '.%')
-    ORDER BY packageVersion DESC;
+    Where version LIKE "3.%"
+    UNION
+    SELECT '4.0.0' AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
+    FROM Package
+    Where version LIKE "4.%"
+    ORDER BY packageVersion ASC;
 END; //
 
 DELIMITER ;

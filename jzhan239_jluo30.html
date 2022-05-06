@@ -41,7 +41,7 @@
 	<!-- 9 -->
 	<h2> 9. For specific organization, list organization ID, name, description, and the total number of stars in its
 		packages, by descending number of stars.</h2>
-	<h3> Ex. Babel, Microsoft, Meta, Mocha, AVA, Rollup </h3>
+	<h3> Sample input: Babel, Microsoft, Meta, Mocha, AVA, Rollup </h3>
 	<form action="Q9_OrganizationInfo.php" method="post">
 		organization name: <input type="text" name="orgName"> <br />
 		<input type="submit">
@@ -50,16 +50,16 @@
 	<!-- 10 -->
 	<h2> 10. For package gets more than _____ downloads from 2020-10-01 to 2020-10-05, list package name, score, and
 		total downloads during the period.</h2>
-	<h3> Ex. 1000000, 1500000 </h3>
+	<h3> Sample input: 1500000 </h3>
 	<form action="Q10_DownloadsNum.php" method="post">
 		num: <input type="text" name="num"> <br />
 		<input type="submit">
 	</form>
 
 	<!-- 11 -->
-	<h2> 11. For organization that have "js" in its name and is created after ________ , list orgID, orgName, created,
-		updated date, and users nums, by created date ascending order.</h2>
-	<h3> Ex. 2015 </h3>
+	<h2> 11. For organization that have "js" in its name and is created after ________ , list organization ID, name, created,
+		updated date, and how many users the organization owns in the databases, by created date ascending order.</h2>
+	<h3> Sample input: 2015 </h3>
 	<form action="Q11_OrganizationStats.php" method="post">
 		year: <input type="text" name="year"> <br />
 		<input type="submit">
@@ -67,7 +67,7 @@
 
 	<!-- 12 -->
 	<h2> 12. Out of all commits whose committer is ______ , what percentage is verified?</h2>
-	<h3> Ex. Github </h3>
+	<h3> Sample input: Github, Jessica Janiuk </h3>
 	<form action="Q12_VerifiedCommitsPercentage.php" method="post">
 		committer name: <input type="text" name="committer"> <br />
 		<input type="submit">
@@ -82,9 +82,8 @@
 	</form>
 
 	<!-- 14 -->
-	<h2> 14. For orgnization located in _____, list their ID, name, create date, and name of package they own,
-		-- by ascending order of the date organizartion is created.</h2>
-	<h3> Ex. San Francisco, Chicago, Global, California </h3>
+	<h2> 14. For orgnization located in _____, list their ID, name, create date, and name of package they own by ascending order of the date organizartion is created.</h2>
+	<h3> Sample input: San Francisco, Chicago, Global, California </h3>
 	<form action="Q14_OrganizationLocation.php" method="post">
 		location: <input type="text" name="location"> <br />
 		<input type="submit">
@@ -100,12 +99,9 @@
 	</form>
 
 	<!-- 16 -->
-	<h2> 16. Calculate average stars and scores for package with versions start with ____ , ____ , ____ , and list how
-		many package in each category, order by version descending order.</h2>
+	<h2> 16. Calculate average stars and scores for package with versions start with 1, 2, 3, 4, and list how
+		many package in each category, order by version ascending order.</h2>
 	<form action="Q16_PackageVersion.php" method="post">
-		version 1: <input type="text" name="v1"> <br />
-		version 2: <input type="text" name="v2"> <br />
-		version 3: <input type="text" name="v3"> <br />
 		<input type="submit">
 	</form>
 </body>

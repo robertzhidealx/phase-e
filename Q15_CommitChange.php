@@ -1,5 +1,3 @@
-<head><title>Rank GitHub Organizations</title></head>
-<body>
 <?php
 
     // open a connection to dbase server 
@@ -10,6 +8,8 @@
 
     echo "<h2>List commitID, amount of additions and deletions, its author and the name of repo committed to order by descending additions.</h2><br>";
 
+    $DataPoints = array();
+
     if (!empty($type)) {
         $result = $conn->query("CALL CommitChange('".$type."');");
         if ($result) {
@@ -18,6 +18,7 @@
 
             foreach($result as $row) {
                 echo "<tr><td>".$row["commitID"]."</td><td>".$row["commit additions"]."</td><td>".$row["commit deletions"]."</td><td>".$row["repository name"]."</td><td>".$row["author"]."</td></tr>";
+                array_push($DataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
             }
             
             echo "</table>";
@@ -30,4 +31,30 @@
     $conn->close();
 
 ?>
-</body>
+
+<html>
+    <head>
+        <title>Rank GitHub Organizations</title>
+        <script>
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                exportEnabled: true,
+                theme: "light1", // "light1", "light2", "dark1", "dark2"
+                title:{
+                    text: "Repository Commits Total"
+                },
+                data: [{
+                    type: "column", //change type to column, bar, line, area, pie, etc
+                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                }]
+            });
+            chart.render();
+        }
+        </script>
+    </head>
+    <body>
+        <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
+</html>
