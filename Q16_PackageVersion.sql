@@ -7,7 +7,7 @@ DELIMITER //
 
 DROP PROCEDURE IF EXISTS PackageVersion //
 
-CREATE PROCEDURE PackageVersion(IN v1 INT, IN v2 INT,IN v2 INT)
+CREATE PROCEDURE PackageVersion(IN v1 INT, IN v2 INT,IN v3 INT)
 BEGIN
     SELECT CONCAT(v1, '.0.0') AS packageVersion, AVG(stars) AS "average stars", AVG(score) AS "average score", count(*) AS "count"
     FROM Package

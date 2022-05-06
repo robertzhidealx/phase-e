@@ -8,7 +8,7 @@
     // collect the posted value in a variable called $item
     $type = $_POST['type'];
 
-    echo "<h2>For orgnization located in San Francisco, list their ID, name, create date, and name of package they own</h2><br>";
+    echo "<h2>List commitID, amount of additions and deletions, its author and the name of repo committed to order by descending additions.</h2><br>";
 
     if (!empty($type)) {
         $result = $conn->query("CALL CommitChange('".$type."');");

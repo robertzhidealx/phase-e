@@ -7,16 +7,16 @@ DELIMITER //
 
 DROP PROCEDURE IF EXISTS DownloadsNum //
 
-CREATE PROCEDURE DownloadsNum(IN downloadDate DATE)
+CREATE PROCEDURE DownloadsNum(IN num INT)
 BEGIN
-    WITH Downloads AS (SELECT packageName, SUM(downloads) AS total_downloads
+    WITH Download AS (SELECT packageName, SUM(downloads) AS total_downloads
     FROM DownloadsOnDate
-    WHERE _day = downloadDate
+    WHERE _day = '2020-10-01' OR _day = '2020-10-02' OR _day = '2020-10-03' OR _day = '2020-10-04' OR _day = '2020-10-05'
     GROUP BY packageName)
-    SELECT Downloads.packageName, Package.score, Downloads.total_downloads AS "total downloads"
-    FROM Downloads, Package
-    WHERE Downloads.packageName = Package.packageName AND Downloads.total_downloads > 100000
-    ORDER BY Downloads.total_downloads DESC;
+    SELECT Download.packageName, Package.score, Download.total_downloads AS "total downloads"
+    FROM Download, Package
+    WHERE Download.packageName = Package.packageName AND Download.total_downloads > num
+    ORDER BY Download.total_downloads DESC;
 END; //
 
 DELIMITER ;

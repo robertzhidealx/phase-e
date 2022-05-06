@@ -22,7 +22,7 @@
             
             echo "</table>";
         } else {
-            echo "Call to MostCount failed<br>";
+            echo "Invalid input, call to MostCount failed<br>";
         }
     } else {
         echo "invalid input";
