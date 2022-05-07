@@ -1,6 +1,9 @@
 <html>
 
 <body>
+    <h1>601.315 Databases Project</h1>
+    <h4>[Team members] Jiaxuan Zhang, jzhan239, Jessie Luo, jluo30</h4>
+    <h4>[Project Domian] Github Organization, Repository, NPM Packages...</h4>
     <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px">
         <!-- (1) -->
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
@@ -241,18 +244,18 @@
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1100px;">
             <h3> Insertion</h3>
             <form action="Insertion.php" method="post">
-                <p> 1. Select what type of data you want to insert </p>
+                <p><u> 1. Select what type of data you want to insert </u></p>
                 <p> The following options are different data types in our database, fields marked with * uniquely
                     identifies each record and should not be empty </p>
 
-                User(*userID, login, url, type) <input type="radio" name="type" value="User" checked> <br />
-                Package (*packageName, version, star, score) <input type="radio" name="type" value="Package"> <br />
-                HasPackage(*orgID, *packageName) <input type="radio" name="type" value="HasPackage"> <br />
+                User(*user ID, login, url, type) <input type="radio" name="type" value="User" checked> <br />
+                Package (*package name, version, star, score) <input type="radio" name="type" value="Package"> <br />
+                HasPackage(*organization ID, *package name) <input type="radio" name="type" value="HasPackage"> <br />
                 <p>Note: HasPackage is a relation between Organization and Package. When adding value to HasPackage,
                     make sure the organization(orgID) and package(packageName) is in current database.
-                    Check the current tables as above</p>
+                    View the current database above</p>
 
-                <p> 2. Enter data </p>
+                <p><u> 2. Enter data </u></p>
                 <p> Ex. We want to add a user to the database whose ID is "233", with login "imauser", url
                     "https://www.user.com", and type "User".</p>
                 <p>Select User in step one, enter "233", "imauser",
@@ -267,30 +270,6 @@
 
         </div>
 
-        <!-- <h3> Insertion</h3>
-        <form action="Insertion.php" method="post">
-            <p> 1. Select what type of data you want to insert </p>
-            <p> The following options are different data types in our database, fields marked with * uniquely
-                identifies each record and should not be empty </p>
-            User(*user ID, login, user url, type) <input type="radio" name="type" value="User" checked> <br />
-            Package (*package name, version, star, score) <input type="radio" name="type" value="Package"> <br />
-            HasPackage(*orgID, *packageName) <input type="radio" name="type" value="HasPackage"> <br />
-
-            <p>Note: HasPackage is a relation between Organization and Package. When adding value to HasPackage,
-                make sure the organization(orgID) and package(packageName) is in current database.
-                Check the current tables as above</p>
-            <p> 2. Enter data </p>
-            <p> Ex. We want to add a user to the database whose ID is "233", with login "imauser", url
-                "https://www.user.com", and type "User".</p>
-            <p>Select User in step one, enter "233", "imauser",
-                "https://www.user.com", "User" into parameter 1, 2, 3, 4 correspondingly and leave the other fields
-                empty.</p>
-            parameter 1: <input type="text" name="p1"> <br />
-            parameter 2: <input type="text" name="p2"> <br />
-            parameter 3: <input type="text" name="p3"> <br />
-            parameter 4: <input type="text" name="p4"> <br />
-            <input type="submit">
-        </form> -->
     </div>
 </body>
 
