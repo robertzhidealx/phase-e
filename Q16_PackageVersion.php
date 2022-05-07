@@ -5,28 +5,35 @@
 
     // collect the posted value in a variable called $item
 
-    echo "<h2>Calculate average stars and scores for package versions, and list how many package in each category</h2><br>";
+    echo "<h2>Calculate average stars and scores for package versions, and list how many package in each category</h2>";
     
     $DataPoints = array();
+    if ($stmt = $conn->prepare("CALL PackageVersion()")) {
+        //$stmt->bind_param("s", $type);
+        if ($stmt->execute()) {
+            $result = $stmt->get_result();
+            if ($result) {
+                echo "<table border=\"2px solid black\">";
+                echo "<tr><td>Package Version</td><td>Average Stars</td><td>Average Score</td><td>Package Count</td></tr>";
 
-    //if (!empty($v1)) {
-        $result = $conn->query("CALL PackageVersion();");
-        if ($result) {
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>Package Version</td><td>Average Stars</td><td>Average Score</td><td>Package Count</td></tr>";
-
-            foreach($result as $row) {
-                echo "<tr><td>".$row["packageVersion"]."</td><td>".$row["average stars"]."</td><td>".$row["average score"]."</td><td>".$row["count"]."</td></tr>";
-                array_push($DataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
-            }
+                foreach($result as $row) {
+                    echo "<tr><td>".$row["packageVersion"]."</td><td>".$row["average stars"]."</td><td>".$row["average score"]."</td><td>".$row["count"]."</td></tr>";
+                    array_push($DataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
+                }
             
-            echo "</table>";
+                echo "</table><br>";
+            } else {
+                echo "Call to PackageVersion failed<br>";
+            }
         } else {
-            echo "Call to PackageVersion failed<br>";
+            //Call to execute failed, e.g. because server is no longer reachable,
+            //or because supplied values are of the wrong type
+            echo "Execute failed.<br>";
         }
-    // } else {
-    //     echo "invalid input";
-    // }
+
+        //Close down the prepared statement
+        $stmt->close();
+    }
     $conn->close();
 
 ?>
