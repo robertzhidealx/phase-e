@@ -14,8 +14,7 @@
         if ($startDateLen > 10 || $endDateLen > 10) {
             echo "Bad input. please make sure the date format is YYYY-MM-DD.";
         } else {
-            if ($result = $conn->query("CALL PackageDownloadGained('".$startDate."', '".$endDate."');")) {
-echo "yo";
+            if ($result = $conn->query("CALL PackageDownloadsGained('".$startDate."', '".$endDate."');")) {
                 echo "<table border=\"2px solid black\">";
                 echo "<tr><td>package name</td><td>package version</td><td>downloads gained</td></tr>";
 

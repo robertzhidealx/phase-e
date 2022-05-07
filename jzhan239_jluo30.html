@@ -12,7 +12,7 @@
 	</form>
 	<br /><br />
 
-	<!-- (b) -->
+	<!-- (2) -->
 	<h2>2. Rank organizations by average package score</h2>
 	<form action="Q2_AveragePackageScore.php" method="post">
 		Keyword: <input type="text" name="keyword"> <br/>
@@ -20,7 +20,7 @@
 	</form>
 	<br /><br />
 
-	<!-- (c) -->
+	<!-- (3) -->
 	<h2>3. Rank select organizations by average package downloads</h2>
 	<form action="Q3_AveragePackageDownloads.php" method="post">
         Order in <br/>
@@ -30,13 +30,54 @@
 	</form>
 	<br /><br />
 
-	<!-- (d) -->
+	<!-- (4) -->
 	<h2>4. Rank packages by downloads gained</h2>
 	<form action="Q4_PackageDownloadsGained.php" method="post">
 		Start date: <input type="text" name="startDate"> <br/>
 		End date: <input type="text" name="endDate"> <br/>
 		<input type="submit">
 	</form>
+	<br /><br />
+
+	<!-- (5) -->
+	<h2>5. Rank select users by number of commits</h2>
+	<form action="Q5_CountUserCommits.php" method="post">
+		Mininum number of issues created: <input type="text" name="issueCount"> <br/>
+		Minimum number of repositories affected: <input type="text" name="repoCount"> <br/>
+		<input type="submit">
+	</form>
+	<br /><br />
+
+	<!-- (6) -->
+	<h2>6. Rank repositories by percentage of fixing issues</h2>
+	<form action="Q6_FixesPercentage.php" method="post">
+        Order in <br/>
+		descending order <input type="radio" name="order" value="desc" checked> <br/>
+		ascending order <input type="radio" name="order" value="asc"> <br/>
+		<input type="submit">
+	</form>
+	<br /><br />
+
+	<!-- (7) -->
+	<h2>7. Rank select users by number of repositories committed to</h2>
+	<form action="Q7_CommittedRepoCount.php" method="post">
+		Minimum number of repositories committed to: <input type="text" name="repoCount"> <br/>
+        Order results in <br/>
+		descending order <input type="radio" name="order" value="desc" checked> <br/>
+		ascending order <input type="radio" name="order" value="asc"> <br/>
+		<input type="submit">
+	</form>
+	<br /><br />
+
+	<!-- (8) -->
+	<h2>8. Rank organizations by total commits</h2>
+	<form action="Q8_OrganizationCommits.php" method="post">
+        Order results in <br/>
+		descending order <input type="radio" name="order" value="desc" checked> <br/>
+		ascending order <input type="radio" name="order" value="asc"> <br/>
+		<input type="submit">
+	</form>
+	<br /><br />
 
 	<!-- 9 -->
 	<h2> 9. For specific organization, list organization ID, name, description, and the total number of stars in its
@@ -45,6 +86,7 @@
 		organization name: <input type="text" name="name"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 10 -->
 	<h2> 10. For package gets more than 100000 downloads on ________ , list package name, score, and
@@ -53,6 +95,7 @@
 		date: <input type="text" name="date"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 11 -->
 	<h2> 11. For organization that have "js" in its name and is created after ________ , list orgID, orgName, created,
@@ -61,6 +104,7 @@
 		year: <input type="text" name="year"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 12 -->
 	<h2> 12. Out of all commits whose committer is ______ , what percentage is verified?</h2>
@@ -68,6 +112,7 @@
 		committer name: <input type="text" name="committer"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 13 -->
 	<h2> 13. For repo that has the most __forksCount/stargazersCount/watchersCount/openIssuesCount__, list its userID,
@@ -76,6 +121,7 @@
 		count type: <input type="text" name="count"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 14 -->
 	<h2> 14. For orgnization located in _____, list their ID, name, create date, and name of package they own,
@@ -84,6 +130,7 @@
 		location: <input type="text" name="location"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 15 -->
 	<h2> 15. For commits that have more than average ___total changes/additions/deletions___, list commitID, amount of
@@ -93,6 +140,7 @@
 		type of change: <input type="text" name="type"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 
 	<!-- 16 -->
 	<h2> 16. Calculate average stars and scores for package with versions start with ____ , ____ , ____ , and list how
@@ -103,6 +151,7 @@
 		version 3: <input type="text" name="v3"> <br />
 		<input type="submit">
 	</form>
+	<br /><br />
 </body>
 
 </html>

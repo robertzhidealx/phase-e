@@ -7,12 +7,12 @@ DELIMITER //
 
 DROP PROCEDURE IF EXISTS PackageDownloadsGained //
 
-CREATE PROCEDURE PackageDownloadsGained(IN startDate VARCHAR(10), IN endDate VARCHAR(10))
+CREATE PROCEDURE PackageDownloadsGained(IN startDate DATE, IN endDate DATE)
 BEGIN
     WITH D AS (
             SELECT packageName, SUM(downloads) AS 'downloadsGained'
             FROM DownloadsOnDate
-            WHERE _day > startDate AND _day <= endDate
+            WHERE _day > '2021-04-12' AND _day <= '2021-12-31'
             GROUP BY packageName
     )
     SELECT D.packageName, version, downloadsGained
