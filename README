@@ -1,0 +1,11 @@
+-- Jiaxuan Zhang, jzhan239
+-- Jessie Luo, jluo30
+
+Phase C question regarding data cleaning:
+Yes we did use some cleaning steps when loading txt files to SQL.
+
+We noticed that we needed to make some necessary adjustments to our txt file for it to be conform to the database format. 
+The data we get directly from API values contained special characters like non-English symbols, which the database cannot recognize. 
+Besides, we are using commas to separate fields in each tuple as in csv format. When importing files, we saw warnings like “row contained more data than there were input columns.” 
+Turned out some strings themselves contained comma(s) that splat them into one or multiple attribute values. 
+Thus, we wrote a regular expression pattern to remove these erratic symbols from the attribute values, which effectively fixed both issues.
