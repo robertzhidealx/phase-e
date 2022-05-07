@@ -5,8 +5,10 @@
         <!-- (1) -->
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <h3>1. Rank GitHub Organizations</h3>
-            <p>What is the ranking of GitHub organizations by the total stars on the repos they own with ___ in the name or description?
-Display the userID, userLogin, and totalStars. Rank the result by totalStars in descending order, then by userLogin in ascending order.</p>
+            <p>What is the ranking of GitHub organizations by the total stars on the repos they own with ___ in the name
+                or description?
+                Display the userID, userLogin, and totalStars. Rank the result by totalStars in descending order, then
+                by userLogin in ascending order.</p>
             <p>Sample input: JavaScript</p>
             <form action="Q1_RankGitHubOrganizations.php" method="post">
                 Keyword: <input type="text" name="keyword"> <br />
@@ -17,9 +19,13 @@ Display the userID, userLogin, and totalStars. Rank the result by totalStars in 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (2) -->
             <h3>2. Rank organizations by average package score</h3>
-            <p>What is the average score (indication of package health) of NPM packages belonging to organizations that own at least one
-___ repository (identified by ___ in repo name or description), grouped by organizations? Display the orgID,
-orgName, and avgScore with 2 decimal places. Rank the result by avgScore in descending order, then by orgName in ascending order.<p>
+            <p>What is the average score (indication of package health) of NPM packages belonging to organizations that
+                own at least one
+                ___ repository (identified by ___ in repo name or description), grouped by organizations? Display the
+                orgID,
+                orgName, and avgScore with 2 decimal places. Rank the result by avgScore in descending order, then by
+                orgName in ascending order.
+            <p>
             <p>Sample input: JavaScript</p>
             <form action="Q2_AveragePackageScore.php" method="post">
                 Keyword: <input type="text" name="keyword"> <br />
@@ -46,7 +52,8 @@ orgName, and avgScore with 2 decimal places. Rank the result by avgScore in desc
             <!-- (4) -->
             <h3>4. Rank packages by downloads gained</h3>
             <p>For each package, find the amount of downloads it gained from ___ to ___. Display packageName, version,
-and downloadsGained. Rank the result by downloadsGained in descending order, then by packageName in ascending order.</p>
+                and downloadsGained. Rank the result by downloadsGained in descending order, then by packageName in
+                ascending order.</p>
             <p>Sample input: 2021-04-12, 2021-12-31</p>
             <form action="Q4_PackageDownloadsGained.php" method="post">
                 Start date: <input type="text" name="startDate" value="2021-04-12"> <br />
@@ -58,9 +65,11 @@ and downloadsGained. Rank the result by downloadsGained in descending order, the
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (5) -->
             <h3>5. Rank select users by number of commits</h3>
-            <p>Find the number of commits for each user who has created more than ___ issues in more than ___ repositories. Display
-userID, userLogin, and commitsCount. Rank the result by commitsCount in descending order, then by userLogin in
-ascending order, and lastly by assigneeID in ascending order.</p>
+            <p>Find the number of commits for each user who has created more than ___ issues in more than ___
+                repositories. Display
+                userID, userLogin, and commitsCount. Rank the result by commitsCount in descending order, then by
+                userLogin in
+                ascending order, and lastly by assigneeID in ascending order.</p>
             <p>Sample input: 1, 2</p>
             <form action="Q5_CountUserCommits.php" method="post">
                 Mininum number of issues created: <input type="text" name="issueCount" value=1> <br />
@@ -72,10 +81,13 @@ ascending order, and lastly by assigneeID in ascending order.</p>
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (6) -->
             <h3>6. Rank repositories by percentage of fixing issues</h3>
-            <p>For each repository, find the number of issues in the repository that contains 'fix', and calculate the percentage
-of this number in the total number of open issues. Display repoID, repoName, fixesCount, openIssuesCount and fixesPercentage (with
-2 decimal places). Rank the result by fixesPercentage in either descending or ascending order, then by fixesCount in descending order, then lastly by
-openIssuesCount by descending order.</p>
+            <p>For each repository, find the number of issues in the repository that contains 'fix', and calculate the
+                percentage
+                of this number in the total number of open issues. Display repoID, repoName, fixesCount, openIssuesCount
+                and fixesPercentage (with
+                2 decimal places). Rank the result by fixesPercentage in either descending or ascending order, then by
+                fixesCount in descending order, then lastly by
+                openIssuesCount by descending order.</p>
             <form action="Q6_FixesPercentage.php" method="post">
                 Descending order <input type="radio" name="order" value="desc" checked> <br />
                 Ascending order <input type="radio" name="order" value="asc"> <br />
@@ -86,11 +98,15 @@ openIssuesCount by descending order.</p>
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (7) -->
             <h3>7. Rank select users by number of repositories committed to</h3>
-            <p>Find all the users who have created at least 1 issue in any repository, made verified commits to these repositories, and made commits to at least
-___ repositories. Calculate number of repositories they made verified commits to, the total amount of comments in all the commits of such users,
-and the average number of issues per such repository (with 2 decimal places). Display userID, userLogin, commitedRepoCount,
-commentCount, avgIssues. Rank the results by commitedRepoCount in either descending or ascending order, then by commentCount in descending order,
-and finally by userLogin in ascending order.</p>
+            <p>Find all the users who have created at least 1 issue in any repository, made verified commits to these
+                repositories, and made commits to at least
+                ___ repositories. Calculate number of repositories they made verified commits to, the total amount of
+                comments in all the commits of such users,
+                and the average number of issues per such repository (with 2 decimal places). Display userID, userLogin,
+                commitedRepoCount,
+                commentCount, avgIssues. Rank the results by commitedRepoCount in either descending or ascending order,
+                then by commentCount in descending order,
+                and finally by userLogin in ascending order.</p>
             <p>Sample input: 1</p>
             <form action="Q7_CommittedRepoCount.php" method="post">
                 Minimum number of repositories committed to: <input type="text" name="repoCount" value=1> <br />
@@ -214,24 +230,67 @@ and finally by userLogin in ascending order.</p>
             </form>
         </div>
 
-        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1000px;">
+        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1100px;">
+            <form action="DisplayTables.php" method="post">
+                <h3>CLICK BELOW TO VIEW CURRENT TABLES</h3>
+                <P>After each insertion/deletion, you should be able to see the update here</P>
+                <input type="submit">
+            </form>
+        </div>
+
+        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1100px;">
             <h3> Insertion</h3>
             <form action="Insertion.php" method="post">
                 <p> 1. Select what type of data you want to insert </p>
-                Organization(*orgID, login, name, description, email, createdAt, updatedAt, location, type) <input type="radio" name="type" value="Organization" checked> <br />
+                <p> The following options are different data types in our database, fields marked with * uniquely
+                    identifies each record and should not be empty </p>
+
                 User(*userID, login, url, type) <input type="radio" name="type" value="User" checked> <br />
                 Package (*packageName, version, star, score) <input type="radio" name="type" value="Package"> <br />
                 HasPackage(*orgID, *packageName) <input type="radio" name="type" value="HasPackage"> <br />
+                <p>Note: HasPackage is a relation between Organization and Package. When adding value to HasPackage,
+                    make sure the organization(orgID) and package(packageName) is in current database.
+                    Check the current tables as above</p>
+
                 <p> 2. Enter data </p>
+                <p> Ex. We want to add a user to the database whose ID is "233", with login "imauser", url
+                    "https://www.user.com", and type "User".</p>
+                <p>Select User in step one, enter "233", "imauser",
+                    "https://www.user.com", "User" into parameter 1, 2, 3, 4 correspondingly and leave the other fields
+                    empty.</p>
                 parameter 1: <input type="text" name="p1"> <br />
                 parameter 2: <input type="text" name="p2"> <br />
                 parameter 3: <input type="text" name="p3"> <br />
                 parameter 4: <input type="text" name="p4"> <br />
-                parameter 5: <input type="text" name="p5"> <br />
                 <input type="submit">
             </form>
-            
+
         </div>
+
+        <!-- <h3> Insertion</h3>
+        <form action="Insertion.php" method="post">
+            <p> 1. Select what type of data you want to insert </p>
+            <p> The following options are different data types in our database, fields marked with * uniquely
+                identifies each record and should not be empty </p>
+            User(*user ID, login, user url, type) <input type="radio" name="type" value="User" checked> <br />
+            Package (*package name, version, star, score) <input type="radio" name="type" value="Package"> <br />
+            HasPackage(*orgID, *packageName) <input type="radio" name="type" value="HasPackage"> <br />
+
+            <p>Note: HasPackage is a relation between Organization and Package. When adding value to HasPackage,
+                make sure the organization(orgID) and package(packageName) is in current database.
+                Check the current tables as above</p>
+            <p> 2. Enter data </p>
+            <p> Ex. We want to add a user to the database whose ID is "233", with login "imauser", url
+                "https://www.user.com", and type "User".</p>
+            <p>Select User in step one, enter "233", "imauser",
+                "https://www.user.com", "User" into parameter 1, 2, 3, 4 correspondingly and leave the other fields
+                empty.</p>
+            parameter 1: <input type="text" name="p1"> <br />
+            parameter 2: <input type="text" name="p2"> <br />
+            parameter 3: <input type="text" name="p3"> <br />
+            parameter 4: <input type="text" name="p4"> <br />
+            <input type="submit">
+        </form> -->
     </div>
 </body>
 

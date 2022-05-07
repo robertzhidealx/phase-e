@@ -18,7 +18,7 @@
                 $result = $stmt->get_result();
                 if ($result) {
                     echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>Orgnization ID</td><td>Orgnization Nam</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
+                    echo "<tr><td>Orgnization ID</td><td>Orgnization Name</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
 
                     foreach($result as $row) {
                         echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
