@@ -7,7 +7,7 @@ DELIMITER //
 
 DROP PROCEDURE IF EXISTS OrganizationInfo //
 
-CREATE PROCEDURE OrganizationInfo(IN string VARCHAR(100))
+CREATE PROCEDURE OrganizationInfo(IN OrgName VARCHAR(100))
 BEGIN
     WITH ID_STARS AS (SELECT HasPackage.orgID, SUM(Package.stars) AS stars
     FROM Package, HasPackage
@@ -15,7 +15,7 @@ BEGIN
     GROUP BY HasPackage.orgID)
     SELECT Org.orgID AS "orgnization ID", Org.name, Org.description, ID_STARS.stars AS "total stars"
     FROM ID_STARS, Organization AS Org
-    WHERE ID_STARS.orgID = Org.orgID AND Org.name LIKE CONCAT('%', string, '%')
+    WHERE ID_STARS.orgID = Org.orgID AND Org.name = OrgName
     ORDER BY ID_STARS.stars DESC;
 END; //
 

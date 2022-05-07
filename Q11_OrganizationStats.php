@@ -1,5 +1,3 @@
-<head><title>Rank GitHub Organizations</title></head>
-<body>
 <?php
 
     // open a connection to dbase server 
@@ -11,6 +9,8 @@
     echo "<h2> list Orgnization ID, Orgnization Name, created, updated date, and users num,
     -- by created date ascending order </h2><br>";
 
+    $DataPoints = array();
+
     if (!empty($year)) {
         $result = $conn->query("CALL OrganizationStats('".$year."');");
         if ($result) {
@@ -19,6 +19,7 @@
 
             foreach($result as $row) {
                 echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
+                array_push($DataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
             }
             
             echo "</table>";
@@ -31,4 +32,30 @@
     $conn->close();
 
 ?>
-</body>
+
+<html>
+    <head>
+        <title>Rank GitHub Organizations</title>
+        <script>
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                exportEnabled: true,
+                theme: "light1", // "light1", "light2", "dark1", "dark2"
+                title:{
+                    text: "How many users does the organization have in our database?"
+                },
+                data: [{
+                    type: "column", //change type to column, bar, line, area, pie, etc
+                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                }]
+            });
+            chart.render();
+        }
+        </script>
+    </head>
+    <body>
+        <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
+</html>

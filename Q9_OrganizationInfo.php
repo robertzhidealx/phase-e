@@ -6,12 +6,12 @@
     include 'open.php';
 
     // collect the posted value in a variable called $item
-    $name = $_POST['name'];
+    $orgName = $_POST['orgName'];
 
-    echo "<h2>List package name, score, and total downloads for package that gets more than 100000 downloads on $date</h2><br>";
+    echo "<h2>List organization ID, name, description, and the total number of stars in its packages, by descending number of stars.</h2><br>";
 
-    if (!empty($date)) {
-        $result = $conn->query("CALL OrganizationInfo('".$name."');");
+    if (!empty($orgName)) {
+        $result = $conn->query("CALL OrganizationInfo('".$orgName."');");
         if ($result) {
             echo "<table border=\"2px solid black\">";
             echo "<tr><td>Orgnization ID</td><td>name</td><td>description</td><td>total stars</td></tr>";
