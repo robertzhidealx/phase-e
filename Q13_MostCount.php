@@ -4,27 +4,39 @@
     include 'open.php';
 
     // collect the posted value in a variable called $item
-    $count = $_POST['count'];
+    $countType = $_POST['count'];
 
-    echo "<h2>For repo that has the most ".$count.", list its userID, userLogin, userURL, and repo name and description.</h2><br>";
+    echo "<h2>For repo that has the most ".$countType.", list its userID, userLogin, userURL, and repo name and description.</h2><br>";
 
     $DataPoints = array();
 
-    if (!empty($count)) {
-        $result = $conn->query("CALL MostCount('".$count."');");
-        if ($result) {
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td><td>$count</td></tr>";
+    if (!empty($countType)) {
+        if ($stmt = $conn->prepare("CALL MostCount(?)")) {
+            $stmt->bind_param("s", $countType);
+            if ($stmt->execute()) {
+                $result = $stmt->get_result();
+                if ($result) {
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td><td>$count</td></tr>";
 
-            foreach($result as $row) {
-                echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
-                array_push($DataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
-                array_push($DataPoints, array( "label"=> "Average", "y"=> $row["average"]));
-            }
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
+                        array_push($DataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
+                        array_push($DataPoints, array( "label"=> "Average", "y"=> $row["average"]));
+                    }
             
-            echo "</table>";
-        } else {
-            echo "Invalid input, call to MostCount failed<br>";
+                    echo "</table>";
+                } else {
+                    echo "Invalid input, call to MostCount failed<br>";
+                }
+            } else {
+                //Call to execute failed, e.g. because server is no longer reachable,
+                //or because supplied values are of the wrong type
+                echo "Execute failed.<br>";
+            }
+
+            //Close down the prepared statement
+            $stmt->close();
         }
     } else {
         echo "invalid input";

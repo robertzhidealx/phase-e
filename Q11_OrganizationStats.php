@@ -7,24 +7,35 @@
     $year = $_POST['year'];
 
     echo "<h2> list Orgnization ID, Orgnization Name, created, updated date, and users num,
-    -- by created date ascending order </h2><br>";
+    -- by created date ascending order </h2>";
 
     $DataPoints = array();
 
     if (!empty($year)) {
-        $result = $conn->query("CALL OrganizationStats('".$year."');");
-        if ($result) {
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>Orgnization ID</td><td>Orgnization Nam</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
+        if ($stmt = $conn->prepare("CALL OrganizationStats(?)")) {
+            $stmt->bind_param("s", $year);
+            if ($stmt->execute()) {
+                $result = $stmt->get_result();
+                if ($result) {
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>Orgnization ID</td><td>Orgnization Nam</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
 
-            foreach($result as $row) {
-                echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
-                array_push($DataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
+                        array_push($DataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
+                    }
+                    echo "</table><br>";
+                } else {
+                    echo "Call to OrganizationStats failed<br>";
+                }
+            } else {
+                //Call to execute failed, e.g. because server is no longer reachable,
+                //or because supplied values are of the wrong type
+                echo "Execute failed.<br>";
             }
-            
-            echo "</table>";
-        } else {
-            echo "Call to OrganizationStats<br>";
+
+            //Close down the prepared statement
+            $stmt->close();
         }
     } else {
         echo "invalid input";
