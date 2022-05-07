@@ -4,7 +4,7 @@
         <!-- (1) -->
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <h3>1. Rank GitHub Organizations</h3>
-            <p>What is the ranking of GitHub organizations by the total stars on the repos they own with [keyword] in the name or description?
+            <p>What is the ranking of GitHub organizations by the total stars on the repos they own with ___ in the name or description?
 Display the userID, userLogin, and totalStars. Rank the result by totalStars in descending order, then by userLogin in ascending order.</p>
             <p>Sample input: JavaScript</p>
             <form action="Q1_RankGitHubOrganizations.php" method="post">
@@ -17,7 +17,7 @@ Display the userID, userLogin, and totalStars. Rank the result by totalStars in 
             <!-- (2) -->
             <h3>2. Rank organizations by average package score</h3>
             <p>What is the average score (indication of package health) of NPM packages belonging to organizations that own at least one
-[keyword] repository (identified by [keyword] in repo name or description), grouped by organizations? Display the orgID,
+___ repository (identified by ___ in repo name or description), grouped by organizations? Display the orgID,
 orgName, and avgScore with 2 decimal places. Rank the result by avgScore in descending order, then by orgName in ascending order.<p>
             <p>Sample input: JavaScript</p>
             <form action="Q2_AveragePackageScore.php" method="post">
@@ -42,7 +42,7 @@ Display orgID, orgName, and averagegDownloads. Rank the result by the avgDownloa
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (4) -->
             <h3>4. Rank packages by downloads gained</h3>
-            <p>For each package, find the amount of downloads it gained from [start date] to [end date]. Display packageName, version,
+            <p>For each package, find the amount of downloads it gained from ___ to ___. Display packageName, version,
 and downloadsGained. Rank the result by downloadsGained in descending order, then by packageName in ascending order.</p>
             <p>Sample input: 2021-04-12, 2021-12-31</p>
             <form action="Q4_PackageDownloadsGained.php" method="post">
@@ -55,10 +55,10 @@ and downloadsGained. Rank the result by downloadsGained in descending order, the
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (5) -->
             <h3>5. Rank select users by number of commits</h3>
-            <p>Find the number of commits for each user who has created more than [minimum issues] issues in more than [minimum repositories] repositories. Display
+            <p>Find the number of commits for each user who has created more than ___ issues in more than ___ repositories. Display
 userID, userLogin, and commitsCount. Rank the result by commitsCount in descending order, then by userLogin in
 ascending order, and lastly by assigneeID in ascending order.</p>
-            <p>Sample input: 5, 2</p>
+            <p>Sample input: 1, 2</p>
             <form action="Q5_CountUserCommits.php" method="post">
                 Mininum number of issues created: <input type="text" name="issueCount" value=1> <br/>
                 Minimum number of repositories affected: <input type="text" name="repoCount" value=2> <br/>
@@ -69,7 +69,7 @@ ascending order, and lastly by assigneeID in ascending order.</p>
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (6) -->
             <h3>6. Rank repositories by percentage of fixing issues</h3>
-            <p>For each repository, find the number of issues in the repository that contains fix', and calculate the percentage
+            <p>For each repository, find the number of issues in the repository that contains 'fix', and calculate the percentage
 of this number in the total number of open issues. Display repoID, repoName, fixesCount, openIssuesCount and fixesPercentage (with
 2 decimal places). Rank the result by fixesPercentage in either descending or ascending order, then by fixesCount in descending order, then lastly by
 openIssuesCount by descending order.</p>
@@ -84,7 +84,7 @@ openIssuesCount by descending order.</p>
             <!-- (7) -->
             <h3>7. Rank select users by number of repositories committed to</h3>
             <p>Find all the users who have created at least 1 issue in any repository, made verified commits to these repositories, and made commits to at least
-[minimum repositories] repositories. Calculate number of repositories they made verified commits to, the total amount of comments in all the commits of such users,
+___ repositories. Calculate number of repositories they made verified commits to, the total amount of comments in all the commits of such users,
 and the average number of issues per such repository (with 2 decimal places). Display userID, userLogin, commitedRepoCount,
 commentCount, avgIssues. Rank the results by commitedRepoCount in either descending or ascending order, then by commentCount in descending order,
 and finally by userLogin in ascending order.</p>
