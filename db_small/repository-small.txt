@@ -1,0 +1,13 @@
+74293321,svelte,Cybernetically enhanced web apps,https://api.github.com/repos/sveltejs/svelte,2826,57319,57319,695
+1296269,Hello-World,My first repository on GitHub!,https://api.github.com/repos/octocat/Hello-World,1720,1832,1832,860
+10270250,react,A declarative, efficient, and flexible JavaScript library for building user interfaces.,https://api.github.com/repos/facebook/react,38246,186196,186196,907
+24195339,angular,The modern web developer’s platform,https://api.github.com/repos/angular/angular,21281,80704,80704,1408
+11730342,vue,🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.,https://api.github.com/repos/vuejs/vue,31907,194886,194886,568
+70107786,next.js,The React Framework,https://api.github.com/repos/vercel/next.js,17841,85151,85151,1202
+71995937,nuxt.js,The Intuitive Vue(2) Framework,https://api.github.com/repos/nuxt/nuxt.js,3221,39804,39804,527
+6498492,javascript,JavaScript Style Guide,https://api.github.com/repos/airbnb/javascript,23272,121909,121909,134
+304344049,kit,The fastest way to build Svelte apps,https://api.github.com/repos/sveltejs/kit,699,7854,7854,408
+95797174,lit,Lit is a simple library for building fast, lightweight web components.,https://api.github.com/repos/lit/lit,570,10963,10963,260
+46769790,solid,Solid - Re-decentralizing the web (project directory),https://api.github.com/repos/solid/solid,384,8110,8110,141
+17814354,mithril.js,A JavaScript Framework for Building Brilliant Applications,https://api.github.com/repos/MithrilJS/mithril.js,944,13173,13173,113
+224663696,alpine,A rugged, minimal framework for composing JavaScript behavior in your markup. ,https://api.github.com/repos/alpinejs/alpine,896,20352,20352,16

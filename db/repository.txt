@@ -1,0 +1,188 @@
+1296269,Hello-World,My first repository on GitHub,https//api.github.com/repos/octocat/Hello-World,1723,1838,1838,861
+243950408,HowToCook,Programmers guide about how to cook at home (Chinese only).,https//api.github.com/repos/Anduin2017/HowToCook,5634,37675,37675,268
+74293321,svelte,Cybernetically enhanced web apps,https//api.github.com/repos/sveltejs/svelte,2829,57363,57363,700
+10270250,react,A declarative efficient and flexible JavaScript library for building user interfaces.,https//api.github.com/repos/facebook/react,38278,186333,186333,905
+24195339,angular,The modern web developers platform,https//api.github.com/repos/angular/angular,21288,80739,80739,1404
+11730342,vue, Vue.js is a progressive incrementally-adoptable JavaScript framework for building UI on the web.,https//api.github.com/repos/vuejs/vue,31925,194941,194941,568
+70107786,next.js,The React Framework,https//api.github.com/repos/vercel/next.js,17874,85263,85263,1216
+71995937,nuxt.js,The Intuitive Vue(2) Framework,https//api.github.com/repos/nuxt/nuxt.js,3226,39821,39821,531
+311525798,Web-Dev-For-Beginners,24 Lessons 12 Weeks Get Started as a Web Developer,https//api.github.com/repos/microsoft/Web-Dev-For-Beginners,6676,45903,45903,4
+6498492,javascript,JavaScript Style Guide,https//api.github.com/repos/airbnb/javascript,23277,121963,121963,134
+304344049,kit,The fastest way to build Svelte apps,https//api.github.com/repos/sveltejs/kit,699,7872,7872,399
+95797174,lit,Lit is a simple library for building fast lightweight web components.,https//api.github.com/repos/lit/lit,570,10985,10985,264
+46769790,solid,Solid - Re-decentralizing the web (project directory),https//api.github.com/repos/solid/solid,385,8110,8110,141
+17814354,mithril.js,A JavaScript Framework for Building Brilliant Applications,https//api.github.com/repos/MithrilJS/mithril.js,944,13172,13172,114
+224663696,alpine,A rugged minimal framework for composing JavaScript behavior in your markup. ,https//api.github.com/repos/alpinejs/alpine,902,20371,20371,20
+27835638,framework,The Aurelia 1 framework entry point bringing together all the required sub-modules of Aurelia.,https//api.github.com/repos/aurelia/framework,682,11690,11690,58
+952189,backbone,Give your JS App some Backbone with Models Views Collections and Events,https//api.github.com/repos/jashkenas/backbone,5600,27867,27867,71
+1801829,ember.js,Ember.js - A JavaScript framework for creating ambitious web applications,https//api.github.com/repos/emberjs/ember.js,4276,22165,22165,423
+3214406,meteor,Meteor the JavaScript App Platform,https//api.github.com/repos/meteor/meteor,5196,42868,42868,125
+5245894,ractive,Next-generation DOM manipulation,https//api.github.com/repos/ractivejs/ractive,445,5876,5876,64
+757363,knockout,Knockout makes it easier to create rich responsive UIs with JavaScript,https//api.github.com/repos/knockout/knockout,1570,10169,10169,368
+1540246,spine,Lightweight MVC library for building JavaScript applications,https//api.github.com/repos/spine/spine,448,3599,3599,37
+26181549,espresso.js,Super minimal MVC library,https//api.github.com/repos/akrymski/espresso.js,25,521,521,0
+3228363,canjs,Build CRUD apps in fewer lines of code.,https//api.github.com/repos/canjs/canjs,423,1891,1891,312
+79527893,hyperapp,The tiny framework for building hypertext applications.,https//api.github.com/repos/jorgebucaran/hyperapp,829,18755,18755,8
+42283287,preact, Fast 3kB React alternative with the same modern API. Components  Virtual DOM.,https//api.github.com/repos/preactjs/preact,1759,31480,31480,236
+31492490,NativeScript, Empowering JavaScript with native platform APIs.  Best of all worlds (TypeScript Swift Objective C Kotlin Java). Use what you love  Angular Capacitor Ionic React Svelte Vue and you name it compatible.,https//api.github.com/repos/NativeScript/NativeScript,1570,21092,21092,929
+13142126,riot,Simple and elegant component-based UI library,https//api.github.com/repos/riot/riot,1029,14653,14653,2
+2522940,thorax,Strengthening your Backbone,https//api.github.com/repos/walmartlabs/thorax,130,1336,1336,43
+3415511,chaplin,HTML5 application architecture using Backbone.js,https//api.github.com/repos/chaplinjs/chaplin,242,2882,2882,47
+2965621,backbone.marionette,The Backbone Framework,https//api.github.com/repos/marionettejs/backbone.marionette,1306,7104,7104,34
+16674241,ripple,A tiny foundation for building reactive views,https//api.github.com/repos/ripplejs/ripple,67,1282,1282,12
+4068818,rivets,Lightweight and powerful data binding.,https//api.github.com/repos/mikeric/rivets,325,3223,3223,144
+1590408,derby,MVC framework making it easy to write realtime collaborative applications that run in both Node.js and browsers,https//api.github.com/repos/derbyjs/derby,269,4649,4649,76
+23278776,awesome-derby,A collection of awesome derby components,https//api.github.com/repos/russll/awesome-derby,1,12,12,0
+22845841,way.js,Simple lightweight persistent two-way databinding,https//api.github.com/repos/gwendall/way.js,277,2894,2894,52
+31057802,jsblocks,Better MV-ish Framework,https//api.github.com/repos/astoilkov/jsblocks,111,2790,2790,14
+2609642,feathers,A framework for real-time applications and REST APIs with JavaScript and TypeScript,https//api.github.com/repos/feathersjs/feathers,666,13927,13927,109
+44556469,Keo,Plain functions for a more functional Deku approach to creating stateless React components with functional goodies such as compose memoize etc... for free.,https//api.github.com/repos/Wildhoney/Keo,12,223,223,12
+50251053,atvjs,Blazing fast Apple TV application development using pure JavaScript,https//api.github.com/repos/emadalam/atvjs,45,280,280,20
+30161665,inferno,fire An extremely fast React-like JavaScript library for building modern user interfaces,https//api.github.com/repos/infernojs/inferno,669,15351,15351,36
+289815239,lucia, 3kb library for tiny web apps,https//api.github.com/repos/aidenybai/lucia,27,636,636,0
+40772809,core, The Node.js Framework highly focused on developer ergonomics stability and confidence,https//api.github.com/repos/adonisjs/core,579,12324,12324,1
+50146229,grapesjs,Free and Open source Web Builder Framework. Next generation tool for building templates without coding,https//api.github.com/repos/artf/grapesjs,2964,15554,15554,68
+83434501,rete,JavaScript framework for visual programming and creating node editor StandWithUkraine,https//api.github.com/repos/retejs/rete,502,7435,7435,87
+13129587,litegraph.js,A graph node engine and editor written in Javascript similar to PD or UDK Blueprints comes with its own editor in HTML5 Canvas2D. The engine can run client side or server side using Node. It allows to export graphs as JSONs to be included in applications independently.,https//api.github.com/repos/jagenjo/litegraph.js,356,2881,2881,51
+257674029,Drawflow,Simple flow library ,https//api.github.com/repos/jerosoler/Drawflow,346,1844,1844,38
+13872231,blockly,The web-based visual programming editor.,https//api.github.com/repos/google/blockly,3304,10171,10171,515
+372046384,million,Virtual DOM into the future ,https//api.github.com/repos/aidenybai/million,62,1914,1914,3
+9309093,Semantic-UI,Semantic is a UI component framework based around useful principles from natural language.,https//api.github.com/repos/Semantic-Org/Semantic-UI,5144,49963,49963,1056
+1604375,w2ui,UI widgets for modern apps. Data table forms toolbars sidebar tabs tooltips popups. All under 120kb (gzipped).,https//api.github.com/repos/vitmalina/w2ui,655,1976,1976,264
+17703927,fluidity,The worlds smallest fully-responsive css framework,https//api.github.com/repos/mrmrs/fluidity,77,1099,1099,10
+2788082,Ink,An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping,https//api.github.com/repos/sapo/Ink,271,1911,1911,12
+349241,underscore,JavaScripts utility _ belt,https//api.github.com/repos/jashkenas/underscore,5629,26391,26391,50
+3955647,lodash,A modern JavaScript utility library delivering modularity performance  extras.,https//api.github.com/repos/lodash/lodash,6419,52910,52910,378
+2037608,Sugar,A Javascript library for working with native objects.,https//api.github.com/repos/andrewplummer/Sugar,329,4476,4476,89
+32247847,rxjs,A reactive programming library for JavaScript,https//api.github.com/repos/ReactiveX/rxjs,2776,26845,26845,244
+3605299,bacon.js,Functional reactive programming library for TypeScript and JavaScript,https//api.github.com/repos/baconjs/bacon.js,341,6404,6404,84
+36007101,kefir,Youre looking for https//github.com/rpominov/kefir,https//api.github.com/repos/pozadi/kefir,5,7,7,0
+5548784,highland,High-level streams library for Node.js and the browser,https//api.github.com/repos/caolan/highland,164,3400,3400,131
+13815852,most,Ultra-high performance reactive programming,https//api.github.com/repos/cujojs/most,231,3427,3427,47
+32215970,mobx,Simple scalable state management.,https//api.github.com/repos/mobxjs/mobx,1665,25086,25086,27
+26316966,cyclejs,A functional and reactive JavaScript framework for predictable code,https//api.github.com/repos/cyclejs/cyclejs,426,10083,10083,98
+186519945,concent,State management that tailored for react it is simple predictable progressive and efficient.,https//api.github.com/repos/concentjs/concent,55,1080,1080,2
+21413198,immutable-js,Immutable persistent data collections for Javascript which increase efficiency and simplicity.,https//api.github.com/repos/immutable-js/immutable-js,1853,31901,31901,112
+4292299,mori,ClojureScripts persistent data structures and supporting API from the comfort of vanilla JavaScript,https//api.github.com/repos/swannodette/mori,154,3356,3356,63
+3068532,Buckets-JS,A complete fully tested and documented data structure library written in pure JavaScript.,https//api.github.com/repos/mauriciosantos/Buckets-JS,115,1190,1190,7
+3231063,hashmap,HashMap JavaScript class for Node.js and the browser. The keys can be anything and wont be stringified,https//api.github.com/repos/flesler/hashmap,73,374,374,2
+13723800,ngraph.graph,Graph data structure in JavaScript,https//api.github.com/repos/anvaka/ngraph.graph,56,365,365,7
+1424470,moment,Parse validate manipulate and display dates in javascript.,https//api.github.com/repos/moment/moment,7064,46466,46466,204
+35219,jquery-timeago,clock8 The original jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. 4 minutes ago).,https//api.github.com/repos/rmm5t/jquery-timeago,743,3815,3815,47
+10118353,date,Date() for humans,https//api.github.com/repos/matthewmueller/date,94,1464,1464,51
+24841635,date-fns, Modern JavaScript date utility library ,https//api.github.com/repos/date-fns/date-fns,1437,28479,28479,385
+128907699,dayjs, Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API,https//api.github.com/repos/iamkun/dayjs,1940,38570,38570,459
+47118129,luxon, A library for working with dates and times in JS,https//api.github.com/repos/moment/luxon,601,12347,12347,103
+11295981,countdown.js,Super simple countdowns.,https//api.github.com/repos/gumroad/countdown.js,29,392,392,3
+3678731,webpack,A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through loaders modules can be CommonJs AMD ES6 modules CSS Images JSON Coffeescript LESS ... and your custom stuff.,https//api.github.com/repos/webpack/webpack,8320,60854,60854,293
+35640229,rollup,Next-generation ES module bundler,https//api.github.com/repos/rollup/rollup,1131,21477,21477,404
+1276752,brunch,fork_and_knife Web applications made easy. Since 2011.,https//api.github.com/repos/brunch/brunch,471,6816,6816,24
+99598595,parcel,The zero configuration build tool for the web. ,https//api.github.com/repos/parcel-bundler/parcel,2121,40566,40566,769
+113912360,microbundle, Zero-configuration bundler for tiny modules.,https//api.github.com/repos/developit/microbundle,363,6891,6891,82
+72198897,fuse-box,A blazing fast js bundler/loader with a comprehensive API fire,https//api.github.com/repos/fuse-box/fuse-box,255,4053,4053,46
+172741073,snowpack,ESM-powered frontend build tool. Instant lightweight unbundled development. ,https//api.github.com/repos/withastro/snowpack,995,19777,19777,389
+20929025,TypeScript,TypeScript is a superset of JavaScript that compiles to clean JavaScript output.,https//api.github.com/repos/microsoft/TypeScript,10451,79696,79696,5528
+25880891,flow,Adds static typing to JavaScript to improve developer productivity and code quality.,https//api.github.com/repos/facebook/flow,1835,21709,21709,2484
+153920477,hegel,An advanced static type checker,https//api.github.com/repos/JSMonk/hegel,55,1870,1870,122
+167612716,TypL,The Type Linter for JS,https//api.github.com/repos/getify/TypL,13,332,332,23
+82304022,hm-def,Runtime type checking for JS with Hindley Milner signatures,https//api.github.com/repos/xodio/hm-def,14,183,183,11
+1451352,mocha, simple flexible fun javascript test framework for node.js  the browser,https//api.github.com/repos/mochajs/mocha,2940,21283,21283,266
+84009,jasmine,Simple JavaScript testing framework for browsers and node.js,https//api.github.com/repos/jasmine/jasmine,2258,15320,15320,47
+259691,qunit, An easy-to-use JavaScript unit testing framework.,https//api.github.com/repos/qunitjs/qunit,800,3948,3948,54
+15062869,jest,Delightful JavaScript Testing.,https//api.github.com/repos/facebook/jest,5768,38590,38590,1088
+17814479,prova,Test runner based on Tape and Browserify,https//api.github.com/repos/azer/prova,30,334,334,27
+7504744,dalek,unmaintained DalekJS Base framework,https//api.github.com/repos/dalekjs/dalek,65,703,703,89
+7639232,protractor,E2E test framework for Angular apps,https//api.github.com/repos/angular/protractor,2398,8787,8787,679
+6853358,tape,tap-producing test harness for node and browsers,https//api.github.com/repos/substack/tape,324,5605,5605,40
+34262857,testcafe,A Node.js tool to automate end-to-end web testing.,https//api.github.com/repos/DevExpress/testcafe,653,9299,9299,381
+26820798,ava,Node.js test runner that lets you develop with confidence ,https//api.github.com/repos/avajs/ava,1423,19735,19735,84
+31629751,cypress,Fast easy and reliable testing for anything that runs in a browser.,https//api.github.com/repos/cypress-io/cypress,2291,37928,37928,2131
+2931111,chai,BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.,https//api.github.com/repos/chaijs/chai,690,7538,7538,76
+45942274,enzyme,JavaScript Testing utilities for React,https//api.github.com/repos/enzymejs/enzyme,2104,19849,19849,288
+125863507,react-testing-library, Simple and complete React DOM testing utilities that encourage good testing practices.,https//api.github.com/repos/testing-library/react-testing-library,936,16236,16236,10
+747698,sinon,Test spies stubs and mocks for JavaScript.,https//api.github.com/repos/sinonjs/sinon,793,8951,8951,35
+3008757,expect.js,Minimalistic BDD-style assertions for Node.JS and the browser.,https//api.github.com/repos/Automattic/expect.js,219,2101,2101,88
+4878628,proxyquire, Proxies nodejs require in order to allow overriding dependencies during testing.,https//api.github.com/repos/thlorenz/proxyquire,116,2678,2678,10
+54569744,voca,The ultimate JavaScript string library,https//api.github.com/repos/panzerdp/voca,135,3436,3436,9
+28575598,selecting,fishing_pole_and_fish A library that allows you to access the text selected by the user,https//api.github.com/repos/EvandroLG/selecting,13,83,83,4
+800115,underscore.string,String manipulation helpers for javascript,https//api.github.com/repos/esamattis/underscore.string,396,3359,3359,121
+2805975,string.js,Extra JavaScript string methods. ,https//api.github.com/repos/jprichardson/string.js,239,1760,1760,78
+10930707,he,A robust HTML entity encoder/decoder written in JavaScript.,https//api.github.com/repos/mathiasbynens/he,244,3032,3032,21
+17454260,multiline,Multiline strings in JavaScript,https//api.github.com/repos/sindresorhus/multiline,69,1428,1428,0
+14375002,query-string,Parse and stringify URL query strings,https//api.github.com/repos/sindresorhus/query-string,434,5911,5911,18
+3056094,URI.js,Javascript URL mutation library,https//api.github.com/repos/medialize/URI.js,512,6144,6144,62
+9532162,domurl,Lightweight URL manipulation with JavaScript,https//api.github.com/repos/Mikhus/domurl,102,500,500,9
+9175790,sprintf.js,sprintf.js is a complete open source JavaScript sprintf implementation,https//api.github.com/repos/alexei/sprintf.js,290,1992,1992,54
+3790005,url-pattern,easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings.,https//api.github.com/repos/snd/url-pattern,42,548,548,13
+215375784,plexis,Lo-fi powerful community-driven string manipulation library.,https//api.github.com/repos/plexis-js/plexis,46,144,144,10
+743723,store.js,Cross-browser storage for all use cases used across the web.,https//api.github.com/repos/marcuswestin/store.js,1394,13725,13725,96
+14003349,localForage, Offline storage improved. Wraps IndexedDB WebSQL or localStorage using a simple but powerful API.,https//api.github.com/repos/localForage/localForage,1188,20310,20310,226
+570427,jStorage,jStorage is a simple key/value database to store data on browser side,https//api.github.com/repos/andris9/jStorage,281,1540,1540,23
+23198683,cross-storage,Cross domain local storage with permissions,https//api.github.com/repos/zendesk/cross-storage,190,2106,2106,12
+3586487,basket.js,A script and resource loader for caching  loading files with localStorage,https//api.github.com/repos/addyosmani/basket.js,301,3370,3370,49
+14515469,bag.js,JS / CSS / files loader  key/value storage,https//api.github.com/repos/nodeca/bag.js,18,81,81,3
+17052858,basil.js,The missing Javascript smart persistent layer,https//api.github.com/repos/Wisembly/basil.js,84,1976,1976,15
+268027,jquery-cookie,No longer maintained superseded by JS Cookie,https//api.github.com/repos/carhartl/jquery-cookie,4208,8658,8658,0
+32531480,js-cookie,A simple lightweight JavaScript API for handling browser cookies,https//api.github.com/repos/js-cookie/js-cookie,2032,19311,19311,1
+3771441,Cookies,JavaScript Client-Side Cookie Manipulation Library,https//api.github.com/repos/ScottHamper/Cookies,179,1785,1785,15
+4260360,db.js,db.js is a wrapper for IndexedDB to make it easier to work against,https//api.github.com/repos/aaronpowell/db.js,146,785,785,24
+246773,lawnchair,A lightweight clientside JSON document store,https//api.github.com/repos/brianleroux/lawnchair,254,2141,2141,86
+246426110,sql.js,null,https//api.github.com/repos/kripken/sql.js,31,78,78,0
+714074,pouchdb,koala - PouchDB is a pocket-sized database.,https//api.github.com/repos/pouchdb/pouchdb,1411,14867,14867,34
+149968135,crumbsjs,A lightweight vanilla ES6 cookies and local storage JavaScript library,https//api.github.com/repos/nirtz89/crumbsjs,13,235,235,16
+108154882,awesome-web-storage,sunglasses Everything you need to know about Client-side Storage.,https//api.github.com/repos/softvar/awesome-web-storage,37,396,396,2
+3702897,datavore,A small fast in-browser database engine written in JavaScript.,https//api.github.com/repos/StanfordHCI/datavore,43,238,238,4
+4780572,hoodie,dog The Offline First JavaScript Backend,https//api.github.com/repos/hoodiehq/hoodie,448,4310,4310,58
+9795883,nedb,The JavaScript Database for Node.js nw.js electron and the browser,https//api.github.com/repos/louischatriot/nedb,1001,13026,13026,206
+16927692,DOMPurify,DOMPurify - a DOM-only super-fast uber-tolerant XSS sanitizer for HTML MathML and SVG. DOMPurify works with a secure default but offers a lot of configurability and hooks. Demo,https//api.github.com/repos/cure53/DOMPurify,560,8773,8773,2
+5857265,js-xss,Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist,https//api.github.com/repos/leizongmin/js-xss,599,4495,4495,53
+30363340,xss-filters,Secure XSS Filters.,https//api.github.com/repos/YahooArchive/xss-filters,152,1051,1051,7
+12711522,sanitize-html,Clean up user-submitted HTML preserving whitelisted elements and whitelisted attributes on a per-element basis. Built on htmlparser2 for speed and tolerance,https//api.github.com/repos/apostrophecms/sanitize-html,324,2943,2943,14
+23088740,axios,Promise based HTTP client for the browser and node.js,https//api.github.com/repos/axios/axios,9402,92486,92486,331
+15886008,bottleneck,Job scheduler and rate limiter supports Clustering,https//api.github.com/repos/SGrondin/bottleneck,49,1298,1298,68
+11765708,oauth-signature-js,JavaScript OAuth 1.0a signature generator (RFC 5849) for node and the browser,https//api.github.com/repos/bettiolo/oauth-signature-js,71,226,226,22
+17662996,amygdala,RESTful HTTP client for JavaScript powered web applications,https//api.github.com/repos/lincolnloop/amygdala,23,392,392,7
+7643902,jquery.rest,A jQuery plugin for easy consumption of RESTful APIs,https//api.github.com/repos/jpillora/jquery.rest,119,616,616,20
+91917857,rails-ranger, An opinionated AJAX client for Ruby on Rails APIs,https//api.github.com/repos/victor-am/rails-ranger,5,36,36,3
+103435985,wretch,A tiny wrapper built around fetch with an intuitive syntax. candy,https//api.github.com/repos/elbywan/wretch,64,2365,2365,5
+212546794,bearer-js,Bearer provides all of the tools to build run and manage API integrations.,https//api.github.com/repos/Bearer/bearer-js,4,20,20,2
+263215860,far-fetch,Modern Fetch API wrapper for simplicity.,https//api.github.com/repos/WebsiteBeaver/far-fetch,7,51,51,0
+123606765,optic,Track and review API changes as a team,https//api.github.com/repos/opticdev/optic,51,968,968,1
+218115303,swr,React Hooks for Data Fetching,https//api.github.com/repos/vercel/swr,838,21878,21878,75
+207645083,react-query, Hooks for fetching caching and updating asynchronous data in React,https//api.github.com/repos/tannerlinsley/react-query,1503,26756,26756,31
+12093057,FlowType.JS,Web typography at its finest font-size and line-height based on element width.,https//api.github.com/repos/simplefocus/FlowType.JS,483,4620,4620,37
+1221789,BigText,jQuery plugin calculates the font-size and word-spacing needed to match a line of text to a specific width.,https//api.github.com/repos/zachleat/BigText,250,881,881,36
+8258045,CircleType,A JavaScript library that lets you curve type on the web.,https//api.github.com/repos/peterhry/CircleType,217,590,590,13
+3126402,slabText,A jQuery plugin for producing big bold  responsive headlines,https//api.github.com/repos/freqdec/slabText,153,1338,1338,7
+12081804,simple-text-rotator,Add a super simple rotating text to your website with little to no markup,https//api.github.com/repos/peachananr/simple-text-rotator,263,756,756,32
+11628199,novacancy.js,Text Neon Golden effect jQuery plug-in,https//api.github.com/repos/chuckyglitch/novacancy.js,44,185,185,3
+6586659,jquery-responsive-text,Make your text sizing responsive,https//api.github.com/repos/ghepting/jquery-responsive-text,27,124,124,0
+1706871,FitText.js,A jQuery plugin for inflating web type,https//api.github.com/repos/davatron5000/FitText.js,1437,6762,6762,30
+904419,Lettering.js,A lightweight easy to use Javascript span injector for radical Web Typography,https//api.github.com/repos/davatron5000/Lettering.js,791,5379,5379,16
+18611173,velocity,Accelerated JavaScript animation.,https//api.github.com/repos/julianshapiro/velocity,1615,17142,17142,42
+2762270,jquery.transit,Super-smooth CSS3 transformations and transitions for jQuery,https//api.github.com/repos/rstacruz/jquery.transit,920,7386,7386,137
+18638428,bounce.js,Create beautiful CSS3 powered animations in no time.,https//api.github.com/repos/tictail/bounce.js,446,6227,6227,11
+5905330,GSAP,GreenSocks GSAP JavaScript animation library (including Draggable).,https//api.github.com/repos/greensock/GSAP,1547,13962,13962,1
+7306539,transitionEnd,dizzy TransitionEnd is an agnostic and cross-browser library to work with transitionend event.,https//api.github.com/repos/EvandroLG/transitionEnd,8,95,95,0
+16466596,dynamics.js,Javascript library to create physics-based animations,https//api.github.com/repos/michaelvillar/dynamics.js,417,7441,7441,9
+5855456,the-cube,The Cube is an experiment with CSS3 transitions.,https//api.github.com/repos/pstadler/the-cube,8,9,9,0
+11133743,Effeckt.css,This repo is archived. Thanks,https//api.github.com/repos/h5bp/Effeckt.css,1455,11033,11033,0
+2561582,animate.css, A cross-browser library of CSS animations. As easy to use as an easy thing.,https//api.github.com/repos/animate-css/animate.css,16135,74242,74242,35
+7814311,textillate,A jquery plugin for CSS3 text animations.,https//api.github.com/repos/jschr/textillate,779,3601,3601,69
+1786438,move.js,CSS3 backed JavaScript animation framework,https//api.github.com/repos/visionmedia/move.js,708,4672,4672,36
+2674131,animatable,One property two values endless possiblities,https//api.github.com/repos/LeaVerou/animatable,668,2556,2556,2
+20064235,shuffle-images,The Simplest Way to shuffle through images in a Creative Way,https//api.github.com/repos/peachananr/shuffle-images,50,209,209,4
+21748166,smoothState.js,Unobtrusive page transitions with jQuery.,https//api.github.com/repos/miguel-perez/smoothState.js,532,4454,4454,128
+23736449,particles.js,A lightweight JavaScript library for creating particles,https//api.github.com/repos/VincentGarreau/particles.js,4553,25648,25648,338
+238514517,tsparticles,tsParticles - Easily create highly customizable particles confetti and fireworks animations and use them as animated backgrounds for your website. Ready to use components available for React.js Vue.js (2.x and 3.x) Angular Svelte jQuery Preact Inferno Solid Riot and Web Components.,https//api.github.com/repos/matteobruni/tsparticles,378,3174,3174,21
+223338365,particles-bg,React particles animation background component,https//api.github.com/repos/lindelof/particles-bg,72,491,491,3
+46077896,barba,Create badass fluid and smooth transition between your websites pages.,https//api.github.com/repos/barbajs/barba,488,9591,9591,18
+211405607,typical,Animated typing in 400 bytes  of JavaScript,https//api.github.com/repos/camwiegert/typical,46,1108,1108,3
+17375436,es6features,Overview of ECMAScript 6 features,https//api.github.com/repos/lukehoban/es6features,2937,28876,28876,38
+33361723,es6-features,ECMAScript 6 Feature Overview  Comparison,https//api.github.com/repos/rse/es6-features,1134,6191,6191,33
+599695,compat-table,ECMAScript 5/6/7 compatibility tables,https//api.github.com/repos/kangax/compat-table,922,4138,4138,119
+24560307,babel, Babel is a compiler for writing next generation JavaScript.,https//api.github.com/repos/babel/babel,5307,40713,40713,809
+9060347,traceur-compiler,Traceur is a JavaScript.next-to-JavaScript-of-today compiler,https//api.github.com/repos/google/traceur-compiler,622,8165,8165,297
+10163660,lena.js,woman Library for image processing,https//api.github.com/repos/davidsonfellipe/lena.js,72,519,519,13
+23509696,pica,Resize image in browser with high quality and high speed,https//api.github.com/repos/nodeca/pica,224,3028,3028,1
+16977232,cropper, Deprecated No longer maintained please use https//github.com/fengyuanchen/jquery-cropper,https//api.github.com/repos/fengyuanchen/cropper,1806,7809,7809,0

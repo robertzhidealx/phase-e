@@ -1,0 +1,27 @@
+-- Jiaxuan Zhang, jzhan239
+-- Jessie Luo, jluo30
+DROP TABLE IF EXISTS DownloadsOnDate;
+
+DROP TABLE IF EXISTS Downloads;
+
+DROP TABLE IF EXISTS HasPackage;
+
+DROP TABLE IF EXISTS Package;
+
+DROP TABLE IF EXISTS OwnsRepo;
+
+DROP TABLE IF EXISTS InOrg;
+
+DROP TABLE IF EXISTS Organization;
+
+DROP TABLE IF EXISTS _User;
+
+DROP TABLE IF EXISTS _Commit;
+
+DROP TABLE IF EXISTS CommitStats;
+
+DROP TABLE IF EXISTS IssueCreator;
+
+DROP TABLE IF EXISTS Issue;
+
+DROP TABLE IF EXISTS Repository;

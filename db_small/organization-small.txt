@@ -1,0 +1,13 @@
+69631,facebook,Meta,We are working to build community through open source technology. NB: members must have two-factor auth.,null,2009-04-02T03:35:22Z,2022-04-01T07:03:49Z,Menlo Park, California,Organization
+1342004,google,Google,Google ❤️ Open Source,opensource@google.com,2012-01-18T01:30:18Z,2021-12-30T01:40:20Z,null,Organization
+8594673,amzn,Amazon,,null,2014-08-29T21:50:46Z,2022-03-23T22:08:14Z,null,Organization
+139426,angular,Angular,,null,2009-10-13T22:16:19Z,2021-12-30T01:40:19Z,null,Organization
+9919,github,GitHub,How people build software.,null,2008-05-11T04:37:31Z,2022-04-08T10:02:08Z,San Francisco, CA,Organization
+23617963,sveltejs,Svelte,Cybernetically enhanced web apps,null,2016-11-20T18:03:26Z,2022-03-10T15:25:29Z,pkg.devDependencies,Organization
+6128107,vuejs,vuejs,,null,2013-12-07T06:13:00Z,2022-01-09T08:00:00Z,All Over the World,Organization
+14985020,vercel,Vercel,Develop. Preview. Ship. Creators of Next.js.,support@vercel.com,2015-10-05T19:40:30Z,2022-03-21T22:12:44Z,Global,Organization
+23360933,nuxt,Nuxt,The Intuitive Vue Framework,null,2016-11-09T14:48:11Z,2021-09-15T08:35:38Z,Global,Organization
+6154722,microsoft,Microsoft,Open source projects and samples from Microsoft,opensource@microsoft.com,2013-12-10T19:06:48Z,2021-03-18T18:50:55Z,Redmond, WA,Organization
+c,airbnb,Airbnb,,null,2011-03-30T01:29:47Z,2021-11-30T17:18:46Z,San Francisco,Organization
+18489846,lit,Lit,Simple. Fast. Web Components.,null,2016-04-15T19:11:08Z,2022-03-15T18:39:57Z,USA,Organization
+698437,airbnb,Airbnb,,null,2011-03-30T01:29:47Z,2021-11-30T17:18:46Z,San Francisco,Organization

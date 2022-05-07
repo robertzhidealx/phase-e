@@ -1,0 +1,15 @@
+583231,octocat,https://api.github.com/users/octocat,User
+19531547,Anduin2017,https://api.github.com/users/Anduin2017,User
+23617963,sveltejs,https://api.github.com/users/sveltejs,Organization
+139426,angular,https://api.github.com/users/angular,Organization
+6128107,vuejs,https://api.github.com/users/vuejs,Organization
+14985020,vercel,https://api.github.com/users/vercel,Organization
+23360933,nuxt,https://api.github.com/users/nuxt,Organization
+698437,airbnb,https://api.github.com/users/airbnb,Organization
+18489846,lit,https://api.github.com/users/lit,Organization
+14262490,solid,https://api.github.com/users/solid,Organization
+19475707,MithrilJS,https://api.github.com/users/MithrilJS,Organization
+59030169,alpinejs,https://api.github.com/users/alpinejs,Organization
+241299,0xfe,https://api.github.com/users/0xfe,User
+6388530,44past4,https://api.github.com/users/44past4,User
+4312154,clarkdo,https://api.github.com/users/clarkdo,User

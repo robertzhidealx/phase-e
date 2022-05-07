@@ -1,0 +1,1783 @@
+1199684500,https//api.github.com/repos/octocat/Hello-World,from api,open
+1196788182,https//api.github.com/repos/octocat/Hello-World,Commit for a homework,open
+1194307251,https//api.github.com/repos/octocat/Hello-World,Edited README,open
+1193410529,https//api.github.com/repos/octocat/Hello-World,title,open
+1192908991,https//api.github.com/repos/octocat/Hello-World,title,open
+1192652434,https//api.github.com/repos/octocat/Hello-World,Check This out,open
+1186971628,https//api.github.com/repos/octocat/Hello-World,issue2,open
+1186371287,https//api.github.com/repos/octocat/Hello-World,Hello World,open
+1185341139,https//api.github.com/repos/octocat/Hello-World,Hello world,open
+1185330324,https//api.github.com/repos/octocat/Hello-World,Hello world,open
+1184253197,https//api.github.com/repos/octocat/Hello-World,test,open
+1183647907,https//api.github.com/repos/octocat/Hello-World,Joseph Andrew Watkins ,open
+1183478731,https//api.github.com/repos/octocat/Hello-World,test2,open
+1180371203,https//api.github.com/repos/octocat/Hello-World,Check This out,open
+1178901743,https//api.github.com/repos/octocat/Hello-World,Delete README,open
+1177063540,https//api.github.com/repos/octocat/Hello-World,COmmit,open
+1174544887,https//api.github.com/repos/octocat/Hello-World,title,open
+1173777244,https//api.github.com/repos/octocat/Hello-World,Hello world from wttj-qa-bot,open
+1173776268,https//api.github.com/repos/octocat/Hello-World,Hello world from wttj-qa-bot,open
+1172973574,https//api.github.com/repos/octocat/Hello-World,Hello world,open
+1169837309,https//api.github.com/repos/octocat/Hello-World,saying Hello from -MSC,open
+1169835879,https//api.github.com/repos/octocat/Hello-World,saying Hello from -DF,open
+1169834454,https//api.github.com/repos/octocat/Hello-World,hello,open
+1169834396,https//api.github.com/repos/octocat/Hello-World,add hello world from -DP,open
+1169834328,https//api.github.com/repos/octocat/Hello-World,saying Hello from -AS,open
+1169834318,https//api.github.com/repos/octocat/Hello-World,Added Hello world,open
+1169834243,https//api.github.com/repos/octocat/Hello-World,saying Hello from -TM,open
+1169162442,https//api.github.com/repos/octocat/Hello-World,How do I get the codes,open
+1168443967,https//api.github.com/repos/octocat/Hello-World,Demo1,open
+1167259329,https//api.github.com/repos/octocat/Hello-World,myhelloworld,open
+1202907368,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1202000581,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1199915398,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1199744833,https//api.github.com/repos/Anduin2017/HowToCook, g,open
+1199072105,https//api.github.com/repos/Anduin2017/HowToCook,GITHUB... 5...,open
+1199071037,https//api.github.com/repos/Anduin2017/HowToCook, (),open
+1198550571,https//api.github.com/repos/Anduin2017/HowToCook,   ,open
+1198089478,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1195547045,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1195470373,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1195357508,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1194828496,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1194558855,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1194382411,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1194188552,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1193948101,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1193944524,https//api.github.com/repos/Anduin2017/HowToCook,xx,open
+1193052109,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1191975899,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1191742328,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1187676800,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1187542097,https//api.github.com/repos/Anduin2017/HowToCook,Submit cuisine,open
+1187392802,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1184967306,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1184088741,https//api.github.com/repos/Anduin2017/HowToCook,scalar,open
+1183378112,https//api.github.com/repos/Anduin2017/HowToCook,Update .md,open
+1182954399,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1182883898,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1181473340,https//api.github.com/repos/Anduin2017/HowToCook,,open
+1181469374,https//api.github.com/repos/Anduin2017/HowToCook,debug,open
+1203598126,https//api.github.com/repos/sveltejs/svelte,fix rendering void tag for svelteelement,open
+1203574496,https//api.github.com/repos/sveltejs/svelte,docs FAQ cleanup,open
+1203493778,https//api.github.com/repos/sveltejs/svelte,feat support const tag for if block,open
+1203329701,https//api.github.com/repos/sveltejs/svelte,SVG html element not rentering from string,open
+1203304291,https//api.github.com/repos/sveltejs/svelte,New svelteelement tag does not handle void tags correctly,open
+1201651178,https//api.github.com/repos/sveltejs/svelte,falsy style props behave inconsistently,open
+1200121174,https//api.github.com/repos/sveltejs/svelte,Scoped styles for svelteelement,open
+1199807223,https//api.github.com/repos/sveltejs/svelte,conditional ActionReturn type if Parameter is void,open
+1200184755,https//api.github.com/repos/sveltejs/svelte,html content in sveltehead is duplicated,open
+1199369379,https//api.github.com/repos/sveltejs/svelte,Minimize the code generated for setting scoped classes,open
+1197753714,https//api.github.com/repos/sveltejs/svelte,Feature Suggestion Improve versatility of sveltecomponent and svelteelement by treating them as a sveltefragment when the this prop value is present but is a falsy or nullish value,open
+1196299506,https//api.github.com/repos/sveltejs/svelte,A component wrapping a custom element is not rendered into a slot correctly,open
+1196040822,https//api.github.com/repos/sveltejs/svelte,feat claim static html elements using innerHTML instead of deopt to claiming every nodes,open
+1195792831,https//api.github.com/repos/sveltejs/svelte,Allow each block to handle arbitrary non array like iterables,open
+1195355843,https//api.github.com/repos/sveltejs/svelte,Bind to text nodes,open
+1190298532,https//api.github.com/repos/sveltejs/svelte,Hydration Attributes,open
+1187743467,https//api.github.com/repos/sveltejs/svelte,Unexpected behavior using spread attributes.,open
+1186904695,https//api.github.com/repos/sveltejs/svelte,Selector Lists Break global When Attributes Are Targeted (3.46.5),open
+1185636300,https//api.github.com/repos/sveltejs/svelte,Media elements buffered binding doesnt update frequently enough to match native TimeRange object,open
+1185380767,https//api.github.com/repos/sveltejs/svelte,Access target/anchor properties from within component,open
+1184198585,https//api.github.com/repos/sveltejs/svelte,fix Max call stack exceeded when large number of components are flushed ,open
+1180787187,https//api.github.com/repos/sveltejs/svelte,select_change_handler fails with exposed slot property,open
+1175275195,https//api.github.com/repos/sveltejs/svelte,camelCased variable names are not reactive.,open
+1174995296,https//api.github.com/repos/sveltejs/svelte,Custom Elements Hydrated Incorrectly,open
+1174626893,https//api.github.com/repos/sveltejs/svelte,Feature Request Template guard clauses,open
+1174135626,https//api.github.com/repos/sveltejs/svelte,docs add component comments,open
+1169185920,https//api.github.com/repos/sveltejs/svelte,One unit test fails with pnpm works with npm,open
+1168249945,https//api.github.com/repos/sveltejs/svelte,bindthis in each block not working with Array.splice,open
+1167536041,https//api.github.com/repos/sveltejs/svelte,CSS important not supported in Svelte style,open
+1167428689,https//api.github.com/repos/sveltejs/svelte,fix 1.html in template set inner html 2. with sibling error closes 7315 7319,open
+1203709562,https//api.github.com/repos/facebook/react,DevTools Bug Cannot add child foo to parent bar because parent node was not found in the Store.,open
+1203645451,https//api.github.com/repos/facebook/react,RFC Add initialValue option to useDeferredValue,open
+1203627128,https//api.github.com/repos/facebook/react,Test Added a small test for ReactTestUtils to find rendered component with type in document,open
+1203625153,https//api.github.com/repos/facebook/react,Bump urijs from 1.19.6 to 1.19.11 in /fixtures/concurrent/time-slicing,open
+1203581886,https//api.github.com/repos/facebook/react,Fix microtask batched update inside native event,open
+1203574191,https//api.github.com/repos/facebook/react,Bug update in a microTask inside native events sometimes wont be batch,open
+1203242533,https//api.github.com/repos/facebook/react,Doesnt recognize local react app,open
+1202642499,https//api.github.com/repos/facebook/react,Bug beforeInput event doesnt fire when input is replacing previous text,open
+1202504418,https//api.github.com/repos/facebook/react,Bump urijs from 1.19.0 to 1.19.11 in /fixtures/expiration,open
+1202504303,https//api.github.com/repos/facebook/react,Bump urijs from 1.18.12 to 1.19.11 in /fixtures/attribute-behavior,open
+1202503287,https//api.github.com/repos/facebook/react,Bump urijs from 1.19.2 to 1.19.11 in /fixtures/dom,open
+1201826579,https//api.github.com/repos/facebook/react,Warn for duplicate DevTools installations ,open
+1201335415,https//api.github.com/repos/facebook/react,Compatible issue about createRoot between 17  18,open
+1200529411,https//api.github.com/repos/facebook/react,let react-hooks/exhaustive-deps additionalHooks have a callback in a different position from 0,open
+1200335173,https//api.github.com/repos/facebook/react,DraftReactDevTools Run Circle CI DevTools Tests for Multiple Circle CI Versions ,open
+1199041750,https//api.github.com/repos/facebook/react,Suggestion Process higher priority renders after each useEffect callback,open
+1198974415,https//api.github.com/repos/facebook/react,Bug State updates in ResizeObserver callbacks are applied after paint and cause visual glitches,open
+1197956718,https//api.github.com/repos/facebook/react,Use FB specific stream config for native-relay,open
+1197355166,https//api.github.com/repos/facebook/react,Flight Add a better error message for undefined server components,open
+1196863791,https//api.github.com/repos/facebook/react,Support for selectionchange event for HTML input element and HTML textarea element,open
+1196775289,https//api.github.com/repos/facebook/react,WIP Improve console dimming on second StrictMode render,open
+1196695161,https//api.github.com/repos/facebook/react,Bug React 18 types broken since the type release a view hours ago,open
+1196555809,https//api.github.com/repos/facebook/react,Console dimming on second StrictMode render forces string cast,open
+1196546808,https//api.github.com/repos/facebook/react,Update Yarn to version Berry,open
+1194172364,https//api.github.com/repos/facebook/react,Suppress Download the React DevTools log for a better development experience,open
+1190951365,https//api.github.com/repos/facebook/react,fix add additional primitive value,open
+1190820736,https//api.github.com/repos/facebook/react,Bug React 18 adds empty HTML comment tags in SSR markup,open
+1190214678,https//api.github.com/repos/facebook/react,WIP Diffs for hydration errors,open
+1190159527,https//api.github.com/repos/facebook/react,React DevTools Improve DevTools UI when Inspecting a user Component that Throws an Error ,open
+1189115411,https//api.github.com/repos/facebook/react,suggestion Suspense support delay,open
+1203855283,https//api.github.com/repos/angular/angular,feat(core) add ApplicationRef.destroy method,open
+1203823288,https//api.github.com/repos/angular/angular,Devtools  Evaluate Date type when inspecting elements,open
+1203744916,https//api.github.com/repos/angular/angular,fix(bazel) do not error if files part of srcs are outside of package,open
+1203735458,https//api.github.com/repos/angular/angular,refactor(router) cancel the navigation instantly if at least one resolver doesnt emit any value,open
+1203573316,https//api.github.com/repos/angular/angular,refactor(router) combine functions for getting loaded config,open
+1203431504,https//api.github.com/repos/angular/angular,ExpressionChangedAfterItHasBeenCheckedError is not thrown if ChangeDetection.OnPush is used,open
+1202824734,https//api.github.com/repos/angular/angular,Wrong result in View Encapsulation document,open
+1202499561,https//api.github.com/repos/angular/angular,Resolve issues and update a11y tests,open
+1202480991,https//api.github.com/repos/angular/angular,feat(forms) Add a FormRecord type.,open
+1202473335,https//api.github.com/repos/angular/angular,refactor(compiler) add original_code to goog.getMsg() options,open
+1202072340,https//api.github.com/repos/angular/angular,fix(language-service) Add resource files as roots to their associate,open
+1201051307,https//api.github.com/repos/angular/angular,refactor(router) deprecate no longer needed resolver fields,open
+1200677515,https//api.github.com/repos/angular/angular,Refactor some router internals,open
+1200573448,https//api.github.com/repos/angular/angular,build(bazel) generate aio stackblitz and example zips,open
+1200212196,https//api.github.com/repos/angular/angular,build(docs-infra) introduce new process for generating data for the events page,open
+1199219676,https//api.github.com/repos/angular/angular,Injectable does not play well with other class decorators,open
+1199068003,https//api.github.com/repos/angular/angular,fix(language-service) two-way binding completion should not remove t,open
+1198752717,https//api.github.com/repos/angular/angular,feat(docs-infra) add close button to search-results aio panel,open
+1198717842,https//api.github.com/repos/angular/angular,Calling ChangeDetectorRef.detectChanges in child view causes error in parent NgForOf directive,open
+1198605454,https//api.github.com/repos/angular/angular,Change Detection keeps running when the application listens to  message event when DevTools is loaded,open
+1196844907,https//api.github.com/repos/angular/angular,build update dependency rules_pkg to v0.7.0,open
+1196675662,https//api.github.com/repos/angular/angular,docs New Using Pipes in templates doc,open
+1196368645,https//api.github.com/repos/angular/angular,add expects to expectOne and expectNone,open
+1195872541,https//api.github.com/repos/angular/angular,control.hasError() return unexpected value,open
+1195328836,https//api.github.com/repos/angular/angular,New binding overview doc,open
+1194999754,https//api.github.com/repos/angular/angular,fix(zone.js) patch node for nested fs functions,open
+1194645243,https//api.github.com/repos/angular/angular,zone.js/node breaks for fs.realpath.native and fs.realpathSync.native,open
+1194479137,https//api.github.com/repos/angular/angular,Expose flushPeriodic from FakeAsync module,open
+1194455089,https//api.github.com/repos/angular/angular,Cannot use APP_BASE_HREF alongside angular/localize,open
+1194419683,https//api.github.com/repos/angular/angular,Fix  code style for product-details  cart components,open
+1198966452,https//api.github.com/repos/vuejs/vue,Merge the code of the event modifier,open
+1188208649,https//api.github.com/repos/vuejs/vue,fix Module Federation  Vue 2 SSR support async initialization 12511,open
+1187844300,https//api.github.com/repos/vuejs/vue,Module Federation  Vue 2 SSR support async initialization,open
+1178389839,https//api.github.com/repos/vuejs/vue,Allow inferring types from Vue.set(object ...) pattern,open
+1172301287,https//api.github.com/repos/vuejs/vue,chore Improve npm package specification,open
+1162435226,https//api.github.com/repos/vuejs/vue,The latest progress of Vue 2.7 and the REAL approximate release time,open
+1161789738,https//api.github.com/repos/vuejs/vue,types(compiler) add missing start/end fields,open
+1156357011,https//api.github.com/repos/vuejs/vue,build(deps-dev) bump karma from 3.1.4 to 6.3.16,open
+1155662580,https//api.github.com/repos/vuejs/vue,serverPrefetchs this type doesnt include component properties,open
+1155278208,https//api.github.com/repos/vuejs/vue,chore fix typos skip ci,open
+1154767703,https//api.github.com/repos/vuejs/vue,fix(compiler)  codeframe infinite loop,open
+1150043411,https//api.github.com/repos/vuejs/vue,fix(compiler) add missing code range on warn,open
+1147231999,https//api.github.com/repos/vuejs/vue,build(deps) bump trim-off-newlines from 1.0.1 to 1.0.3,open
+1145021945,https//api.github.com/repos/vuejs/vue,fix keep-alive pruneCache not work in some max values,open
+1141522120,https//api.github.com/repos/vuejs/vue,use vite with vue2 on ssr  dynamic import cause Cannot add property _Ctor object is not extensible,open
+1133959473,https//api.github.com/repos/vuejs/vue,build(deps) bump follow-redirects from 1.14.7 to 1.14.8,open
+1129544390,https//api.github.com/repos/vuejs/vue,chore fix license link,open
+1128092953,https//api.github.com/repos/vuejs/vue,HMR is not working,open
+1122669159,https//api.github.com/repos/vuejs/vue,fix(core) add prop name to invalid prop type warning message (fix 12454),open
+1121557049,https//api.github.com/repos/vuejs/vue,Property validator should report the property that failed type / validator check,open
+1111605222,https//api.github.com/repos/vuejs/vue,fix(ssr) fix compatibility with webpack4 and webpack5 for monorepos,open
+1108113706,https//api.github.com/repos/vuejs/vue,this type inference doesnt work in data method,open
+1108070765,https//api.github.com/repos/vuejs/vue,Vue SSR did not inject the extracted CSS file,open
+1104378447,https//api.github.com/repos/vuejs/vue,build(deps-dev) bump shelljs from 0.8.3 to 0.8.5,open
+1104175580,https//api.github.com/repos/vuejs/vue,docs(readme  backers) HTTP  HTTPS,open
+1099968402,https//api.github.com/repos/vuejs/vue,refactor(observer) avoid eager new Dep(),open
+1097083572,https//api.github.com/repos/vuejs/vue,Chore fixed punctuation errors,open
+1090055682,https//api.github.com/repos/vuejs/vue,ci Update CircleCI pipeline to run Codecov,open
+1084482504,https//api.github.com/repos/vuejs/vue,feat(types) add types for hook events,open
+1071501898,https//api.github.com/repos/vuejs/vue,fix 12374 do not hyphenate or omit CSS variables in style attribute,open
+1203868321,https//api.github.com/repos/vercel/next.js,rsc mark next head as client component,open
+1203778679,https//api.github.com/repos/vercel/next.js,Fixes scripts in Electron examples.,open
+1203695003,https//api.github.com/repos/vercel/next.js,Head shows HTML comment on initial load,open
+1203658865,https//api.github.com/repos/vercel/next.js,Dark mode on nextjs docos,open
+1203586927,https//api.github.com/repos/vercel/next.js,Next/Image breaking tests with patch 12.1.4 to 12.1.5,open
+1203540154,https//api.github.com/repos/vercel/next.js,swcMinify true does not produce an usable build with v12.1.5,open
+1203441017,https//api.github.com/repos/vercel/next.js,examples Update styled-components with Babel - add types,open
+1203428658,https//api.github.com/repos/vercel/next.js,Add Support for sass-embedded,open
+1203410159,https//api.github.com/repos/vercel/next.js,experimental nextScriptWorkers doesnt work with GTM,open
+1203190267,https//api.github.com/repos/vercel/next.js,Middleware Use Breaks Locale Routing on / Path on Vercel if autodetected locale is not default locale IS STILL NOT FIXED,open
+1203090719,https//api.github.com/repos/vercel/next.js,rsc fix swc node type in client loader,open
+1203001807,https//api.github.com/repos/vercel/next.js,v12.1.5 regression with apollo client in SSR,open
+1202848660,https//api.github.com/repos/vercel/next.js,Windows global CSS imports regression (blocks the Create Your First App learn step),open
+1202645066,https//api.github.com/repos/vercel/next.js,Docs x-middleware-cache documentation is missing,open
+1202473718,https//api.github.com/repos/vercel/next.js,Docs no-cache Add guide for DigitalOcean,open
+1202328989,https//api.github.com/repos/vercel/next.js,Duplicate amp-custom style tag on AMP pages,open
+1202242333,https//api.github.com/repos/vercel/next.js,_middleware that redirects to a different i18n locale can cause next.js router to enter an infinite loop,open
+1201625558,https//api.github.com/repos/vercel/next.js,Failed to revalidate route of a specific locale,open
+1201609350,https//api.github.com/repos/vercel/next.js,docs specify minimum required react version,open
+1201261572,https//api.github.com/repos/vercel/next.js,initialProps redundant problem fix,open
+1201005922,https//api.github.com/repos/vercel/next.js,Causes an error when any folder in the path starts with ud,open
+1200189225,https//api.github.com/repos/vercel/next.js,Mdx docs improved after changing things which were wrong,open
+1199934585,https//api.github.com/repos/vercel/next.js,performance error,open
+1199529885,https//api.github.com/repos/vercel/next.js,Add example with-apivideo-upload,open
+1199335889,https//api.github.com/repos/vercel/next.js,getServerSideProps not getting the updated cookie from the middleware,open
+1199128345,https//api.github.com/repos/vercel/next.js,Using rewrites with domain-specific i18n causes redirect to defaulLocale,open
+1199125842,https//api.github.com/repos/vercel/next.js,router.locale value is in defaultLocale and links point to defaultLocale localization with domain-specific i18n,open
+1199082037,https//api.github.com/repos/vercel/next.js,fixed typo that should say in not from,open
+1199049237,https//api.github.com/repos/vercel/next.js,Middleware is broken with Azure CDN,open
+1198758932,https//api.github.com/repos/vercel/next.js,Docs upgrade guide with specific React version,open
+1203177579,https//api.github.com/repos/nuxt/nuxt.js,,open
+1203161562,https//api.github.com/repos/nuxt/nuxt.js, CSS TaiwindCSS ,open
+1202943145,https//api.github.com/repos/nuxt/nuxt.js,fix catch sessionStorage exception,open
+1201796746,https//api.github.com/repos/nuxt/nuxt.js,Scrolling behaviour in Firefox,open
+1199966792,https//api.github.com/repos/nuxt/nuxt.js,SSG Invalid route items cause broken static assets (e.g. state.js) for base route /,open
+1196968401,https//api.github.com/repos/nuxt/nuxt.js,nuxt.js generate Bug,open
+1193385286,https//api.github.com/repos/nuxt/nuxt.js,publicRuntimeConfig variables on client side always equals undefined,open
+1192872223,https//api.github.com/repos/nuxt/nuxt.js,Opt-out for payload.js generation on static websites,open
+1192106925,https//api.github.com/repos/nuxt/nuxt.js,Cant update layout content after component created at server side,open
+1190625370,https//api.github.com/repos/nuxt/nuxt.js,Two different routes having same route names causes conflict in router,open
+1189498108,https//api.github.com/repos/nuxt/nuxt.js,Dynamic loaded Async component event listener not work on SSR first rendered,open
+1182556405,https//api.github.com/repos/nuxt/nuxt.js,whether nuxt.js support different domain names to jump directly to different routes ,open
+1181825143,https//api.github.com/repos/nuxt/nuxt.js,chore(deps) update actions/checkout action to v3,open
+1181825109,https//api.github.com/repos/nuxt/nuxt.js,chore(deps) update actions/cache action to v3,open
+1181596512,https//api.github.com/repos/nuxt/nuxt.js,use Storage(like localStorage) have problem in test environment,open
+1178853015,https//api.github.com/repos/nuxt/nuxt.js,No error raised when non-existing layout is set,open
+1175247060,https//api.github.com/repos/nuxt/nuxt.js,Vuetify root stylesheet import error,open
+1174540766,https//api.github.com/repos/nuxt/nuxt.js,Cannot read properties of undefined (reading stubModule),open
+1174341166,https//api.github.com/repos/nuxt/nuxt.js,Head Scripts not being cleared between pages,open
+1174309387,https//api.github.com/repos/nuxt/nuxt.js,fix allow files with .cjs extension to be transpiled,open
+1174258001,https//api.github.com/repos/nuxt/nuxt.js,Javascript files with .cjs extension can not be transpiled,open
+1172523431,https//api.github.com/repos/nuxt/nuxt.js,This dependency was not found - Module with subpaths in exports,open
+1170965975,https//api.github.com/repos/nuxt/nuxt.js,Optional parameter route generated when page is kebab-case,open
+1170863960,https//api.github.com/repos/nuxt/nuxt.js,v-html not working on dynamic tag ,open
+1165436059,https//api.github.com/repos/nuxt/nuxt.js,Server middleware called twice,open
+1164901395,https//api.github.com/repos/nuxt/nuxt.js,nuxt build found render link tag insert repeat,open
+1164413703,https//api.github.com/repos/nuxt/nuxt.js,CSS modules doesnt work with scss.,open
+1162734236,https//api.github.com/repos/nuxt/nuxt.js,Dynamic OG/meta tags do not work anymore,open
+1161730498,https//api.github.com/repos/nuxt/nuxt.js,Question Static non-exists page issue,open
+1157780141,https//api.github.com/repos/nuxt/nuxt.js,Make loading accessible in VueX store,open
+1140542735,https//api.github.com/repos/microsoft/Web-Dev-For-Beginners,TRANSLATIONS - Igbo,open
+1120981933,https//api.github.com/repos/microsoft/Web-Dev-For-Beginners,Add readme.es in 1-getting started-lessons/traslations,open
+1086745416,https//api.github.com/repos/microsoft/Web-Dev-For-Beginners,TRANSLATIONS - Indonesian  ID,open
+1038912457,https//api.github.com/repos/microsoft/Web-Dev-For-Beginners,TRANSLATIONS - Russian ,open
+1161148041,https//api.github.com/repos/airbnb/javascript,eslint config imports fix imports.js remove node_modules from imp,open
+1150201404,https//api.github.com/repos/airbnb/javascript,How to report such errors about prefer-regex-literals and how to solve them,open
+1106058475,https//api.github.com/repos/airbnb/javascript,Issue with eslint-config-airbnb-base and optional chaining operator,open
+1097783515,https//api.github.com/repos/airbnb/javascript,eslint-config turn on no-direct-mutation-state,open
+1093040409,https//api.github.com/repos/airbnb/javascript,Add Class Private Identifier,open
+1090159749,https//api.github.com/repos/airbnb/javascript,airbnb-base/legacy config incompatible with ES5,open
+1056980427,https//api.github.com/repos/airbnb/javascript,readme update blocks 16.1,open
+1050367374,https//api.github.com/repos/airbnb/javascript,no-restricted-exports Fails on export { default } from ...,open
+1045920049,https//api.github.com/repos/airbnb/javascript,Remove outdated Other Styles entry,open
+1032995311,https//api.github.com/repos/airbnb/javascript,Ignore property modifications on params named state,open
+991877920,https//api.github.com/repos/airbnb/javascript,fix added newline,open
+991589574,https//api.github.com/repos/airbnb/javascript,fix add new line after list,open
+983289003,https//api.github.com/repos/airbnb/javascript,Section 3.5 (sorting shorthand properties first) can impair readability,open
+983117557,https//api.github.com/repos/airbnb/javascript,remove node_modules from import/ignore,open
+975878616,https//api.github.com/repos/airbnb/javascript,Why is eslint-plugin-import configured to ignore node_modules,open
+944909351,https//api.github.com/repos/airbnb/javascript,Change Enforce to Avoid for 19.16,open
+941521192,https//api.github.com/repos/airbnb/javascript,Update react/README.md,open
+935788280,https//api.github.com/repos/airbnb/javascript,Added period to 4.4 for formatting consistency.,open
+909521767,https//api.github.com/repos/airbnb/javascript,Question do you enforce multiline new lines for destructuring,open
+909361195,https//api.github.com/repos/airbnb/javascript,Update imports.js,open
+903024013,https//api.github.com/repos/airbnb/javascript,readme Fix inconsistency,open
+899605922,https//api.github.com/repos/airbnb/javascript,Update README.md,open
+894157840,https//api.github.com/repos/airbnb/javascript,no-restricted-syntax for...of warning potentially confusing,open
+875813861,https//api.github.com/repos/airbnb/javascript,Remove Math.pow from no-restricted-properties and use prefer-exponentiation-operator instead.,open
+809956169,https//api.github.com/repos/airbnb/javascript,Update ARIA roles link,open
+757399842,https//api.github.com/repos/airbnb/javascript,chore enable not breaking changes features,open
+746658323,https//api.github.com/repos/airbnb/javascript,Import Declaration Newline Rules Confusing/Not Documented Correctly,open
+741405770,https//api.github.com/repos/airbnb/javascript,Should react/react-in-jsx-scope be disabled by default if the new JSX transform is used.,open
+714358269,https//api.github.com/repos/airbnb/javascript,JSX is not displayed correctly in webpage,open
+685682228,https//api.github.com/repos/airbnb/javascript, REPO Added CONTRIBUTING.md with contribution guidelines to the r,open
+1203863179,https//api.github.com/repos/sveltejs/kit,re-enable some skipped tests ,open
+1203697261,https//api.github.com/repos/sveltejs/kit,install turborepo,open
+1203452380,https//api.github.com/repos/sveltejs/kit,Unable to fetch static asset from endpoint on Cloudflare adapter,open
+1202271527,https//api.github.com/repos/sveltejs/kit,Add platform to root relative requests,open
+1202118692,https//api.github.com/repos/sveltejs/kit,Cannot read property split of undefined - Netlify adapter,open
+1200706280,https//api.github.com/repos/sveltejs/kit,adapter-cloudflare doesnt work with html-minifier,open
+1200543554,https//api.github.com/repos/sveltejs/kit,apply set-cookie headers from page dependencies,open
+1198986956,https//api.github.com/repos/sveltejs/kit,Cannot run npm ci --prod with adapter-node,open
+1198272580,https//api.github.com/repos/sveltejs/kit,Support named layouts for the error page e.g. __errorroot.svelte to remove hardwired dependency on __layout.svelte,open
+1198030494,https//api.github.com/repos/sveltejs/kit,Navigation - The NEXT button in the SvelteKit documentation malfunctions,open
+1197966802,https//api.github.com/repos/sveltejs/kit,Static route configs,open
+1197903708,https//api.github.com/repos/sveltejs/kit,Update and modernize adapter-cloudflare-workers,open
+1196683171,https//api.github.com/repos/sveltejs/kit,SCSS class renaming does not work for nested classes,open
+1196570831,https//api.github.com/repos/sveltejs/kit,docs(endpoint) adding example regarding parsing url params,open
+1196510947,https//api.github.com/repos/sveltejs/kit,The base from app/paths doesnt contain a slash,open
+1195462013,https//api.github.com/repos/sveltejs/kit,Page store does not changing on history back,open
+1195456554,https//api.github.com/repos/sveltejs/kit,chore bump eslint from version 7 to 8,open
+1195225877,https//api.github.com/repos/sveltejs/kit,Replace maxage in load with more detailed cache option,open
+1194577771,https//api.github.com/repos/sveltejs/kit,Add more flexibility to invalidate,open
+1193900584,https//api.github.com/repos/sveltejs/kit,feat custom load dependencies,open
+1193509174,https//api.github.com/repos/sveltejs/kit,fix type check exception handling on form action,open
+1193377258,https//api.github.com/repos/sveltejs/kit,Setting paths.base in svelte.config.js causes adapter-static to fail (404),open
+1193123738,https//api.github.com/repos/sveltejs/kit,Page sends accept / to page endpoint but really only accepts application/json,open
+1192458257,https//api.github.com/repos/sveltejs/kit,chore clean up playwright-chromium root dependency,open
+1192430691,https//api.github.com/repos/sveltejs/kit,opt into strict true in tsconfig.json by default,open
+1192422278,https//api.github.com/repos/sveltejs/kit,feat Merge ErrorLoad and Load make Input and Output typings public,open
+1192358034,https//api.github.com/repos/sveltejs/kit,Error when using Vites native WebAssebmly imports,open
+1192144132,https//api.github.com/repos/sveltejs/kit,Hydration bug with browser extensions,open
+1191427667,https//api.github.com/repos/sveltejs/kit,Cannot use import statement outside a module,open
+1191011516,https//api.github.com/repos/sveltejs/kit,Cannot use custom element correctly with sveltekit,open
+1203810353,https//api.github.com/repos/lit/lit,Remove the empty root repo from the release workflow.,open
+1203639138,https//api.github.com/repos/lit/lit,11ty plugin Add a way to skip files processed by 11ty plugin,open
+1203634575,https//api.github.com/repos/lit/lit,labs/cli Merge initial CLI PR into labs,open
+1203610414,https//api.github.com/repos/lit/lit,query decorator returns null when caching,open
+1202221635,https//api.github.com/repos/lit/lit,Convert Lit monorepo to Wireit,open
+1200870910,https//api.github.com/repos/lit/lit,ReactiveElement Consider adding beforeUpdate/hostBeforeUpdate lifecycle callback,open
+1200851905,https//api.github.com/repos/lit/lit,ReactiveElement exposes changedProperties,open
+1200843184,https//api.github.com/repos/lit/lit,ReactiveElement expose changedProperties,open
+1200646702,https//api.github.com/repos/lit/lit,ssr Design doc for SSR test utility,open
+1199286016,https//api.github.com/repos/lit/lit,ReactiveController is a Component part,open
+1198455875,https//api.github.com/repos/lit/lit,The following properties on element ... will not trigger updates as expected because they are set using class fields,open
+1194999257,https//api.github.com/repos/lit/lit,localize Changing contents of expression should not cause validation error,open
+1194930436,https//api.github.com/repos/lit/lit,meta Release PR CLA fails,open
+1194837523,https//api.github.com/repos/lit/lit,Bump follow-redirects from 1.14.3 to 1.14.9,open
+1194835121,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/labs/eleventy-plugin-lit,open
+1194835014,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/tests,open
+1194834917,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/benchmarks/generator,open
+1192768275,https//api.github.com/repos/lit/lit,New Decorator queryAllAsync,open
+1190511977,https//api.github.com/repos/lit/lit,tests Run Tests On Windows,open
+1190328705,https//api.github.com/repos/lit/lit,Separate local and saucelabs tests,open
+1189682505,https//api.github.com/repos/lit/lit,lit-labs/router Use new version of URLPattern polyfill,open
+1189637407,https//api.github.com/repos/lit/lit,Remove note from lit-labs/router readme,open
+1188972928,https//api.github.com/repos/lit/lit,labs Consider adding a SlotController to help with common slot patterns,open
+1188652124,https//api.github.com/repos/lit/lit,localize Nested msg call inside html next to attribute creates invalid placeholder,open
+1186926505,https//api.github.com/repos/lit/lit,tests use more unique identifiers for saucelabs tunnels,open
+1186924526,https//api.github.com/repos/lit/lit,Create more unique suacelabs tunnel identifiers ,open
+1186842547,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/localize/examples/transform-js,open
+1186842448,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/localize/examples/transform-ts,open
+1186842447,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/localize/examples/runtime-js,open
+1186842429,https//api.github.com/repos/lit/lit,Bump minimist from 1.2.5 to 1.2.6 in /packages/localize/examples/runtime-ts,open
+1165011593,https//api.github.com/repos/solid/solid,Note current state/purpose of the repo and location of current work,open
+823615184,https//api.github.com/repos/solid/solid,Someone interested in translating the solid environment into Spanish//Alguien interesado en traducir el entorno Solid al Espaol,open
+802197542,https//api.github.com/repos/solid/solid,No workspace in my pod and no obvious way to create one,open
+691925139,https//api.github.com/repos/solid/solid,Updating all files to link to solidproject.org,open
+565789092,https//api.github.com/repos/solid/solid,Please do not Recommend Services Using Google Analytics,open
+545283969,https//api.github.com/repos/solid/solid,Cant change folder sharing permission (Error reading default ACL. status 403),open
+505050183,https//api.github.com/repos/solid/solid,readme Fix the level issue on TOC,open
+473435780,https//api.github.com/repos/solid/solid,PAKE,open
+459319839,https//api.github.com/repos/solid/solid,added some key OpenLink folks to CONTRIBUTORS.md,open
+446434639,https//api.github.com/repos/solid/solid,Missing Prerequisites in README,open
+437818722,https//api.github.com/repos/solid/solid,Building forms with RDFS or ShEx,open
+432859883,https//api.github.com/repos/solid/solid,Extend authorization to other attributes beyond identity,open
+430183403,https//api.github.com/repos/solid/solid,Fix outdated and broken links in Places to chat section of Readme,open
+426295773,https//api.github.com/repos/solid/solid,Europe is splitting the internet into three -- Does this affect Solid,open
+421943560,https//api.github.com/repos/solid/solid,can we make a turing machine on a solid POD,open
+416511389,https//api.github.com/repos/solid/solid,When a resource is deleted should the acl be too,open
+416385853,https//api.github.com/repos/solid/solid,Creating a PATCH request,open
+413691156,https//api.github.com/repos/solid/solid,Getting access to the private data of the users POD,open
+403611896,https//api.github.com/repos/solid/solid,replace AddressBook with VCard | closes 122,open
+397134507,https//api.github.com/repos/solid/solid,Auto-block based on patterns,open
+396225531,https//api.github.com/repos/solid/solid,Warn users not familiar with console about dangers of pasting code,open
+395080269,https//api.github.com/repos/solid/solid,IPFS and Solid,open
+391604057,https//api.github.com/repos/solid/solid,Better navigation for public folder,open
+388750933,https//api.github.com/repos/solid/solid,contacts-footprint.md,open
+387075782,https//api.github.com/repos/solid/solid,Data Portability in Solid,open
+383960305,https//api.github.com/repos/solid/solid,typo in card viewer,open
+381162626,https//api.github.com/repos/solid/solid,Including Solid Chat Tools,open
+380289205,https//api.github.com/repos/solid/solid,WebIDs and WebAuthn,open
+377375743,https//api.github.com/repos/solid/solid,Symbolic-Link header ,open
+377205315,https//api.github.com/repos/solid/solid,Make decisions regarding default vocabularies for footprints,open
+1190194600,https//api.github.com/repos/MithrilJS/mithril.js,Bump minimist from 1.2.5 to 1.2.6,open
+1160563762,https//api.github.com/repos/MithrilJS/mithril.js,Automate mithrils release workflow,open
+1152319548,https//api.github.com/repos/MithrilJS/mithril.js,Switch from remove callbacks to passing an AbortSignal aborted after removal  accepting a removal promise.,open
+1152282003,https//api.github.com/repos/MithrilJS/mithril.js,Memory usage statistics,open
+1148474085,https//api.github.com/repos/MithrilJS/mithril.js,WIP Kick bundler - use esbuild for building,open
+1146081639,https//api.github.com/repos/MithrilJS/mithril.js,Kick promise polyfill,open
+1088748385,https//api.github.com/repos/MithrilJS/mithril.js,Merge next,open
+904503241,https//api.github.com/repos/MithrilJS/mithril.js,Simplify component constructor to function that returns either a view function or a vnode tree,open
+904484885,https//api.github.com/repos/MithrilJS/mithril.js,Separate lifecycle methods from attributes and components,open
+904432116,https//api.github.com/repos/MithrilJS/mithril.js,Replace onbeforeupdate with m.retain(),open
+877768548,https//api.github.com/repos/MithrilJS/mithril.js,Remove m.jsonp,open
+877758386,https//api.github.com/repos/MithrilJS/mithril.js,Move from return false to m.capture(event) for event handlers,open
+876946506,https//api.github.com/repos/MithrilJS/mithril.js,Add a special vnode that allows manipulating attributes on a raw event target reference,open
+853194143,https//api.github.com/repos/MithrilJS/mithril.js,IPv6 URL causes Error Template parameter names must be separated error in m.request,open
+849520609,https//api.github.com/repos/MithrilJS/mithril.js,Testing Tutorial,open
+835499482,https//api.github.com/repos/MithrilJS/mithril.js,When utilizing shared mithril components imported from another node package mithril render and routing do not work as expected,open
+805803019,https//api.github.com/repos/MithrilJS/mithril.js,Improve m.request to simplify access response headers,open
+767310817,https//api.github.com/repos/MithrilJS/mithril.js,Error handling Duplicated components after an error is thrown in a view,open
+765665171,https//api.github.com/repos/MithrilJS/mithril.js,mithril stream .map does not trigger next stream value,open
+737063606,https//api.github.com/repos/MithrilJS/mithril.js,Add hyperscript link to the main index.html page,open
+693051663,https//api.github.com/repos/MithrilJS/mithril.js,MithrilJS Stream.combine() violates atomic update semantics.,open
+689118749,https//api.github.com/repos/MithrilJS/mithril.js,Errors are not forwarded to window.onerror,open
+676410777,https//api.github.com/repos/MithrilJS/mithril.js,Review/cleanup of Who uses mithril,open
+665021217,https//api.github.com/repos/MithrilJS/mithril.js,Cannot use object itself as key,open
+660602223,https//api.github.com/repos/MithrilJS/mithril.js,Updates to keyed lists break FLIP animations when they occur mid-animation,open
+659047822,https//api.github.com/repos/MithrilJS/mithril.js,Provide success as a second argument to RequestOptions.deserialize,open
+618298277,https//api.github.com/repos/MithrilJS/mithril.js,Intermittent Could not resolve default route error,open
+611087248,https//api.github.com/repos/MithrilJS/mithril.js,onbeforeremove should tolerate thenables that synchronously resolve,open
+606766986,https//api.github.com/repos/MithrilJS/mithril.js,Replace m.route by a Router component,open
+586637023,https//api.github.com/repos/MithrilJS/mithril.js,Mithrils default extract should be exposed so users can fall back on it,open
+1203685169,https//api.github.com/repos/alpinejs/alpine,add x-ref binding example,open
+1203648915,https//api.github.com/repos/alpinejs/alpine,spelling and grammar fixes,open
+1203502558,https//api.github.com/repos/alpinejs/alpine,Attempt memory leak fix from using magics,open
+1199557651,https//api.github.com/repos/alpinejs/alpine,Fix link in warning,open
+1198570158,https//api.github.com/repos/alpinejs/alpine,Bump moment from 2.29.1 to 2.29.2,open
+1198554293,https//api.github.com/repos/alpinejs/alpine,Transitionend event listener doesnt work on Safari (macOS  iOS),open
+1192967618,https//api.github.com/repos/alpinejs/alpine,Alpine doesnt work for me on IOS (Safari and chrome),open
+1188719755,https//api.github.com/repos/alpinejs/alpine,Inconsistent update with template x-if,open
+1158939061,https//api.github.com/repos/alpinejs/alpine,Documentation for destroy() and component cleanup,open
+1124347632,https//api.github.com/repos/alpinejs/alpine,Error with Alpine and Livewire related with x-show,open
+1116851754,https//api.github.com/repos/alpinejs/alpine,Update CSP documentation to clarify availability of the CSP build,open
+1091511336,https//api.github.com/repos/alpinejs/alpine,New event specific for plugin initialization,open
+1089292851,https//api.github.com/repos/alpinejs/alpine,When using browser history the x-model attribute doesnt keep the state in sync with the input element.,open
+1088635971,https//api.github.com/repos/alpinejs/alpine,Morph - allow for full page morphs,open
+1074191525,https//api.github.com/repos/alpinejs/alpine,Prevent breaking when Alpine is transpiled to ES5 (fixes 2454),open
+1028009666,https//api.github.com/repos/alpinejs/alpine,Add cookie,open
+1013789711,https//api.github.com/repos/alpinejs/alpine,Fix x-model for csp build,open
+1010006994,https//api.github.com/repos/alpinejs/alpine,Memory and DOM element leaks in magic,open
+923199150,https//api.github.com/repos/alpinejs/alpine,New translation,open
+1107570152,https//api.github.com/repos/aurelia/framework,Content editable div inside a parent div that has a mousedown event on it cannot be edited in Aurelia,open
+1089900050,https//api.github.com/repos/aurelia/framework,How to use aurelia in qiankun,open
+1070690418,https//api.github.com/repos/aurelia/framework,Content of repeat for on tr tag rendered outside of tag,open
+774872016,https//api.github.com/repos/aurelia/framework,Component inheritance with bindings on the base doesnt work as expected,open
+500803922,https//api.github.com/repos/aurelia/framework,Staging a component for testing,open
+499267832,https//api.github.com/repos/aurelia/framework,Upgrade gulp to v4.,open
+498742024,https//api.github.com/repos/aurelia/framework,Allow better typing for module configuration,open
+473610611,https//api.github.com/repos/aurelia/framework,Combination of dynamicOptions and primaryProperty,open
+469687019,https//api.github.com/repos/aurelia/framework,Issue with compose element and composition,open
+453923880,https//api.github.com/repos/aurelia/framework,Building all public files to www folder,open
+419058916,https//api.github.com/repos/aurelia/framework,better error logging,open
+408258211,https//api.github.com/repos/aurelia/framework,Injected variables in app.js dont load on initial screen,open
+405181267,https//api.github.com/repos/aurelia/framework,Unable to debug code debugger is shown in scss file instead of js,open
+394834036,https//api.github.com/repos/aurelia/framework,Camelcase Custom Events,open
+392579297,https//api.github.com/repos/aurelia/framework,Loosing characters in bound field when using Barcode scanner and IE,open
+362638770,https//api.github.com/repos/aurelia/framework,Looking for kitchen sink apps,open
+341228305,https//api.github.com/repos/aurelia/framework,Aurelia with storybook,open
+327465476,https//api.github.com/repos/aurelia/framework,manuallyHandleLifecycle() data in view-model not going to view,open
+313294003,https//api.github.com/repos/aurelia/framework,Aurelia and Vis,open
+295644043,https//api.github.com/repos/aurelia/framework,Custom attribute attached event too early,open
+291685840,https//api.github.com/repos/aurelia/framework,Webpack does not know how to load CSS files from node_modules when using noView.,open
+286679649,https//api.github.com/repos/aurelia/framework,Multiline comments ignored in viewtemplate,open
+286579112,https//api.github.com/repos/aurelia/framework,Unable to preventDefault on route-href when pushState is true,open
+276748077,https//api.github.com/repos/aurelia/framework,Common interface for Http/Fetch Client,open
+271108708,https//api.github.com/repos/aurelia/framework,Looking for collaboration ,open
+269388194,https//api.github.com/repos/aurelia/framework,Issue when it change the name from some components,open
+267413669,https//api.github.com/repos/aurelia/framework,css not cleared from previous layoutView,open
+258644715,https//api.github.com/repos/aurelia/framework,Add Interface ,open
+256500800,https//api.github.com/repos/aurelia/framework,Possibility for a global value convertor ,open
+253549550,https//api.github.com/repos/aurelia/framework,Weird behaviour (reference not cleaned up) with slots and validation,open
+1150667714,https//api.github.com/repos/jashkenas/backbone,Separate fetch/save api into plugin or external module,open
+1143774359,https//api.github.com/repos/jashkenas/backbone,Browser tests that dont work in Sauce labs,open
+1100312115,https//api.github.com/repos/jashkenas/backbone,Should Backbone.Collection throw an error when client code attempts to add the same model twice,open
+1085891579,https//api.github.com/repos/jashkenas/backbone,Embrace prototypes,open
+878540157,https//api.github.com/repos/jashkenas/backbone,Backbone is being actively maintained,open
+732898410,https//api.github.com/repos/jashkenas/backbone,Token error delete on an old browser,open
+622477162,https//api.github.com/repos/jashkenas/backbone,Backbonejs (1.4) version compact with jQuery (3.4.1) ,open
+621136356,https//api.github.com/repos/jashkenas/backbone,3391 - Match trailing slash on root to how root was configured.,open
+594840265,https//api.github.com/repos/jashkenas/backbone,The attribute Id has been updated does the attribute nameId also need to be updated,open
+551484799,https//api.github.com/repos/jashkenas/backbone,Fix when _listeners object is undefined it would trigger a TypeError.,open
+525121763,https//api.github.com/repos/jashkenas/backbone,Destroy All Models At Once,open
+517169636,https//api.github.com/repos/jashkenas/backbone,Models are skipped or merged when idAttribute values look like cid (c12 c78 etc),open
+504530381,https//api.github.com/repos/jashkenas/backbone,avoid Object.prototype inheritance for col._byId,open
+465938373,https//api.github.com/repos/jashkenas/backbone,Documentation Update Request idAttribute when using es6 based models,open
+462388691,https//api.github.com/repos/jashkenas/backbone,Function extend does not properly expose static properties from base classes,open
+440650081,https//api.github.com/repos/jashkenas/backbone,ES6 modules,open
+439937057,https//api.github.com/repos/jashkenas/backbone,Support ES6 method definitions for constructors,open
+437688882,https//api.github.com/repos/jashkenas/backbone,Collection_removeModels is called after remove event,open
+417454165,https//api.github.com/repos/jashkenas/backbone,.stopListening can cause callbacks added via .on to be removed as well,open
+376111007,https//api.github.com/repos/jashkenas/backbone,Where is the initialize function for Backbone.Model documented ,open
+369810064,https//api.github.com/repos/jashkenas/backbone,there is a way to add several models with same id to a collection,open
+336886552,https//api.github.com/repos/jashkenas/backbone,Feature Request Using non-delegatable events in the events hash,open
+336886377,https//api.github.com/repos/jashkenas/backbone,Adds support for non-delegated events,open
+332906761,https//api.github.com/repos/jashkenas/backbone,Trailing Fragment Space(s),open
+319138223,https//api.github.com/repos/jashkenas/backbone,Passive or non-passive event listeners,open
+299092442,https//api.github.com/repos/jashkenas/backbone,4185 Model change event is not triggered after Exception.,open
+298958220,https//api.github.com/repos/jashkenas/backbone,Model change event is not triggered after Exception.,open
+298357183,https//api.github.com/repos/jashkenas/backbone,Cannot find module jquery,open
+284909197,https//api.github.com/repos/jashkenas/backbone,Call model.toJSON always when sync model,open
+281956584,https//api.github.com/repos/jashkenas/backbone,Fix navigate with replace true and diacriticals/unicode characters in the hash,open
+1203496946,https//api.github.com/repos/emberjs/ember.js,export renderSettled via renderer package,open
+1194877161,https//api.github.com/repos/emberjs/ember.js,Bug Cannot read properties of undefined (reading shouldSupersede),open
+1191459280,https//api.github.com/repos/emberjs/ember.js,Bug Getter needlessly recomputing,open
+1189862136,https//api.github.com/repos/emberjs/ember.js,Add a couple of tests to test passing empty queryParams to replaceWith,open
+1187474426,https//api.github.com/repos/emberjs/ember.js,enhancement do not throw Proxy Ember.get error from CoreObject,open
+1187444115,https//api.github.com/repos/emberjs/ember.js,BUGFIX LTS setupRouter on property access (regression since 3.25),open
+1178214658,https//api.github.com/repos/emberjs/ember.js,Bug resetNamespace _within_ engines is broken,open
+1174145496,https//api.github.com/repos/emberjs/ember.js,Bug Unexpected aborted transitions following call to RouterService.transitionTo(),open
+1173724651,https//api.github.com/repos/emberjs/ember.js,Build is failing after upgrading from v3.20.2 to 3.28.5,open
+1173429654,https//api.github.com/repos/emberjs/ember.js,Bug Memory leak in freshly generated Ember 3.28.8 app,open
+1172073297,https//api.github.com/repos/emberjs/ember.js,Bug ember d component-class incorrectly removes app export ,open
+1168837993,https//api.github.com/repos/emberjs/ember.js,Bump chalk from 4.1.2 to 5.0.1,open
+1168493839,https//api.github.com/repos/emberjs/ember.js,Bug Deprecation warnings with an empty newly created app with LTS (3.28.8) version,open
+1167310231,https//api.github.com/repos/emberjs/ember.js,BUGFIX beta bind all methods on the router service for use with fn ,open
+1162079954,https//api.github.com/repos/emberjs/ember.js,Remove suppressImplicitAnyIndexErrors,open
+1158877778,https//api.github.com/repos/emberjs/ember.js,In classic classes dependentKeyCompat does not accept a function only an object with get,open
+1158771521,https//api.github.com/repos/emberjs/ember.js,WIP Type export experimentation,open
+1155722451,https//api.github.com/repos/emberjs/ember.js,Documentation run.backburner.DEBUG deprecation warning and guides are wrong,open
+1153426582,https//api.github.com/repos/emberjs/ember.js,Replace internal spaceship function with Math.sign,open
+1147130135,https//api.github.com/repos/emberjs/ember.js,Bug Missing Context In Stack Trace,open
+1141714430,https//api.github.com/repos/emberjs/ember.js,Bug LinkTo do not generates href when model is defined as undefined,open
+1139914942,https//api.github.com/repos/emberjs/ember.js,Bug Ember 4 regression with passed-in event handlers,open
+1139592946,https//api.github.com/repos/emberjs/ember.js,Deprecation setting-on-hash,open
+1138985344,https//api.github.com/repos/emberjs/ember.js,FEATURE default helper manager glimmer vm upgrade  default helper manager / plain functions as helpers,open
+1138426873,https//api.github.com/repos/emberjs/ember.js,Bug When not providing a route model hook and not providing a model with a .find function an error occurs,open
+1132374802,https//api.github.com/repos/emberjs/ember.js,Optional chaining not supported by UXP/GRE browsers causing issues,open
+1130939161,https//api.github.com/repos/emberjs/ember.js,Continue cleanup of named outlets,open
+1130426554,https//api.github.com/repos/emberjs/ember.js,Documentation Give some guidance about when to use key in the each template helper,open
+1130357781,https//api.github.com/repos/emberjs/ember.js,Docs for ember/component,open
+1126351993,https//api.github.com/repos/emberjs/ember.js,QUEST Future Public TypeScript Types,open
+1203797563,https//api.github.com/repos/meteor/meteor,Fix reading packages installed before Meteor 1.2,open
+1203650611,https//api.github.com/repos/meteor/meteor,Cant add ddpratelimit to Accounts.requestLoginTokenForUser,open
+1203073392,https//api.github.com/repos/meteor/meteor,Build plugins are run after minifying CSS when running meteor build in 2.7,open
+1196774650,https//api.github.com/repos/meteor/meteor,Meteor package system not following Node module resolution algorithm,open
+1195967015,https//api.github.com/repos/meteor/meteor,win7 install meteorbut meteor run fail,open
+1193668341,https//api.github.com/repos/meteor/meteor,Release 2.7.2,open
+1190975850,https//api.github.com/repos/meteor/meteor,static-html depends on much of Blaze,open
+1186356057,https//api.github.com/repos/meteor/meteor,Meteor oplog query causing MongoDB to use 100 CPU,open
+1186057402,https//api.github.com/repos/meteor/meteor,DB connection issues with Meteor 2.7 (possibly 2.6 too),open
+1181539321,https//api.github.com/repos/meteor/meteor,npm install meteor error read ECONNRESET,open
+1172908931,https//api.github.com/repos/meteor/meteor,Inconsistency in Minimongo after Collection.update(set content) where content is not a primitive value,open
+1170448808,https//api.github.com/repos/meteor/meteor,for issue 11838,open
+1163946242,https//api.github.com/repos/meteor/meteor,ecmascript Map.keys not iterable on cordova,open
+1161596634,https//api.github.com/repos/meteor/meteor,Accounts.changePassword server stacktrace when oldPassword is empty,open
+1158609376,https//api.github.com/repos/meteor/meteor,meteor 2.5  2.6 app no longer starts,open
+1154681506,https//api.github.com/repos/meteor/meteor,Potential dev build time slowness,open
+1154659870,https//api.github.com/repos/meteor/meteor,Production build time issue since upgrading to 2.5.6 from 1.11,open
+1153310668,https//api.github.com/repos/meteor/meteor,run android-device cordova version error,open
+1150914404,https//api.github.com/repos/meteor/meteor,Unexpected mongo exit code null. Restarting. Cant start Mongo server.  Meteor 2.6  2.6.1,open
+1150277240,https//api.github.com/repos/meteor/meteor,With 2.6 DDP methods stop returning in some cases when server is connected to Oplog,open
+1143895911,https//api.github.com/repos/meteor/meteor,slow HMR after upgrade to version 2.6,open
+1139912068,https//api.github.com/repos/meteor/meteor,Does fetch dependencies need to be updated ,open
+1139845070,https//api.github.com/repos/meteor/meteor,Performance entry in guide ,open
+1137770300,https//api.github.com/repos/meteor/meteor,Adding Package RangeError ERR_OUT_OF_RANGE ERR_OUT_OF_RANGE The value of length is out of range. It must be  -3. Received 18,open
+1128316973,https//api.github.com/repos/meteor/meteor,BUG 2.5.6 import of npm library gives empty object ,open
+1114949315,https//api.github.com/repos/meteor/meteor,Lack of isobuild detailed architectural documentation prevents progress,open
+1111607442,https//api.github.com/repos/meteor/meteor,Remove underscore,open
+1105242696,https//api.github.com/repos/meteor/meteor,Cannot run an exact version of Meteor,open
+1104825795,https//api.github.com/repos/meteor/meteor,Minimongos projection compatibility regression,open
+1104151629,https//api.github.com/repos/meteor/meteor,Missing Babel plugins are silently ignored,open
+1181114034,https//api.github.com/repos/ractivejs/ractive,Bump electron from 3.1.13 to 13.6.6,open
+1156267039,https//api.github.com/repos/ractivejs/ractive,Bump karma from 5.2.3 to 6.3.16,open
+1150059897,https//api.github.com/repos/ractivejs/ractive,Bump tar from 4.4.8 to 4.4.19,open
+1133608758,https//api.github.com/repos/ractivejs/ractive,Bump follow-redirects from 1.13.0 to 1.14.8,open
+1133563230,https//api.github.com/repos/ractivejs/ractive,Optional Chaining for Template Parser Bug/Feature,open
+1110927435,https//api.github.com/repos/ractivejs/ractive,Bump log4js from 6.3.0 to 6.4.0,open
+1011235798,https//api.github.com/repos/ractivejs/ractive,Bump i from 0.3.6 to 0.3.7,open
+1008259058,https//api.github.com/repos/ractivejs/ractive,Found a possible security concern,open
+965376765,https//api.github.com/repos/ractivejs/ractive,Bump path-parse from 1.0.5 to 1.0.7,open
+943463736,https//api.github.com/repos/ractivejs/ractive,Date values being converted to empty objects when using get(),open
+911815155,https//api.github.com/repos/ractivejs/ractive,Bump ws from 6.2.1 to 6.2.2,open
+892778204,https//api.github.com/repos/ractivejs/ractive,Bump ini from 1.3.5 to 1.3.8,open
+892701962,https//api.github.com/repos/ractivejs/ractive,Feature Bind property of component readonly,open
+878173936,https//api.github.com/repos/ractivejs/ractive,Bump handlebars from 4.1.2 to 4.7.7,open
+829317713,https//api.github.com/repos/ractivejs/ractive,More TypeScript. Missing types or wrong usage,open
+813302959,https//api.github.com/repos/ractivejs/ractive,Ambiguity warning adding observer from a decorators teardown function,open
+774825212,https//api.github.com/repos/ractivejs/ractive,How to syntax-highlight HTML inside script idtemplate typetext/ractive,open
+759399741,https//api.github.com/repos/ractivejs/ractive,on change event is not triggering on dropdown change,open
+691334865,https//api.github.com/repos/ractivejs/ractive,Array observer callbacks have wrong this,open
+681359309,https//api.github.com/repos/ractivejs/ractive,Optionality for partials,open
+645006905,https//api.github.com/repos/ractivejs/ractive,Wrong syntax for document.createElement() options,open
+601223381,https//api.github.com/repos/ractivejs/ractive,Extending component files,open
+596514069,https//api.github.com/repos/ractivejs/ractive,Ractive strips whitespace in HTML too aggressively,open
+476776136,https//api.github.com/repos/ractivejs/ractive,When on-tap is on radio button even if the button is tapped the button is not be checked.,open
+431364144,https//api.github.com/repos/ractivejs/ractive,Overriding Ractive prototype function sort without calling the /\b_super\b/ method can be very dangerous.,open
+413373000,https//api.github.com/repos/ractivejs/ractive,is there any way to stop event propagation with event delegation on,open
+356677105,https//api.github.com/repos/ractivejs/ractive,Render nested component,open
+331745547,https//api.github.com/repos/ractivejs/ractive,Add compare key to computed using accessor syntax,open
+321240380,https//api.github.com/repos/ractivejs/ractive,Linked values are not properly data-bound in components,open
+317165673,https//api.github.com/repos/ractivejs/ractive,Ractive examples,open
+1161311353,https//api.github.com/repos/knockout/knockout,Need to fix Typescript definitions since Typescript 4.6,open
+1137190266,https//api.github.com/repos/knockout/knockout,types/knockout npm package declared as ambient module instead of exporting namespace,open
+1121018743,https//api.github.com/repos/knockout/knockout,Status of knockout,open
+1118704912,https//api.github.com/repos/knockout/knockout,Question sprintf like usage,open
+1097137236,https//api.github.com/repos/knockout/knockout,Bugfix Error when calling ko.bindingEvent.subscribe( childrenComplete ) before applyBindings has reached the node.,open
+1093760686,https//api.github.com/repos/knockout/knockout,Feature Request Allow for cache disabling as a configuration option or parameter to knockout components,open
+1082383512,https//api.github.com/repos/knockout/knockout,Knockout throws an error if it finds an unmatched closing virtual element (--/ko--). This feature breaks old HTML pages in our system.,open
+1036150167,https//api.github.com/repos/knockout/knockout,bug in example hasfocus-binding.html,open
+1020811317,https//api.github.com/repos/knockout/knockout,Trusted Type Knockout,open
+1020806793,https//api.github.com/repos/knockout/knockout,Add support for Trusted Types,open
+964054279,https//api.github.com/repos/knockout/knockout,How to create a node based on template parameter then apply bindings to it.,open
+916395454,https//api.github.com/repos/knockout/knockout,pureComputed outdated value when ko.deferUpdates  true,open
+896592657,https//api.github.com/repos/knockout/knockout,Prevent execution of script in knockout,open
+872278951,https//api.github.com/repos/knockout/knockout,document custom binding evaluation ordering configuration with after attribute,open
+862733963,https//api.github.com/repos/knockout/knockout,Upate npm packages and fix enable binding,open
+818120474,https//api.github.com/repos/knockout/knockout,Types add read-only versions of observables,open
+763138103,https//api.github.com/repos/knockout/knockout,Type information is lost when retrieving SubscribableT value,open
+658543579,https//api.github.com/repos/knockout/knockout,IE 11 toolbox rendering issue after removing a widget from toolbox.,open
+656775988,https//api.github.com/repos/knockout/knockout,Load dynamic component without using Require.js dependency,open
+607484943,https//api.github.com/repos/knockout/knockout,Split HTML in different files only for development,open
+596506074,https//api.github.com/repos/knockout/knockout,Hardcoded references to templateSources.anonymousTemplate prevent a pluggable template mechanism,open
+569316212,https//api.github.com/repos/knockout/knockout,Model instances are not getting clear.,open
+497762617,https//api.github.com/repos/knockout/knockout,Knockout in combination with 3rd party Web Components leads to messed up HTML,open
+469185318,https//api.github.com/repos/knockout/knockout,Override ko.toJS,open
+457572741,https//api.github.com/repos/knockout/knockout,Typescript with Plugins,open
+435306905,https//api.github.com/repos/knockout/knockout,foreach and template bindings evaluate view model expression multiple times,open
+434249829,https//api.github.com/repos/knockout/knockout,ko.dataFor doesnt traverse parent dom elements anymore,open
+432760405,https//api.github.com/repos/knockout/knockout,Types Add types for ReadonlyObservable ReaonlyObservableArray ReadonlyComputed,open
+430249343,https//api.github.com/repos/knockout/knockout,with bindings valueAccessor equalityComparer,open
+428333183,https//api.github.com/repos/knockout/knockout,Knockout silently fails to process very long bindings in Safari,open
+1088363046,https//api.github.com/repos/spine/spine,Pug support,open
+594157377,https//api.github.com/repos/spine/spine,docs Fix simple typo agains - against,open
+351289936,https//api.github.com/repos/spine/spine,Hello. Is this project abandoned,open
+223638294,https//api.github.com/repos/spine/spine,Model.find unable to get correct result,open
+216068810,https//api.github.com/repos/spine/spine,Model foreign key reference with no id broken,open
+215859424,https//api.github.com/repos/spine/spine,Simplified Spine.Model.Locals check for localStorage,open
+194923701,https//api.github.com/repos/spine/spine,ModelchangeID does not persist the new id,open
+189848158,https//api.github.com/repos/spine/spine,Add gitignore for libs and remove files in libs,open
+145189049,https//api.github.com/repos/spine/spine,Extend POST/DELETE fix from 1.6.0 to PUT calls,open
+121577587,https//api.github.com/repos/spine/spine,listeningTo the same event on different models is broken (events.split /  cannot read property obj of undefined / etc.),open
+41651755,https//api.github.com/repos/spine/spine,add a callback for controller to have a place to do sth after the elemen...,open
+41363345,https//api.github.com/repos/spine/spine,route pushstate,open
+40279053,https//api.github.com/repos/spine/spine,Model.find and Model.fetch with done  fail options,open
+40015841,https//api.github.com/repos/spine/spine,route not matching in IE,open
+31608718,https//api.github.com/repos/spine/spine,Add support for ajax functions on a has-many relationship,open
+31515433,https//api.github.com/repos/spine/spine,Return a JavaScript Promise from Model.fetch(),open
+31094743,https//api.github.com/repos/spine/spine,Spine.Route.setup({redirect function}) does not work on setup(),open
+30904170,https//api.github.com/repos/spine/spine,Update TodoMVC project to the latest version of Spine,open
+26329605,https//api.github.com/repos/spine/spine,spine.stack default option problem,open
+23029760,https//api.github.com/repos/spine/spine,Trimming trailing slashes in ajax urls,open
+12583141,https//api.github.com/repos/spine/spine,jQuery removes delegated events from sub-controllers when re-appended,open
+12047067,https//api.github.com/repos/spine/spine,General ideas for Spine version Next,open
+10981740,https//api.github.com/repos/spine/spine,Nested rest resources with Spine model,open
+10761673,https//api.github.com/repos/spine/spine,With CORS bind(save/create) gets called after OPTIONS rather than POST,open
+9997430,https//api.github.com/repos/spine/spine,Add PATCH support for AJAX update,open
+6526267,https//api.github.com/repos/spine/spine,Storage could take callbacks,open
+6524391,https//api.github.com/repos/spine/spine,Proposal Avoid repeated AJAX requests on fetch.,open
+6477226,https//api.github.com/repos/spine/spine,Update model data after failed ajax response,open
+6409082,https//api.github.com/repos/spine/spine,Any way to use custom message representation with Ajax,open
+5328694,https//api.github.com/repos/spine/spine,Support for IndexDB/WebSQL instead of localStorage,open
+975013139,https//api.github.com/repos/canjs/canjs,Multiple modals doesnt seem to be working,open
+960287912,https//api.github.com/repos/canjs/canjs,createinstance and updateinstance in BaseConnectionsave are not atomic.,open
+913744251,https//api.github.com/repos/canjs/canjs,can-control cannot set up delegate listeners on observables.,open
+897467572,https//api.github.com/repos/canjs/canjs,demo page broken,open
+886541551,https//api.github.com/repos/canjs/canjs,Core.mjs does not work inside node,open
+749581760,https//api.github.com/repos/canjs/canjs,Can 5.x | Reflect.updateDeep doesnt deep update into list members,open
+735272068,https//api.github.com/repos/canjs/canjs,focusedfrom bindings on can-slot cause DOM focus method to be called causing layout thrashing,open
+719699530,https//api.github.com/repos/canjs/canjs,Upgrade can ajax for 3.x-legacy,open
+693500834,https//api.github.com/repos/canjs/canjs,Add GitHub release automation,open
+666312882,https//api.github.com/repos/canjs/canjs,Additional comment in the can-observable-object/object.static.props.html,open
+644051311,https//api.github.com/repos/canjs/canjs,Duplicated packages in the prod build,open
+625089078,https//api.github.com/repos/canjs/canjs,Investigate on can-kefir.emitterProperty is undefined with tree-shaking,open
+622765838,https//api.github.com/repos/canjs/canjs,selected-to-index vs index-to-selected,open
+621321369,https//api.github.com/repos/canjs/canjs,Update can-observable-array to the latest version ,open
+614286463,https//api.github.com/repos/canjs/canjs,Update can-ajax to the latest version ,open
+605888308,https//api.github.com/repos/canjs/canjs,Remove viewmodel wording on guides,open
+603467654,https//api.github.com/repos/canjs/canjs,Update can-observable-mixin to the latest version ,open
+601660394,https//api.github.com/repos/canjs/canjs,Automatically version and publish CanJS and its release notes,open
+601652432,https//api.github.com/repos/canjs/canjs,Make the generate-release-notes output customizable,open
+593723687,https//api.github.com/repos/canjs/canjs,Create guide on using Storybook for CanJS,open
+577701719,https//api.github.com/repos/canjs/canjs,ecosystem should export can-observe/object,open
+577692953,https//api.github.com/repos/canjs/canjs,export export { canObservation_4_2_0_recorderDependencyHelpers as recorderDependencyHelpers },open
+568557370,https//api.github.com/repos/canjs/canjs,Update octokit/rest to the latest version ,open
+562072979,https//api.github.com/repos/canjs/canjs,Document the use of babel transform-class-properties to export classes with static properties using stealjs,open
+556924837,https//api.github.com/repos/canjs/canjs,can5.33.2 - version mismatch of can-observable-array with sub-dependency in can-connect,open
+556912084,https//api.github.com/repos/canjs/canjs,CanJS 5.x  | can-observable- packages force precompiled assets with Webpack,open
+556331618,https//api.github.com/repos/canjs/canjs,Add parceljs to the setup guide,open
+555816308,https//api.github.com/repos/canjs/canjs,Proposal make a minimum build for custom elements.,open
+555439923,https//api.github.com/repos/canjs/canjs,BUG/CRQ | Harden Symbol polyfill detection and avoid out of stack space error in IE 11 with polyfilled symbols,open
+554586723,https//api.github.com/repos/canjs/canjs,Proposal Support for tagged template literals and bindings.,open
+1200691438,https//api.github.com/repos/jorgebucaran/hyperapp,remove setTimeout,open
+1148014687,https//api.github.com/repos/jorgebucaran/hyperapp,hyperapp/html use a Proxy,open
+1116806761,https//api.github.com/repos/jorgebucaran/hyperapp,hyperapp version,open
+1083521350,https//api.github.com/repos/jorgebucaran/hyperapp,The dispatch initializer ends in an endless loop on init when dispatching any action  ,open
+852138294,https//api.github.com/repos/jorgebucaran/hyperapp,Usage with TypeScript,open
+818275437,https//api.github.com/repos/jorgebucaran/hyperapp,Use node.append(child) instead of node.appendChild(child),open
+818272614,https//api.github.com/repos/jorgebucaran/hyperapp,Use node.remove() instead of parent.removeChild(node),open
+359948103,https//api.github.com/repos/jorgebucaran/hyperapp,Provide a way to keep existing markup as is (Custom Elements Hydration),open
+1198979761,https//api.github.com/repos/preactjs/preact,type check doesnt run for styled-components,open
+1198770897,https//api.github.com/repos/preactjs/preact,Shallowly updating the page URL hides the currently focused inputs datalist dropdown in Chrome,open
+1198238591,https//api.github.com/repos/preactjs/preact,Error Cancel rendering route and TypeError Cannot read properties of null (reading __H) when using Next.js Router,open
+1197448652,https//api.github.com/repos/preactjs/preact,add missing compat hooks for React 18,open
+1196996638,https//api.github.com/repos/preactjs/preact,10.7.2,open
+1186410385,https//api.github.com/repos/preactjs/preact,Suspense rendering problems with Next.js,open
+1182549519,https//api.github.com/repos/preactjs/preact,Put mounting refs in a queue,open
+1181589276,https//api.github.com/repos/preactjs/preact,improve suspense behavior,open
+1174434683,https//api.github.com/repos/preactjs/preact,web components created by preact not renderer inside a shadow DOM,open
+1172901158,https//api.github.com/repos/preactjs/preact,ts components can return ComponentChildren,open
+1163239924,https//api.github.com/repos/preactjs/preact,Add preact/reactive addon,open
+1162774993,https//api.github.com/repos/preactjs/preact,Fix event proxy exception,open
+1160465983,https//api.github.com/repos/preactjs/preact,Issue with CSSTransition from react-transition-group in production build,open
+1157891472,https//api.github.com/repos/preactjs/preact,Cant call this.setState on an unmounted component error.,open
+1150666017,https//api.github.com/repos/preactjs/preact,Bugfix nested hook state updates return the first state,open
+1146347662,https//api.github.com/repos/preactjs/preact,Revise typedefs to support integration,open
+1144999289,https//api.github.com/repos/preactjs/preact,add missing values to mangle,open
+1135795872,https//api.github.com/repos/preactjs/preact,the child component of ErrorBoundary wrapped by memo function failed to recover from the last error,open
+1117535457,https//api.github.com/repos/preactjs/preact,Aliasing via webpack or module-alias/register looks like no longer necessary,open
+1117515658,https//api.github.com/repos/preactjs/preact,props attributes of child from toChildArray() are not found in typescript Property myProp does not exist on type { children ComponentChildren; },open
+1099470471,https//api.github.com/repos/preactjs/preact,types permit undefined createContext initial value,open
+1097177671,https//api.github.com/repos/preactjs/preact,Maintain key compatibility with React (prepend .),open
+1097165996,https//api.github.com/repos/preactjs/preact,useId hook,open
+1097012426,https//api.github.com/repos/preactjs/preact,spellCheck property not working,open
+1089439605,https//api.github.com/repos/preactjs/preact,async rendering,open
+1081517278,https//api.github.com/repos/preactjs/preact,Optimizations 1,open
+1076339850,https//api.github.com/repos/preactjs/preact,useId hook,open
+1074822916,https//api.github.com/repos/preactjs/preact,Version Packages,open
+1060608392,https//api.github.com/repos/preactjs/preact,Hydrate HTML Comments part 3,open
+1060238833,https//api.github.com/repos/preactjs/preact,SuspenseList tail support,open
+1203662220,https//api.github.com/repos/NativeScript/NativeScript,refactor(webpack) use global require for checking hmr chunks,open
+1202932837,https//api.github.com/repos/NativeScript/NativeScript,Box shadow iOS combining linear-gradient background border-radius and box-shadow,open
+1200000371,https//api.github.com/repos/NativeScript/NativeScript,ref Get android device language and region from system configuration,open
+1199942726,https//api.github.com/repos/NativeScript/NativeScript,Release Android crashes app,open
+1197373480,https//api.github.com/repos/NativeScript/NativeScript,Long startup delay on iOS; restarting application occurs multiple times,open
+1196057137,https//api.github.com/repos/NativeScript/NativeScript,Cant run code on iPhone device,open
+1193912614,https//api.github.com/repos/NativeScript/NativeScript,Setting AppCompat version to 1.4.0-alpha01 and higher to fulfill the new Android Emoji Policy ,open
+1193431307,https//api.github.com/repos/NativeScript/NativeScript,Error Calling js method onCreateView failed; Expected the adapter to be fresh while restoring state.,open
+1189787999,https//api.github.com/repos/NativeScript/NativeScript,Layout is not a known element Error on html after upgrading,open
+1188050145,https//api.github.com/repos/NativeScript/NativeScript,No more source map while debugging nativescript app,open
+1183158079,https//api.github.com/repos/NativeScript/NativeScript,After upgrading from 7 to nativescript 8 there is some webpack issue,open
+1180946467,https//api.github.com/repos/NativeScript/NativeScript,TabView properties tab-text-color and tab-text-font-size are not working on iOS,open
+1180907647,https//api.github.com/repos/NativeScript/NativeScript,Error Run ios - nativeTextViewProtected is not a function,open
+1176596335,https//api.github.com/repos/NativeScript/NativeScript,fix(webpack) Method View._onLiveSync context is always undefined,open
+1174595339,https//api.github.com/repos/NativeScript/NativeScript,bug(webpack5) Method View._onLiveSync context is always undefined,open
+1172457170,https//api.github.com/repos/NativeScript/NativeScript,TextBase lineHeight broken on iOS,open
+1171049802,https//api.github.com/repos/NativeScript/NativeScript,Not able to take Build for Android,open
+1169281431,https//api.github.com/repos/NativeScript/NativeScript,Scrollbar is not visible while using a RadListView inside the ScrollView in Nativescript Angular ,open
+1167674408,https//api.github.com/repos/NativeScript/NativeScript,feat(core) An iterable ObservableArray,open
+1167224419,https//api.github.com/repos/NativeScript/NativeScript,Build failed on iOS device,open
+1165201279,https//api.github.com/repos/NativeScript/NativeScript,NS 8.2.0 iOS Base64 images disappearing after scrolling ListView/RadListView,open
+1163906260,https//api.github.com/repos/NativeScript/NativeScript,Xcode 13 support,open
+1163672666,https//api.github.com/repos/NativeScript/NativeScript,After updating from nativescript 7 to latest version 8 preparing project fails,open
+1163369252,https//api.github.com/repos/NativeScript/NativeScript,shouldReplaceString on TextField breaks emoji keyboard input,open
+1162700915,https//api.github.com/repos/NativeScript/NativeScript,Could not determine java version from 11.0.6.,open
+1160539710,https//api.github.com/repos/NativeScript/NativeScript,feat implement node fs,open
+1156899549,https//api.github.com/repos/NativeScript/NativeScript,An uncaught Exception occurred on main thread. when using custom search bar.,open
+1150615181,https//api.github.com/repos/NativeScript/NativeScript,NS8 nativeclass access to plugins / libraries is not defined,open
+1149054743,https//api.github.com/repos/NativeScript/NativeScript,Slow Build times on MacBook Pro M1 32GB RAM,open
+1145047058,https//api.github.com/repos/NativeScript/NativeScript,Support multiple pseudo states simultaneously,open
+963244209,https//api.github.com/repos/riot/riot,Components naming convention  broken or not well documented,open
+963204948,https//api.github.com/repos/riot/riot,FR Add support of plain objects in each directive,open
+595383577,https//api.github.com/repos/walmartlabs/thorax,docs Fix simple typo supoprted - supported,open
+523113292,https//api.github.com/repos/walmartlabs/thorax,docs fix typo,open
+109327479,https//api.github.com/repos/walmartlabs/thorax,Ensure all tagged versions are on npm,open
+109300520,https//api.github.com/repos/walmartlabs/thorax,Announce discontinued maintenance in the readme / docs,open
+107817828,https//api.github.com/repos/walmartlabs/thorax,Rendering a table via collection,open
+106922726,https//api.github.com/repos/walmartlabs/thorax,Thorax  Bootstrap event not correctly trigger,open
+94601283,https//api.github.com/repos/walmartlabs/thorax,Update documentation links,open
+55126128,https//api.github.com/repos/walmartlabs/thorax,Form inputs are not updated on re-render,open
+54795980,https//api.github.com/repos/walmartlabs/thorax,this.model is null in collection views initialize method,open
+53811743,https//api.github.com/repos/walmartlabs/thorax,Empty item templates produces holes in collection,open
+53173532,https//api.github.com/repos/walmartlabs/thorax,validation error,open
+50666363,https//api.github.com/repos/walmartlabs/thorax,Investigate Htmlbars,open
+50516411,https//api.github.com/repos/walmartlabs/thorax,CollectionView Support for header and footer,open
+50452922,https//api.github.com/repos/walmartlabs/thorax,Wrapping nth items view within a div.row,open
+50427081,https//api.github.com/repos/walmartlabs/thorax,Missing 3.x tags make bower dependencies unavailable,open
+46539976,https//api.github.com/repos/walmartlabs/thorax,Allow for document and window event binds,open
+46324964,https//api.github.com/repos/walmartlabs/thorax,Properly handle render calls during async rendering,open
+44579851,https//api.github.com/repos/walmartlabs/thorax,Prevent initial view.render when model.fetch is true,open
+44453828,https//api.github.com/repos/walmartlabs/thorax,loadingTemplate on model fetch,open
+42718767,https//api.github.com/repos/walmartlabs/thorax,Add item view attributes for collection view items,open
+37548443,https//api.github.com/repos/walmartlabs/thorax,Success handler of fetch is not called when response is synchronous (and fetchQueue is empty),open
+37298744,https//api.github.com/repos/walmartlabs/thorax,Throw occurs on restore for nested inline collections,open
+35246108,https//api.github.com/repos/walmartlabs/thorax,Side by side usage with Backbone.relational,open
+33858911,https//api.github.com/repos/walmartlabs/thorax,Fetch should look at serverCache,open
+33258252,https//api.github.com/repos/walmartlabs/thorax,Set collection options when passed through a constructor,open
+33035793,https//api.github.com/repos/walmartlabs/thorax,Cannot access this inside itemView function in CollectionView,open
+32693706,https//api.github.com/repos/walmartlabs/thorax,Allow events hash definitions on arbitrary view data objects,open
+32519266,https//api.github.com/repos/walmartlabs/thorax,Support jqXHR interface on load function,open
+32090598,https//api.github.com/repos/walmartlabs/thorax,Allow custom callback for collection management events,open
+30671064,https//api.github.com/repos/walmartlabs/thorax,Support for filter event (CollectionViewHelper),open
+692354067,https//api.github.com/repos/chaplinjs/chaplin,Composer Doc is wrong in regards of check method,open
+455430942,https//api.github.com/repos/chaplinjs/chaplin,Internet Explorer invalid pointer error,open
+283218613,https//api.github.com/repos/chaplinjs/chaplin,ListenHash remove model collection limitation,open
+256552507,https//api.github.com/repos/chaplinjs/chaplin,Bundle with Rollup,open
+204037352,https//api.github.com/repos/chaplinjs/chaplin,New release,open
+188643107,https//api.github.com/repos/chaplinjs/chaplin,Incompatibility upgrading to 1.2.0 from 1.1.1,open
+175881793,https//api.github.com/repos/chaplinjs/chaplin,CollectionView insert new rows in opposite order to backbone collection models,open
+131860282,https//api.github.com/repos/chaplinjs/chaplin,delegate in itemview,open
+131859127,https//api.github.com/repos/chaplinjs/chaplin,itemView with nowraptrue doesnt work when template produces TR,open
+60112258,https//api.github.com/repos/chaplinjs/chaplin,Access Control implementation,open
+57015084,https//api.github.com/repos/chaplinjs/chaplin,View option regions does not work,open
+51900227,https//api.github.com/repos/chaplinjs/chaplin,Support for Exoskeleton but without jQuery and Underscore,open
+51823168,https//api.github.com/repos/chaplinjs/chaplin,View with js plugin/widget rendering flow,open
+44668083,https//api.github.com/repos/chaplinjs/chaplin,What about including version in source ,open
+40921364,https//api.github.com/repos/chaplinjs/chaplin,Model attributes that are Model/Collection serialization ,open
+40902499,https//api.github.com/repos/chaplinjs/chaplin,How I can catch redirect event to show prompt/confirm modal,open
+37702564,https//api.github.com/repos/chaplinjs/chaplin,Disposal of controller when redirectTo is called in beforeAction,open
+37361883,https//api.github.com/repos/chaplinjs/chaplin,Chaplin.Composer,open
+35558860,https//api.github.com/repos/chaplinjs/chaplin,Forced autorender composed views,open
+34711932,https//api.github.com/repos/chaplinjs/chaplin,Reverse doesnt include  in url when pushstate is disabled,open
+34711647,https//api.github.com/repos/chaplinjs/chaplin,Reverse doesnt return correct route with multiple matches,open
+34201284,https//api.github.com/repos/chaplinjs/chaplin,Chaplin is too complicated,open
+33865247,https//api.github.com/repos/chaplinjs/chaplin,Advanced syntax for declarative listeners,open
+32898086,https//api.github.com/repos/chaplinjs/chaplin,deattach and reattach,open
+32271165,https//api.github.com/repos/chaplinjs/chaplin,Adding declarative bindings for Controllers Models Collections and CollectionViews,open
+30677233,https//api.github.com/repos/chaplinjs/chaplin,Event binding namespace problem,open
+29630871,https//api.github.com/repos/chaplinjs/chaplin,Bb view hooks,open
+29031600,https//api.github.com/repos/chaplinjs/chaplin,Docs SEO,open
+27553071,https//api.github.com/repos/chaplinjs/chaplin,Keep beforeAction for shared code between methods,open
+27033919,https//api.github.com/repos/chaplinjs/chaplin,Chaplin.route.changeURL arguments doc seems wrong,open
+1162531290,https//api.github.com/repos/marionettejs/backbone.marionette,getOption falsy key behavior differs from native js object,open
+814002952,https//api.github.com/repos/marionettejs/backbone.marionette,CollectionView Comparator documentation is confusing when using functions,open
+741340074,https//api.github.com/repos/marionettejs/backbone.marionette,v5 Migration,open
+438294897,https//api.github.com/repos/marionettejs/backbone.marionette,Calling getRegion can cause callstack error,open
+349404413,https//api.github.com/repos/marionettejs/backbone.marionette,Prevent double renders on internal renders,open
+349403904,https//api.github.com/repos/marionettejs/backbone.marionette,CollectionView reset event should use _removeChildModels ,open
+321938109,https//api.github.com/repos/marionettejs/backbone.marionette,The renderchildren event should be renamed showchildren,open
+321829582,https//api.github.com/repos/marionettejs/backbone.marionette,removeregion events are not triggered if a views region is destroyed,open
+284268926,https//api.github.com/repos/marionettejs/backbone.marionette,Migrate view layer from Backbone.View to CustomElement/WebComponent,open
+282570269,https//api.github.com/repos/marionettejs/backbone.marionette,define application region as function,open
+274088902,https//api.github.com/repos/marionettejs/backbone.marionette,triggerMethod do not look for method in options,open
+273717679,https//api.github.com/repos/marionettejs/backbone.marionette,Region reset called during view render does not clear the region.el when needed,open
+250553622,https//api.github.com/repos/marionettejs/backbone.marionette,Prevent reInit regions on render,open
+248698016,https//api.github.com/repos/marionettejs/backbone.marionette,Rethink the way regions are created in View,open
+237232419,https//api.github.com/repos/marionettejs/backbone.marionette,Region el set in constructor might be resolved wrongly,open
+212260323,https//api.github.com/repos/marionettejs/backbone.marionette,Views region using el from child view not own view,open
+189963345,https//api.github.com/repos/marionettejs/backbone.marionette,Deprecate Region allowMissingEl,open
+186815369,https//api.github.com/repos/marionettejs/backbone.marionette,Clean up tests,open
+185445918,https//api.github.com/repos/marionettejs/backbone.marionette,Introduce a ready event for views,open
+180011769,https//api.github.com/repos/marionettejs/backbone.marionette,Add more live examples,open
+177462563,https//api.github.com/repos/marionettejs/backbone.marionette,Document PR Acceptance Process,open
+177082413,https//api.github.com/repos/marionettejs/backbone.marionette,Use Benchmark.js to measure performance,open
+145508936,https//api.github.com/repos/marionettejs/backbone.marionette,dom events leaking from child view to parent view,open
+141111123,https//api.github.com/repos/marionettejs/backbone.marionette,triggerMethod should support a space-delimited list of events,open
+127527292,https//api.github.com/repos/marionettejs/backbone.marionette,Add _triggerEventOnBehaviors to behaviors,open
+113821494,https//api.github.com/repos/marionettejs/backbone.marionette,Better error messages,open
+105121346,https//api.github.com/repos/marionettejs/backbone.marionette,Enhancement Declarative way to instantiate views,open
+92415025,https//api.github.com/repos/marionettejs/backbone.marionette,triggerMethod is not consistent between views  behaviors,open
+87815592,https//api.github.com/repos/marionettejs/backbone.marionette,showChildView(selector view),open
+55998073,https//api.github.com/repos/marionettejs/backbone.marionette,Layout structures without perf penalties.,open
+70994797,https//api.github.com/repos/ripplejs/ripple,doc correction,open
+70986859,https//api.github.com/repos/ripplejs/ripple,template definition needed,open
+58605981,https//api.github.com/repos/ripplejs/ripple,Add docs badge to README,open
+50496814,https//api.github.com/repos/ripplejs/ripple,CustomEvent is not newable in IE11,open
+50315051,https//api.github.com/repos/ripplejs/ripple,How to compose views one inside of the other,open
+40291448,https//api.github.com/repos/ripplejs/ripple,0.6.0 API changes,open
+36880589,https//api.github.com/repos/ripplejs/ripple,FRP constructs,open
+34244518,https//api.github.com/repos/ripplejs/ripple,Emit mounted event on child views,open
+33733532,https//api.github.com/repos/ripplejs/ripple,Multiple views singe data source,open
+32374560,https//api.github.com/repos/ripplejs/ripple,Object.observe support,open
+30918956,https//api.github.com/repos/ripplejs/ripple,consistent plugin api,open
+29115954,https//api.github.com/repos/ripplejs/ripple,Better iteration plugin,open
+1012299476,https//api.github.com/repos/mikeric/rivets,Cart quantity error,open
+816798033,https//api.github.com/repos/mikeric/rivets,Separate scopes / do not pollute global rivets configuration,open
+732693482,https//api.github.com/repos/mikeric/rivets,rv- breaks if we add to document,open
+595382584,https//api.github.com/repos/mikeric/rivets,docs Fix simple typo succint - succinct,open
+499234419,https//api.github.com/repos/mikeric/rivets,How to bind the change event of input using lastest rivets,open
+451737770,https//api.github.com/repos/mikeric/rivets,Release of tinybind 1.0,open
+442081780,https//api.github.com/repos/mikeric/rivets,Why not use VueJs,open
+424526451,https//api.github.com/repos/mikeric/rivets,Databinding to an instance of a class works in Chrome but not any other browser,open
+412624172,https//api.github.com/repos/mikeric/rivets,Error in specific scenario,open
+318719235,https//api.github.com/repos/mikeric/rivets,Reset a binding before updating it,open
+310695949,https//api.github.com/repos/mikeric/rivets,DOM not updating when model changes on onclick,open
+300138512,https//api.github.com/repos/mikeric/rivets,Including jQuery AFTER rivets breaks rv-value binder,open
+297557308,https//api.github.com/repos/mikeric/rivets,Link to dist on website is broken,open
+271243161,https//api.github.com/repos/mikeric/rivets,View dont update when use .pop.call(thisObj) to change array model.,open
+247859525,https//api.github.com/repos/mikeric/rivets,glyphicons referenced in bootstrap.css that is not there,open
+246600025,https//api.github.com/repos/mikeric/rivets,svg sprite (xlinkhref) render problem,open
+245877535,https//api.github.com/repos/mikeric/rivets,Component does not see change of model property,open
+245642661,https//api.github.com/repos/mikeric/rivets,Allow asynchronous load of templates in components,open
+245640813,https//api.github.com/repos/mikeric/rivets,Allow async load of components templates ,open
+213669476,https//api.github.com/repos/mikeric/rivets,Sightglass Default Adapter Iteration,open
+212230077,https//api.github.com/repos/mikeric/rivets,if binder,open
+205937180,https//api.github.com/repos/mikeric/rivets,Broken link to latest version,open
+202527515,https//api.github.com/repos/mikeric/rivets,jquery events vs. js/dom events,open
+197717000,https//api.github.com/repos/mikeric/rivets,update results view with click on pagination,open
+195166785,https//api.github.com/repos/mikeric/rivets,Update Mocha link,open
+194405698,https//api.github.com/repos/mikeric/rivets,Fix applying formatter with double-quoted arguments containing spaces,open
+193372344,https//api.github.com/repos/mikeric/rivets,Uncaught ReferenceError sightglass is not defined (Electron),open
+192627831,https//api.github.com/repos/mikeric/rivets,Magicsuggest integration,open
+191266481,https//api.github.com/repos/mikeric/rivets,Double function call bind scope.,open
+187101969,https//api.github.com/repos/mikeric/rivets,Angular bracket on observables interfering with Webpack minification,open
+1160175246,https//api.github.com/repos/derbyjs/derby,Bug {{if content}} breaks parent reference in conditionals when using within,open
+1051177261,https//api.github.com/repos/derbyjs/derby,Docs Use of literal in templates undocumented,open
+783205447,https//api.github.com/repos/derbyjs/derby,Bug OR does not works with arrays in templates,open
+782402089,https//api.github.com/repos/derbyjs/derby,Update copyright year,open
+766692589,https//api.github.com/repos/derbyjs/derby,Add failing test case for {{each}} binding not updating when using s,open
+645143710,https//api.github.com/repos/derbyjs/derby,Bug Query ref does not works in scoped models,open
+645128687,https//api.github.com/repos/derbyjs/derby,Bug Derby tries to rewrite model with external bindings when templates updated in dev mode,open
+609411239,https//api.github.com/repos/derbyjs/derby,Bug {{each}} item binding with square brackets doesnt update when right side is an aliased attribute,open
+595382266,https//api.github.com/repos/derbyjs/derby,docs Fix simple typo workaroud - workaround,open
+574733922,https//api.github.com/repos/derbyjs/derby,Is there any method for build-only scripts,open
+572153850,https//api.github.com/repos/derbyjs/derby,TypeScript support,open
+551697851,https//api.github.com/repos/derbyjs/derby,View Partial Event Emitters,open
+489196598,https//api.github.com/repos/derbyjs/derby,PR Not possible to set style file for component,open
+489195090,https//api.github.com/repos/derbyjs/derby,Make possible to set component style file,open
+472848599,https//api.github.com/repos/derbyjs/derby,Is there template syntax support for JetBains PhpStrom/WebStorm,open
+437160638,https//api.github.com/repos/derbyjs/derby,Remove unused.,open
+342375276,https//api.github.com/repos/derbyjs/derby,Patch input,open
+315629354,https//api.github.com/repos/derbyjs/derby,Update or Insert Bulk documents like Mongoclient updateMany and insertMany,open
+281840864,https//api.github.com/repos/derbyjs/derby,Operational transformation issue on Codemirror example,open
+238961056,https//api.github.com/repos/derbyjs/derby,introduce a troubleshooting guide for Derby,open
+164879171,https//api.github.com/repos/derbyjs/derby,Make styles auto-update work in windows,open
+155033809,https//api.github.com/repos/derbyjs/derby,Textarea placeholder bug,open
+133085232,https//api.github.com/repos/derbyjs/derby,possible EventEmitter memory leak detected,open
+132442338,https//api.github.com/repos/derbyjs/derby,return new Function(return   message.views),open
+110434752,https//api.github.com/repos/derbyjs/derby,input.type  number throws exception in IE9,open
+109000307,https//api.github.com/repos/derbyjs/derby,View pathattribute fails pathattribute works,open
+104740084,https//api.github.com/repos/derbyjs/derby,Value attribute is removed from option element on second render,open
+104421254,https//api.github.com/repos/derbyjs/derby,Add client-side-only rendering mode and update App bundling logic,open
+104243342,https//api.github.com/repos/derbyjs/derby,Hack to allow typing of negative values in input typenumber,open
+103958921,https//api.github.com/repos/derbyjs/derby,Cannot easily set negative values on a bound input typenumber,open
+595723455,https//api.github.com/repos/gwendall/way.js,docs Fix simple typo mentionned - mentioned,open
+561745953,https//api.github.com/repos/gwendall/way.js,focusing breaks data restoration,open
+561572027,https//api.github.com/repos/gwendall/way.js,what is the expected behavior in sync for multiple instances of the same page ,open
+540128750,https//api.github.com/repos/gwendall/way.js,way-repeat,open
+438019966,https//api.github.com/repos/gwendall/way.js,Nested repeats are not working,open
+430136831,https//api.github.com/repos/gwendall/way.js,way-repeat,open
+304062401,https//api.github.com/repos/gwendall/way.js,The import of requirejs is not effective how can we support requirejs,open
+266706504,https//api.github.com/repos/gwendall/way.js,Can not monitor changes to selection labels,open
+259022056,https//api.github.com/repos/gwendall/way.js,can not save the element input textnumber,open
+246948919,https//api.github.com/repos/gwendall/way.js,How do I use it in requirejs,open
+195992598,https//api.github.com/repos/gwendall/way.js,another question.do we have any method to monitor when the dom-render is ready for any way repeat fragement.,open
+195974311,https//api.github.com/repos/gwendall/way.js,just a question what will be printed under this situation,open
+168632866,https//api.github.com/repos/gwendall/way.js,Do not update readonly fields,open
+122908178,https//api.github.com/repos/gwendall/way.js,There seems to be a mistake to help look at the,open
+96402859,https//api.github.com/repos/gwendall/way.js,way-data save multiple options of select,open
+95964046,https//api.github.com/repos/gwendall/way.js,the repeats are not suitable for table,open
+94664039,https//api.github.com/repos/gwendall/way.js,Update way.js,open
+87167154,https//api.github.com/repos/gwendall/way.js,Remove moot version property from bower.json,open
+77952288,https//api.github.com/repos/gwendall/way.js,pull request,open
+75908893,https//api.github.com/repos/gwendall/way.js,support binding a.href by way-hrefdata.a.href,open
+75875672,https//api.github.com/repos/gwendall/way.js,Can I binding data to a.href or other attribute,open
+74925205,https//api.github.com/repos/gwendall/way.js,nojquery,open
+74917270,https//api.github.com/repos/gwendall/way.js,Issues using way.js with jquery validate plugin,open
+74350203,https//api.github.com/repos/gwendall/way.js,null appearing in text fields,open
+71829239,https//api.github.com/repos/gwendall/way.js,tying to put a classname according to a node data  but its not working  can you help me  ,open
+66550310,https//api.github.com/repos/gwendall/way.js,Support with Select2 select values isnt being saved.,open
+65927966,https//api.github.com/repos/gwendall/way.js,Git tags for the library versions,open
+60439348,https//api.github.com/repos/gwendall/way.js,fix for 53,open
+60439125,https//api.github.com/repos/gwendall/way.js,Ability to change the wrapper tag,open
+57724294,https//api.github.com/repos/gwendall/way.js,When restored data watch has not been emitted,open
+227561376,https//api.github.com/repos/astoilkov/jsblocks,Cannot read property children of undefined if static file have no dom,open
+151549486,https//api.github.com/repos/astoilkov/jsblocks,How can we use asset pipeline library with jsblocks server.,open
+110317001,https//api.github.com/repos/astoilkov/jsblocks,error handling for failed ajax request with the Model/Collection functions,open
+110265687,https//api.github.com/repos/astoilkov/jsblocks,Dynamically generated templates/views/components,open
+109679863,https//api.github.com/repos/astoilkov/jsblocks,Extend server-side rendering by adding Express middleware support,open
+101280574,https//api.github.com/repos/astoilkov/jsblocks,Add support for render() outside of each() data-query,open
+98157436,https//api.github.com/repos/astoilkov/jsblocks,Add option for changin the default template symbols,open
+98130453,https//api.github.com/repos/astoilkov/jsblocks,Add option for changing the default template symbols,open
+97626556,https//api.github.com/repos/astoilkov/jsblocks,Add support for syncing deeply nested Models and Collections,open
+96238060,https//api.github.com/repos/astoilkov/jsblocks,fix bug wich not updated dom after collection read or reset method,open
+88336069,https//api.github.com/repos/astoilkov/jsblocks,Remove the utility methods built-in jsblocks. Leave that to lodash and underscore,open
+87998444,https//api.github.com/repos/astoilkov/jsblocks,I cant change title element.,open
+85800286,https//api.github.com/repos/astoilkov/jsblocks,Specify a default route to handle unmatched routes ,open
+81150667,https//api.github.com/repos/astoilkov/jsblocks,AngularJS performance test optimization,open
+1196404483,https//api.github.com/repos/feathersjs/feathers,Suggestion resultResolver should not resolve properties if they are not present in select when select is specified,open
+1193481645,https//api.github.com/repos/feathersjs/feathers,Compatibility with hyper-express,open
+1190961007,https//api.github.com/repos/feathersjs/feathers,FeathersClient v5 Failed to execute fetch on Window Illegal invocation,open
+1186600298,https//api.github.com/repos/feathersjs/feathers,Document the need for third-party dependencies,open
+1171648451,https//api.github.com/repos/feathersjs/feathers,rest-client - incorrect array bracket format breaks on large queries,open
+1169407413,https//api.github.com/repos/feathersjs/feathers,Bug Dove - query returns all data if there is a key that is not present in model,open
+1167454455,https//api.github.com/repos/feathersjs/feathers,Get full API URL,open
+1167322758,https//api.github.com/repos/feathersjs/feathers,Check columns before query,open
+1166751482,https//api.github.com/repos/feathersjs/feathers,feat(cli) Feathers v5 CLI and Pinion generator,open
+1165313685,https//api.github.com/repos/feathersjs/feathers,Explicit table (as from(...) / into(...)) required (Model),open
+1160147223,https//api.github.com/repos/feathersjs/feathers,Run migrations at each app startup,open
+1141910405,https//api.github.com/repos/feathersjs/feathers,Pagination and query TypeScript improvements,open
+1140972009,https//api.github.com/repos/feathersjs/feathers,No URI decoding any more of the id in service get method ,open
+1140948351,https//api.github.com/repos/feathersjs/feathers,Missing set and get types for default express application properties,open
+1124527167,https//api.github.com/repos/feathersjs/feathers,Suggestion Have whitelist_client and whitelist_server instead of whitelist,open
+1117111241,https//api.github.com/repos/feathersjs/feathers,Suggestion ability to allow multi queries for internal calls only,open
+1103813926,https//api.github.com/repos/feathersjs/feathers,WIP Port Core to Deno,open
+1096425220,https//api.github.com/repos/feathersjs/feathers,Feature Request Server Bundle like feathersjs/client,open
+1086050662,https//api.github.com/repos/feathersjs/feathers,feathers configuration does not load environment variable with empty string,open
+1083866904,https//api.github.com/repos/feathersjs/feathers,Draft move from hygen to ts-template-strings generator,open
+1072556891,https//api.github.com/repos/feathersjs/feathers,Error creating user with feathers-objection/knex/mariadb,open
+1065466140,https//api.github.com/repos/feathersjs/feathers,Asynchronous app initialization and setup improvements,open
+1056557306,https//api.github.com/repos/feathersjs/feathers,adapter-tests patch multi query same test depends on previous test,open
+995638084,https//api.github.com/repos/feathersjs/feathers,connection user is undefined ,open
+992705532,https//api.github.com/repos/feathersjs/feathers,Suggestion Apply operator whitelist option only for external provider by default,open
+982576771,https//api.github.com/repos/feathersjs/feathers,OAuth with OKTA work but I receive a ECONNREFUSED 127.0.0.180 just after the token and finally auth fail,open
+981013783,https//api.github.com/repos/feathersjs/feathers,authenticate Hook throwing NotFound when executed after application level hook,open
+975371212,https//api.github.com/repos/feathersjs/feathers,HookContext data typing issue for create,open
+971409116,https//api.github.com/repos/feathersjs/feathers,a 4.5.12 release for feathersjs/socketio with less strict socket.io version dependency,open
+965197756,https//api.github.com/repos/feathersjs/feathers,ts-node-dev doesnt apply changes in auto reload,open
+1130200986,https//api.github.com/repos/Wildhoney/Keo,Bump node-sass from 3.13.1 to 7.0.0,open
+1111211409,https//api.github.com/repos/Wildhoney/Keo,Bump node-fetch from 1.7.1 to 3.1.1,open
+986033835,https//api.github.com/repos/Wildhoney/Keo,Bump axios from 0.15.3 to 0.21.1,open
+668337032,https//api.github.com/repos/Wildhoney/Keo,Bump dot-prop from 4.1.1 to 5.2.0,open
+595729676,https//api.github.com/repos/Wildhoney/Keo,Bump bower from 1.8.0 to 1.8.8,open
+292948956,https//api.github.com/repos/Wildhoney/Keo,Question  How to use with ShadyCSS,open
+292948758,https//api.github.com/repos/Wildhoney/Keo,Question  How to use shadow w/ CSS loaded by raw-loader,open
+260948963,https//api.github.com/repos/Wildhoney/Keo,Update to React 16,open
+218691751,https//api.github.com/repos/Wildhoney/Keo,Does this work on react-native,open
+173651430,https//api.github.com/repos/Wildhoney/Keo,Preact instead of React,open
+150699280,https//api.github.com/repos/Wildhoney/Keo,Feature/rollup bundler,open
+145074260,https//api.github.com/repos/Wildhoney/Keo,How to deal with using refs in pure functional components,open
+467585432,https//api.github.com/repos/emadalam/atvjs,Support for Prototypes and needsmore event,open
+445769224,https//api.github.com/repos/emadalam/atvjs,Question about best practice how to automatically play next,open
+380122791,https//api.github.com/repos/emadalam/atvjs,Dark loading indicator page,open
+346261206,https//api.github.com/repos/emadalam/atvjs,presentModal closes itself on first use,open
+287572075,https//api.github.com/repos/emadalam/atvjs,Change app background,open
+286383020,https//api.github.com/repos/emadalam/atvjs,Reload a Page with AJAX Content,open
+202252469,https//api.github.com/repos/emadalam/atvjs,Promises reworked menubar functionality in events/options improved,open
+198267708,https//api.github.com/repos/emadalam/atvjs,Implement index tests,open
+198267558,https//api.github.com/repos/emadalam/atvjs,Implement settings tests,open
+198267553,https//api.github.com/repos/emadalam/atvjs,Implement parser tests,open
+198267542,https//api.github.com/repos/emadalam/atvjs,Implement page tests,open
+198267534,https//api.github.com/repos/emadalam/atvjs,Implement navigation tests,open
+198267525,https//api.github.com/repos/emadalam/atvjs,Implement menu tests,open
+198267497,https//api.github.com/repos/emadalam/atvjs,Implement handler tests,open
+198267492,https//api.github.com/repos/emadalam/atvjs,Implement ajax library tests,open
+198267395,https//api.github.com/repos/emadalam/atvjs,resolve parameters in Page.url,open
+198266872,https//api.github.com/repos/emadalam/atvjs,Implement testing strategy,open
+198266719,https//api.github.com/repos/emadalam/atvjs,Remove unwanted dependencies,open
+164028037,https//api.github.com/repos/emadalam/atvjs,feature resolve parameters in Page.url,open
+131966277,https//api.github.com/repos/emadalam/atvjs,Re-render a template,open
+1144668517,https//api.github.com/repos/infernojs/inferno,Rendering links starting with javascript should log warning,open
+1082445640,https//api.github.com/repos/infernojs/inferno,inferno-mobx observer is incompatible with certain life cycle hooks,open
+1038153498,https//api.github.com/repos/infernojs/inferno,SSR tests are run in JSDOM env and rely on document,open
+926812735,https//api.github.com/repos/infernojs/inferno,issue or feature shallowDiffers inferno,open
+831928320,https//api.github.com/repos/infernojs/inferno,Question migrating react app to inferno,open
+828627713,https//api.github.com/repos/infernojs/inferno,inferno-test-utils How to use this lib to change state or props trigger change/input event/keydown event,open
+822839490,https//api.github.com/repos/infernojs/inferno,inferno-test-utils renderIntoContainer cant render mocked component inner children.,open
+737454777,https//api.github.com/repos/infernojs/inferno,provide a esbuild workflow,open
+663389662,https//api.github.com/repos/infernojs/inferno,Use  null instead of isNullOrUndef,open
+643867708,https//api.github.com/repos/infernojs/inferno,Preferred / better typescript build system for inferno (parcel rollup) ,open
+577703952,https//api.github.com/repos/infernojs/inferno,material-ui/core 4.9.5 memo is not exported from react,open
+556066712,https//api.github.com/repos/infernojs/inferno,Merge fixtures for test cases in inferno-server,open
+520451246,https//api.github.com/repos/infernojs/inferno,Synchronous setState,open
+505920554,https//api.github.com/repos/infernojs/inferno,componentDidUpdate inferno-mobx prevProps are equal to this.props,open
+504005933,https//api.github.com/repos/infernojs/inferno,Is there tool for inferno-mobx debugging like redux devtools,open
+500891921,https//api.github.com/repos/infernojs/inferno,Function component returning null creates an empty text node in the DOM,open
+476636195,https//api.github.com/repos/infernojs/inferno,inferno-compat issue TypeError _react.default.createContext is not a function,open
+451552857,https//api.github.com/repos/infernojs/inferno,Using Fragment prevents React Dev Tools from working,open
+448119088,https//api.github.com/repos/infernojs/inferno,input field still free flow value for display,open
+438677926,https//api.github.com/repos/infernojs/inferno,Attribute selectedIndex of select tag renders as 0 when passed -1 in IE / (old) Edge,open
+429911735,https//api.github.com/repos/infernojs/inferno,How to do router hash links IE scroll to that part of the page,open
+422402274,https//api.github.com/repos/infernojs/inferno,Inferno hydrate promise,open
+415326822,https//api.github.com/repos/infernojs/inferno,useState hook,open
+408294960,https//api.github.com/repos/infernojs/inferno,Implement support for Inferno.lazy (React.lazy),open
+408294275,https//api.github.com/repos/infernojs/inferno,Implement support for Inferno.memo ( React.memo ),open
+399677607,https//api.github.com/repos/infernojs/inferno,feature request support capturing event handlers,open
+394744646,https//api.github.com/repos/infernojs/inferno,How to detect modifiers when using a controlled inputtypecheckbox,open
+376839107,https//api.github.com/repos/infernojs/inferno,Optimize static vNode trees,open
+370038606,https//api.github.com/repos/infernojs/inferno,invert linkEvent,open
+335326582,https//api.github.com/repos/infernojs/inferno,inferno-router catch Hash history cannot PUSH the same path;,open
+777462064,https//api.github.com/repos/adonisjs/core,Thank you ),open
+1203858675,https//api.github.com/repos/artf/grapesjs,Fix on generated css for transform property,open
+1203740994,https//api.github.com/repos/artf/grapesjs,Convert EditorModule into class,open
+1203427556,https//api.github.com/repos/artf/grapesjs,BUG Background modification doesnt work for non-images,open
+1203101041,https//api.github.com/repos/artf/grapesjs,BUG touch drag-and-drop does not work,open
+1195169717,https//api.github.com/repos/artf/grapesjs,fix issue4236  added validity check before pasting,open
+1191249032,https//api.github.com/repos/artf/grapesjs,BUG paste command does not respect draggable/droppable properties,open
+1190347564,https//api.github.com/repos/artf/grapesjs,BUG insert styles from StyleManager with important broken,open
+1165431183,https//api.github.com/repos/artf/grapesjs,BUG Component deselecting after component settings changed (using third party e.g. React/Vue),open
+1153893779,https//api.github.com/repos/artf/grapesjs,BUG hover not toggled until next mouse-enter,open
+1108726065,https//api.github.com/repos/artf/grapesjs,BUG Set root does not work,open
+1080934657,https//api.github.com/repos/artf/grapesjs,BUG Drag and drop not working well in case of RTL,open
+1075624364,https//api.github.com/repos/artf/grapesjs,Background color automatically changes to black,open
+1052541897,https//api.github.com/repos/artf/grapesjs,BUG Disabled drag and drop in preview,open
+1021194092,https//api.github.com/repos/artf/grapesjs,BUG Firefox issue when the user clicks on different component very fast,open
+994280021,https//api.github.com/repos/artf/grapesjs,BUG Drag issue with dragMode absolute,open
+951513195,https//api.github.com/repos/artf/grapesjs,FEAT Detailed History Report (Improve UndoManager API),open
+928060687,https//api.github.com/repos/artf/grapesjs,Customize Blocks Styles - grapesjs Angular,open
+920384326,https//api.github.com/repos/artf/grapesjs,Update nl.js,open
+916083634,https//api.github.com/repos/artf/grapesjs,FEAT In Style Manager Allow Requiring the Default Setting,open
+910907150,https//api.github.com/repos/artf/grapesjs,BUG gjs-selected Style is Hardcoded,open
+894476399,https//api.github.com/repos/artf/grapesjs,BUG inspector overflow broken,open
+854403757,https//api.github.com/repos/artf/grapesjs,BUG sorter direction incorrect with web component slot,open
+854392025,https//api.github.com/repos/artf/grapesjs,BUG flex-direction column  float left make sorter direction incorrect,open
+816453482,https//api.github.com/repos/artf/grapesjs,BUG The changesCount parameter should be reset to zero when we undo the images,open
+812624789,https//api.github.com/repos/artf/grapesjs,BUG CleanId function not working with MJML code,open
+811459740,https//api.github.com/repos/artf/grapesjs,BUG Custom component view onRender is called early,open
+802189069,https//api.github.com/repos/artf/grapesjs,RenderField in traitView does not handle null or undefined,open
+800349355,https//api.github.com/repos/artf/grapesjs,BUG Color Picker Transparency slider is at 0 in firefox.,open
+799367784,https//api.github.com/repos/artf/grapesjs,BUG block.get(category) returns different results in Chrome and Firefox,open
+786829767,https//api.github.com/repos/artf/grapesjs,BUG componentupdate does not trigger when components are moved,open
+1131995338,https//api.github.com/repos/retejs/rete,Bump ajv from 6.10.0 to 6.12.6,open
+1123125975,https//api.github.com/repos/retejs/rete,Socket compatibility should be determined by Input socket not Output socket,open
+1088711363,https//api.github.com/repos/retejs/rete,Zoom doesnt work properly on touch devices,open
+1083380374,https//api.github.com/repos/retejs/rete,Input sockets for controls,open
+1075183558,https//api.github.com/repos/retejs/rete,Uncaught (in promise) Error The key parameter is missing in super() of Control ,open
+1059728086,https//api.github.com/repos/retejs/rete,multiple dock,open
+1058240380,https//api.github.com/repos/retejs/rete,Custom node not working,open
+1057180327,https//api.github.com/repos/retejs/rete,How to create a readonly node,open
+1054125560,https//api.github.com/repos/retejs/rete,App crashes when emitting nodeselect event,open
+1027929791,https//api.github.com/repos/retejs/rete,Panning with middle mouse,open
+995336195,https//api.github.com/repos/retejs/rete,Prevent Drag based on class name,open
+990098536,https//api.github.com/repos/retejs/rete,Create bidirectional io/socket,open
+984507903,https//api.github.com/repos/retejs/rete,How to use Rete with node,open
+983188130,https//api.github.com/repos/retejs/rete,Add setMeta() method to Node,open
+941980727,https//api.github.com/repos/retejs/rete,Input Control type mismatch fails to compile under strict compilers. Modified to strict property initialization,open
+927719172,https//api.github.com/repos/retejs/rete,Routing without tasks,open
+910823363,https//api.github.com/repos/retejs/rete,How to prevent that dragging a node activates the onclick event handler,open
+903662047,https//api.github.com/repos/retejs/rete,editor.toJSON gives not JSON but JS object. editor.fromJSON is consuming actually not JSON but JS object ,open
+865531408,https//api.github.com/repos/retejs/rete,All nodes are duplicated when React renders again (after a click on a Button for example),open
+860301578,https//api.github.com/repos/retejs/rete,Recommendation the node window can be minimized,open
+849119996,https//api.github.com/repos/retejs/rete,Want to connect react redux to the editor in order to use useDispatch() inside the editor ref,open
+830255413,https//api.github.com/repos/retejs/rete,Making text input bigger through modal/pop up window,open
+820947303,https//api.github.com/repos/retejs/rete,Modifying data in loops (Tasks) ,open
+802357211,https//api.github.com/repos/retejs/rete,Unselecting node,open
+801870850,https//api.github.com/repos/retejs/rete,Adding specific icons before each Menu Items and Subitems on context-menu-plugin,open
+797549170,https//api.github.com/repos/retejs/rete,Electron context menu causes retejss canvas to stop responding to mouse movement on MacOS,open
+797332533,https//api.github.com/repos/retejs/rete,Editor is not rendered until window resized,open
+792289865,https//api.github.com/repos/retejs/rete,reset node id counter,open
+785024275,https//api.github.com/repos/retejs/rete,Connection paths wont update on using rotate css on custom node,open
+782890646,https//api.github.com/repos/retejs/rete,How do I build from the repo ,open
+1190837161,https//api.github.com/repos/jagenjo/litegraph.js,Scaling while canvas is not at {left0;top0;} will cause canvas offset works well,open
+1185445812,https//api.github.com/repos/jagenjo/litegraph.js,Stop execution from node,open
+1151819230,https//api.github.com/repos/jagenjo/litegraph.js,Fix inner_value_change not called on slider interaction,open
+1144313011,https//api.github.com/repos/jagenjo/litegraph.js,Pinned doesnt seem to do anything,open
+1139257791,https//api.github.com/repos/jagenjo/litegraph.js,clip_area turns node title invisible,open
+1139175188,https//api.github.com/repos/jagenjo/litegraph.js,Add generic font fallbacks  prune some unused styles,open
+1138519757,https//api.github.com/repos/jagenjo/litegraph.js,Convert all/selected to subgraph,open
+1137365575,https//api.github.com/repos/jagenjo/litegraph.js,Links color,open
+1107847771,https//api.github.com/repos/jagenjo/litegraph.js,question,open
+1105025959,https//api.github.com/repos/jagenjo/litegraph.js,Shouldnt update Event.deltaX as it is read-only property,open
+1087539481,https//api.github.com/repos/jagenjo/litegraph.js,widgets serialization,open
+1077891654,https//api.github.com/repos/jagenjo/litegraph.js,Unreal blueprints re-route feature,open
+1071772540,https//api.github.com/repos/jagenjo/litegraph.js,processContextMenu modified to allow the calling of widget getWidgetMenuOptions,open
+1071328679,https//api.github.com/repos/jagenjo/litegraph.js,Cloning does not clone attributes,open
+1071083649,https//api.github.com/repos/jagenjo/litegraph.js,How is the first node in the list determined,open
+1052712769,https//api.github.com/repos/jagenjo/litegraph.js,Mouse events errors after last version,open
+1051736556,https//api.github.com/repos/jagenjo/litegraph.js,Features,open
+1050824771,https//api.github.com/repos/jagenjo/litegraph.js,Move options to canvas,open
+1047799226,https//api.github.com/repos/jagenjo/litegraph.js,pointerevents_method doesnt work as intented,open
+1040088308,https//api.github.com/repos/jagenjo/litegraph.js,typo in litegraph.js at line 3218,open
+945912057,https//api.github.com/repos/jagenjo/litegraph.js,search box appearing on mobile while trying to zoom,open
+930928312,https//api.github.com/repos/jagenjo/litegraph.js,Is there anyway to make an input behave as an output an vice versa,open
+921632138,https//api.github.com/repos/jagenjo/litegraph.js,Git Address Wrong On README.md,open
+796805502,https//api.github.com/repos/jagenjo/litegraph.js,Update litegraph.d.ts,open
+792108110,https//api.github.com/repos/jagenjo/litegraph.js,Node creation context,open
+785885933,https//api.github.com/repos/jagenjo/litegraph.js,Multiple input type,open
+784251846,https//api.github.com/repos/jagenjo/litegraph.js,Unexpected behavior when clicking a loaded collapsed node,open
+722324941,https//api.github.com/repos/jagenjo/litegraph.js,NPM Update,open
+715658649,https//api.github.com/repos/jagenjo/litegraph.js,HiDPI Scaling,open
+706069635,https//api.github.com/repos/jagenjo/litegraph.js,Callback Request onConnectionCanceled,open
+1195221384,https//api.github.com/repos/jerosoler/Drawflow,Workflow visual status update,open
+1191127569,https//api.github.com/repos/jerosoler/Drawflow,The area when right-clicking on the line when deleting is narrow.,open
+1190929234,https//api.github.com/repos/jerosoler/Drawflow,Arrange layout,open
+1185977921,https//api.github.com/repos/jerosoler/Drawflow,connection line leaving their positions (input and output too) while dragging it extremally up or down,open
+1171642360,https//api.github.com/repos/jerosoler/Drawflow,How to use jquery plugins in node templates,open
+1161209751,https//api.github.com/repos/jerosoler/Drawflow,REQUEST Do a tutorial series on this tool  Create forum,open
+1160680949,https//api.github.com/repos/jerosoler/Drawflow,Collapsible/Expandable Flow,open
+1152994938,https//api.github.com/repos/jerosoler/Drawflow,How to transfer/sync data between nodes,open
+1149734416,https//api.github.com/repos/jerosoler/Drawflow,Is it possible to connect nodes that are not on the same level in the DOM,open
+1129740465,https//api.github.com/repos/jerosoler/Drawflow,Quick question Vue integration,open
+1126134980,https//api.github.com/repos/jerosoler/Drawflow,Question Nested Nodes,open
+1082533035,https//api.github.com/repos/jerosoler/Drawflow,Named and typed multiple inputs/outputs in Drawflow,open
+1077882464,https//api.github.com/repos/jerosoler/Drawflow,Moving multiple nodes at the same time,open
+1074021493,https//api.github.com/repos/jerosoler/Drawflow,this solution possible to limit the area,open
+1057912311,https//api.github.com/repos/jerosoler/Drawflow,events execute N number of times when N is the size of nodes in the module and data is overwritten in all components ,open
+1057576361,https//api.github.com/repos/jerosoler/Drawflow,Add a method to get Vue comonents once created,open
+1054353539,https//api.github.com/repos/jerosoler/Drawflow,Hi i have questions. can you help me,open
+1045518148,https//api.github.com/repos/jerosoler/Drawflow,React Wrapper,open
+1008737682,https//api.github.com/repos/jerosoler/Drawflow,Ajustment to load outputs with same Ids saved,open
+985994476,https//api.github.com/repos/jerosoler/Drawflow,Use leader-line ,open
+984367298,https//api.github.com/repos/jerosoler/Drawflow,Question Is there a way for a connection line to connect to the closest node,open
+976461021,https//api.github.com/repos/jerosoler/Drawflow,Start connection from node input,open
+963191766,https//api.github.com/repos/jerosoler/Drawflow,import fails when it doesnt include Home. and must spell exactly as Home,open
+962418341,https//api.github.com/repos/jerosoler/Drawflow,Can we create a grouped button node ,open
+940928775,https//api.github.com/repos/jerosoler/Drawflow,Custom Node,open
+938570695,https//api.github.com/repos/jerosoler/Drawflow,How can I validate JSON data,open
+835924101,https//api.github.com/repos/jerosoler/Drawflow,Fix navigaton for div with extra style,open
+821581405,https//api.github.com/repos/jerosoler/Drawflow,Grid Snap,open
+774470952,https//api.github.com/repos/jerosoler/Drawflow,Minimap,open
+774469818,https//api.github.com/repos/jerosoler/Drawflow,Group  Node Type,open
+1203078751,https//api.github.com/repos/google/blockly,Typing issue - inject from core/inject,open
+1202232087,https//api.github.com/repos/google/blockly,fix Fix compilation errors under Closures strict mode,open
+1202151212,https//api.github.com/repos/google/blockly,Update Blockly Games to use new blockly,open
+1200001226,https//api.github.com/repos/google/blockly,MultilineInput - Not sized properly when workspace is loaded.,open
+1199647683,https//api.github.com/repos/google/blockly,chore(deps) bump eslint from 8.9.0 to 8.13.0,open
+1199464458,https//api.github.com/repos/google/blockly,Drop downs are overlapping on the accessed controls instead of opening above or below the control,open
+1198721298,https//api.github.com/repos/google/blockly,v8 command problem with install on Windows,open
+1193850819,https//api.github.com/repos/google/blockly,Delete duplicate demos,open
+1191473501,https//api.github.com/repos/google/blockly,chore(deps) bump webdriverio from 7.17.4 to 7.19.3,open
+1190403816,https//api.github.com/repos/google/blockly,Need a test that exercises the packaged files,open
+1186840295,https//api.github.com/repos/google/blockly,fix Right-align blocks in horizontal RTL flyouts.,open
+1185076813,https//api.github.com/repos/google/blockly,Import Toolbox on Workspace Factory is not working when trying to load the file second time,open
+1184031220,https//api.github.com/repos/google/blockly,Cannot enter multiple lines in multiline field on android mobile,open
+1184003515,https//api.github.com/repos/google/blockly,Undoing renaming a procedure parameter requires multiple undos,open
+1183931401,https//api.github.com/repos/google/blockly,Modifying the name of a procedures input variable creates intermediate variables,open
+1183325129,https//api.github.com/repos/google/blockly,Clicking field with open editor (menu colour picker etc) should close editor.,open
+1183116852,https//api.github.com/repos/google/blockly,chore(deps) bump typescript from 4.5.5 to 4.6.3,open
+1181254169,https//api.github.com/repos/google/blockly,Playground does not support IE11,open
+1180045027,https//api.github.com/repos/google/blockly,Flyout buttons are not unhighlighted after being pressed on mobile,open
+1180032809,https//api.github.com/repos/google/blockly,In zelos blocks with hat have extra lines draw on their end-ward side,open
+1177824566,https//api.github.com/repos/google/blockly,playground advance display nothing,open
+1177314291,https//api.github.com/repos/google/blockly,Warnings for collapsed blocks does not update,open
+1176909313,https//api.github.com/repos/google/blockly,Mutating children does not cause parents to bump neighbours,open
+1175974429,https//api.github.com/repos/google/blockly,Updating a blocks style to have/not have a hat does not update the hatness of the block,open
+1172892601,https//api.github.com/repos/google/blockly,Address nameDB_ or add api to get name of a variable,open
+1172677279,https//api.github.com/repos/google/blockly,chore(deps) bump google-closure-deps from 20220104.0.0 to 20220301.0.0,open
+1161912829,https//api.github.com/repos/google/blockly,ES module conversion,open
+1157862947,https//api.github.com/repos/google/blockly,Codelabs should not encourage people to edit core,open
+1155596833,https//api.github.com/repos/google/blockly,Build failing on Windows,open
+1143645190,https//api.github.com/repos/google/blockly,Export registry objects not classes from contextmenu registry and shortcut registry,open
+1202827923,https//api.github.com/repos/aidenybai/million,feat take million router implementation to next level ,open
+1174386968,https//api.github.com/repos/aidenybai/million,bug million.js can not handle children props with falsy values,open
+1157216608,https//api.github.com/repos/Semantic-Org/Semantic-UI,Inverted flag doesnt work for a Dropdown inside a Menu,open
+1154323542,https//api.github.com/repos/Semantic-Org/Semantic-UI,Is This Project Still Active,open
+1135237573,https//api.github.com/repos/Semantic-Org/Semantic-UI,Fayozbek,open
+1121689209,https//api.github.com/repos/Semantic-Org/Semantic-UI,Is SemanticUI leaking information to google by hardcoding google fonts in the CSS file,open
+1105833606,https//api.github.com/repos/Semantic-Org/Semantic-UI,Form Validation Dropdown not being validated even in demo,open
+1086963733,https//api.github.com/repos/Semantic-Org/Semantic-UI,BUG Error using semantic-ui-css to create-react-app,open
+1086721725,https//api.github.com/repos/Semantic-Org/Semantic-UI,Update semantic.min.css,open
+1051054742,https//api.github.com/repos/Semantic-Org/Semantic-UI,Wrapping of .ui.buttons,open
+1044758196,https//api.github.com/repos/Semantic-Org/Semantic-UI,Website should filter through its content properly,open
+1027686346,https//api.github.com/repos/Semantic-Org/Semantic-UI,important in main css styles should override semantic.min.css styles but not working as expected,open
+1027204818,https//api.github.com/repos/Semantic-Org/Semantic-UI,Enhancement Update discord icon,open
+1002791090,https//api.github.com/repos/Semantic-Org/Semantic-UI,semantic.css not generating valid CSS,open
+994097034,https//api.github.com/repos/Semantic-Org/Semantic-UI,How to pass data to api url using dropdown,open
+990832992,https//api.github.com/repos/Semantic-Org/Semantic-UI,Dropdown - problem in display in the sementic moduls page,open
+988507750,https//api.github.com/repos/Semantic-Org/Semantic-UI,Fix typo in dimmer.js,open
+985431369,https//api.github.com/repos/Semantic-Org/Semantic-UI,Class item conflict between component,open
+963269729,https//api.github.com/repos/Semantic-Org/Semantic-UI,SidebarAfter the sidebar hidden all the trasitions failed,open
+962427885,https//api.github.com/repos/Semantic-Org/Semantic-UI,React - Button.Or props limitations,open
+933208800,https//api.github.com/repos/Semantic-Org/Semantic-UI,Cant install Semantic UI 2.4.2,open
+921356300,https//api.github.com/repos/Semantic-Org/Semantic-UI,POPUP in examples there is delay as general option of popup but only without declare show option,open
+917447632,https//api.github.com/repos/Semantic-Org/Semantic-UI,can not resolve fontPath,open
+914780007,https//api.github.com/repos/Semantic-Org/Semantic-UI,Dropdown not working,open
+901680697,https//api.github.com/repos/Semantic-Org/Semantic-UI,Dropdown Clearable icon is not accesible when inline and search options are also used,open
+900624830,https//api.github.com/repos/Semantic-Org/Semantic-UI,License Heroku URL broken,open
+860689146,https//api.github.com/repos/Semantic-Org/Semantic-UI,Accordion Fixes margin invalid property value,open
+844322730,https//api.github.com/repos/Semantic-Org/Semantic-UI,why there is no treeview like plugin,open
+823786962,https//api.github.com/repos/Semantic-Org/Semantic-UI,Docs Fix first link to gitter.im,open
+817750977,https//api.github.com/repos/Semantic-Org/Semantic-UI,Dropdown set active/remove active and set visible/remove visible should do something,open
+812558455,https//api.github.com/repos/Semantic-Org/Semantic-UI,BSD Dmon,open
+812543468,https//api.github.com/repos/Semantic-Org/Semantic-UI,Global Flag,open
+1201590348,https//api.github.com/repos/vitmalina/w2ui,when w2grid is shown rows with status selected change to unselected,open
+1189569792,https//api.github.com/repos/vitmalina/w2ui,Form with Tabs in a Popup,open
+1183519560,https//api.github.com/repos/vitmalina/w2ui,given formHTML is not longer rendered with latest w2ui JS-Code,open
+1181654105,https//api.github.com/repos/vitmalina/w2ui,right to left problem with overflow toolbar button ,open
+1179653590,https//api.github.com/repos/vitmalina/w2ui,gird inline edit,open
+1168647208,https//api.github.com/repos/vitmalina/w2ui,theme,open
+1168643733,https//api.github.com/repos/vitmalina/w2ui,grid search,open
+1150391068,https//api.github.com/repos/vitmalina/w2ui,Fill in the blank when zooming,open
+1149176538,https//api.github.com/repos/vitmalina/w2ui,Columns field type select,open
+1148301271,https//api.github.com/repos/vitmalina/w2ui,w2field date does not jump to current month when opening calender,open
+1139690074,https//api.github.com/repos/vitmalina/w2ui,Question  Keep dropdown menu open after selecting/checking its menu items.,open
+1112633802,https//api.github.com/repos/vitmalina/w2ui,Scrolling selectColumn with touchpad stutters,open
+1112526286,https//api.github.com/repos/vitmalina/w2ui,w2grid search date popup current month,open
+1097973285,https//api.github.com/repos/vitmalina/w2ui,BUG Opening ES6 demo breaks all other demos,open
+1091207626,https//api.github.com/repos/vitmalina/w2ui,Feature Request New component request.,open
+1090499865,https//api.github.com/repos/vitmalina/w2ui,BUG There is a problem with the list type in search and grid ,open
+1078288397,https//api.github.com/repos/vitmalina/w2ui,BUG Advanced Search closes unexpectedly after selecting an enum/list item,open
+1064646069,https//api.github.com/repos/vitmalina/w2ui,w2grid search operator issue,open
+1059218374,https//api.github.com/repos/vitmalina/w2ui,remove inline on (onclick etc) handlers because of CSP violaions in addons,open
+1056087370,https//api.github.com/repos/vitmalina/w2ui,Feature Request add an onScroll event,open
+1044945781,https//api.github.com/repos/vitmalina/w2ui,BUG searchFieldDrops index might be null,open
+1032914908,https//api.github.com/repos/vitmalina/w2ui,Feature Request Additional Formatting for Summary Cells,open
+1023811366,https//api.github.com/repos/vitmalina/w2ui,BUG Using body tag instead of div,open
+1021288904,https//api.github.com/repos/vitmalina/w2ui,Search in grid V2 is not working as expected (like in V1.5),open
+1011822079,https//api.github.com/repos/vitmalina/w2ui,Feature Request Turn w2field types into classes,open
+1004860817,https//api.github.com/repos/vitmalina/w2ui,Extremely slow/choppy rendering with columns outside viewport,open
+1002837407,https//api.github.com/repos/vitmalina/w2ui,Looking for translators,open
+982707014,https//api.github.com/repos/vitmalina/w2ui,Question How to do validation with inline grid,open
+981250141,https//api.github.com/repos/vitmalina/w2ui,render function for grid column ran twice,open
+976409484,https//api.github.com/repos/vitmalina/w2ui,Feature request Changing the position of columns on the grid,open
+394412910,https//api.github.com/repos/mrmrs/fluidity,Delete CNAME,open
+306081573,https//api.github.com/repos/mrmrs/fluidity,Where is the wesite ,open
+156844417,https//api.github.com/repos/mrmrs/fluidity,overflow-y -- overflow-x (fixes 24),open
+107359652,https//api.github.com/repos/mrmrs/fluidity,height100 seems redundant,open
+54947456,https//api.github.com/repos/mrmrs/fluidity,Add to cdn and provide link,open
+46797407,https//api.github.com/repos/mrmrs/fluidity,why overflow-y scroll; on .table-container,open
+46343770,https//api.github.com/repos/mrmrs/fluidity,added -webkit-overflow-scrolling touch; for a smoother overflow scrolling experience on iOS,open
+29742180,https//api.github.com/repos/mrmrs/fluidity,Consider adding form elements,open
+29546024,https//api.github.com/repos/mrmrs/fluidity,Specify Version of Supported Browsers.,open
+29521132,https//api.github.com/repos/mrmrs/fluidity,Add marquee tag support,open
+674785947,https//api.github.com/repos/sapo/Ink,Typescript Cannot find name Ink,open
+522347451,https//api.github.com/repos/sapo/Ink,Further development,open
+216085858,https//api.github.com/repos/sapo/Ink,React support,open
+191415169,https//api.github.com/repos/sapo/Ink,cant choose past years on datepicker,open
+181429210,https//api.github.com/repos/sapo/Ink,Modal dialog does not appear,open
+176234192,https//api.github.com/repos/sapo/Ink,Lazy loads with Carousel,open
+162829448,https//api.github.com/repos/sapo/Ink,Glitching Happening For Sticky Component - Mobile Browsers,open
+151193521,https//api.github.com/repos/sapo/Ink,Cant init more than one date picker on element added via ajax,open
+132356300,https//api.github.com/repos/sapo/Ink,Angular and scroll Spy  hardcoded href attribute,open
+107354203,https//api.github.com/repos/sapo/Ink,Ink carousel autoAdvance but no wrap -- possible ,open
+104881747,https//api.github.com/repos/sapo/Ink,Hard-coded ink- classes,open
+85326467,https//api.github.com/repos/sapo/Ink,Sticky not working in Firefox extension content script,open
+1191963632,https//api.github.com/repos/jashkenas/underscore,Parenthesize mixed expressions of || and ,open
+1191891844,https//api.github.com/repos/jashkenas/underscore,Sauce Labs tests not kicking off in CI,open
+1160545251,https//api.github.com/repos/jashkenas/underscore,_.max gets incorrect results in extendScript,open
+1154480863,https//api.github.com/repos/jashkenas/underscore,Possibility to update a nested objects property in a non-mutable way,open
+1086318525,https//api.github.com/repos/jashkenas/underscore,Utility functions for prototype-based programming,open
+970898593,https//api.github.com/repos/jashkenas/underscore,Uncaught TypeError Cannot read property _ of undefined,open
+802915761,https//api.github.com/repos/jashkenas/underscore,Add dark mode support for homepage,open
+802822211,https//api.github.com/repos/jashkenas/underscore,Functional style,open
+801010256,https//api.github.com/repos/jashkenas/underscore,added remove method (issue 1856),open
+771084691,https//api.github.com/repos/jashkenas/underscore,transition function implemented 2850,open
+733619580,https//api.github.com/repos/jashkenas/underscore,repo fails git fsck,open
+717269340,https//api.github.com/repos/jashkenas/underscore,Compare errors by identity in _.isEqual,open
+709305789,https//api.github.com/repos/jashkenas/underscore,use Buffer.from if available(usually in node.js environments) in _.isEqual,open
+674972498,https//api.github.com/repos/jashkenas/underscore,add _.oneArg (and maybe _.twoArgs and _.limitArgs),open
+629515569,https//api.github.com/repos/jashkenas/underscore,Double chaining leads to a stack overflow,open
+615447743,https//api.github.com/repos/jashkenas/underscore,Add _.toggle/_.transition/_.fsm to underscore,open
+612983683,https//api.github.com/repos/jashkenas/underscore,_.bind nontrivial constructor fix (),open
+514681156,https//api.github.com/repos/jashkenas/underscore,Wrong value for _.isEqual(0 new Number(Number.MIN_VALUE)),open
+312278088,https//api.github.com/repos/jashkenas/underscore,Add two isType methods for Promise and Generator,open
+292331947,https//api.github.com/repos/jashkenas/underscore,add _.cloneDeep,open
+241519982,https//api.github.com/repos/jashkenas/underscore,_.max and _.min may behave incorrectly if iteratee returns infinite number,open
+236932603,https//api.github.com/repos/jashkenas/underscore,Add new function findKeys,open
+233948365,https//api.github.com/repos/jashkenas/underscore,New function findKeys proposition,open
+154807847,https//api.github.com/repos/jashkenas/underscore,Optimize uniq to be O(n) instead of O(n2),open
+153257381,https//api.github.com/repos/jashkenas/underscore,2286 Underscore could use a _.propertyResult,open
+137692194,https//api.github.com/repos/jashkenas/underscore,_.eq,open
+137510768,https//api.github.com/repos/jashkenas/underscore,isSafeInteger,open
+137356221,https//api.github.com/repos/jashkenas/underscore,Change to SameValueZero for comparisons,open
+136867893,https//api.github.com/repos/jashkenas/underscore,iterator support for _.toArray,open
+136867624,https//api.github.com/repos/jashkenas/underscore,Make the underscore wrapper iterable,open
+1202548918,https//api.github.com/repos/lodash/lodash,cloneDeepWith stack usage,open
+1202200107,https//api.github.com/repos/lodash/lodash,Fix import statement for non-existent module,open
+1201998036,https//api.github.com/repos/lodash/lodash,Fix syntax error where delete cannot be used in strict mode,open
+1201469724,https//api.github.com/repos/lodash/lodash,_.get accesses properties on prototype chain,open
+1200899211,https//api.github.com/repos/lodash/lodash,_.has not working well while length getter overwritten  throw error,open
+1194679299,https//api.github.com/repos/lodash/lodash,Fix misleading update example,open
+1194130893,https//api.github.com/repos/lodash/lodash,_.find function change old value,open
+1191792430,https//api.github.com/repos/lodash/lodash,omit removes primitive properties from origin,open
+1180389412,https//api.github.com/repos/lodash/lodash,fp/gt is really weird ,open
+1177774837,https//api.github.com/repos/lodash/lodash,fix check for array type in remove(array predicate). Fixes 5412,open
+1176433747,https//api.github.com/repos/lodash/lodash,When I pass an object containing a length property to the remove functionI got a Array that filled undefined,open
+1174806816,https//api.github.com/repos/lodash/lodash,Deno usage,open
+1174634520,https//api.github.com/repos/lodash/lodash,chore remove Node.js Ecosystem HackerOne program,open
+1170857628,https//api.github.com/repos/lodash/lodash,pref err instead of e,open
+1170849109,https//api.github.com/repos/lodash/lodash,perf use  instead of ,open
+1170501283,https//api.github.com/repos/lodash/lodash,chore Update the version of Underscore.js to 1.13.2.,open
+1167469492,https//api.github.com/repos/lodash/lodash,typo fix in the Readme file,open
+1165535965,https//api.github.com/repos/lodash/lodash,Gets error running basic functions like add,open
+1164749718,https//api.github.com/repos/lodash/lodash,subtractbug,open
+1164618848,https//api.github.com/repos/lodash/lodash,_.isEqual is terribly slow when comparing two sets,open
+1161466351,https//api.github.com/repos/lodash/lodash,throttle Method expression is not of Function type,open
+1160356061,https//api.github.com/repos/lodash/lodash,Feature Idea Including await helper ,open
+1157802335,https//api.github.com/repos/lodash/lodash,Fix isEqual for Maps and Sets,open
+1157746309,https//api.github.com/repos/lodash/lodash,_.reduce() incorrectly detects object as array,open
+1156342358,https//api.github.com/repos/lodash/lodash,lodash eval/new Function() usage causing Next.js Middleware to fail,open
+1142243594,https//api.github.com/repos/lodash/lodash,Update compact.js for equal sign,open
+1140294854,https//api.github.com/repos/lodash/lodash,lodash set not working,open
+1138540965,https//api.github.com/repos/lodash/lodash,includes(collection target) doesnt throw typescript error when target is not part of union type collection,open
+1136823106,https//api.github.com/repos/lodash/lodash,lodash.com follow has overflow set weirdly,open
+1133077149,https//api.github.com/repos/lodash/lodash,Add dropEndsWhile,open
+1142816820,https//api.github.com/repos/andrewplummer/Sugar,Date.create cant parse dots in time format,open
+1039606533,https//api.github.com/repos/andrewplummer/Sugar,Reversed fromUTC fallback logic,open
+997744547,https//api.github.com/repos/andrewplummer/Sugar,Problem parsing Spanish DateTime string,open
+971739745,https//api.github.com/repos/andrewplummer/Sugar,Add que vem modifier to pt locale,open
+930179209,https//api.github.com/repos/andrewplummer/Sugar,Date.create to find a date in complex string,open
+928691525,https//api.github.com/repos/andrewplummer/Sugar,Formatting large numbers gives unexpected results,open
+928616426,https//api.github.com/repos/andrewplummer/Sugar,titleize does not take in account addAcronym,open
+858788789,https//api.github.com/repos/andrewplummer/Sugar,Modifying an existing format / Adding a format for all Locales,open
+781497518,https//api.github.com/repos/andrewplummer/Sugar,Sugar.Date.get throwing Invalid Date when running on 2 tests in jest,open
+780588180,https//api.github.com/repos/andrewplummer/Sugar,Add overloads for Array.first() and Array.last(),open
+709349633,https//api.github.com/repos/andrewplummer/Sugar,Only call localCheck when time is involved,open
+692958552,https//api.github.com/repos/andrewplummer/Sugar,typo in docs,open
+656163521,https//api.github.com/repos/andrewplummer/Sugar,TypeScript typings pollute global namespace,open
+656155970,https//api.github.com/repos/andrewplummer/Sugar,Cant import sugar-date in TypeScript,open
+526740007,https//api.github.com/repos/andrewplummer/Sugar,Parse dd mmm yyyy hhmm and weekday dd mm yyyy hhmm in Polish,open
+526734848,https//api.github.com/repos/andrewplummer/Sugar,Fix for getting global context in recent Firefox and Thunderbird,open
+526734266,https//api.github.com/repos/andrewplummer/Sugar,Dont convert locale directory names to lower case,open
+526715483,https//api.github.com/repos/andrewplummer/Sugar,Cant parse Polish date with time,open
+510535236,https//api.github.com/repos/andrewplummer/Sugar,Adding Marathi language to Sugar language code- (mar)EOM,open
+500577980,https//api.github.com/repos/andrewplummer/Sugar,Datejs replacement,open
+493691049,https//api.github.com/repos/andrewplummer/Sugar,hu (magyar - Hungarian) locale,open
+491624612,https//api.github.com/repos/andrewplummer/Sugar,hu (Hungarian - magyar) locale,open
+479226813,https//api.github.com/repos/andrewplummer/Sugar,How to custom format a time range,open
+476565500,https//api.github.com/repos/andrewplummer/Sugar,gulp -m all -l all builddev fails on OS that cares about case in file names,open
+476563714,https//api.github.com/repos/andrewplummer/Sugar,Please put version 2.0.6 on sugarjs.com,open
+459361194,https//api.github.com/repos/andrewplummer/Sugar,Same date returns for last or first weekday of a given month,open
+455643573,https//api.github.com/repos/andrewplummer/Sugar,Parsing a date using fromUTC not working as expected,open
+419872245,https//api.github.com/repos/andrewplummer/Sugar,Typescript typing Array.inGroups and Array.inGroups should return T,open
+417797433,https//api.github.com/repos/andrewplummer/Sugar,Object.isFunction returns false for async functions,open
+416101654,https//api.github.com/repos/andrewplummer/Sugar,Create date with Finnish locale is broken with 2.0.6 version,open
+1197956086,https//api.github.com/repos/ReactiveX/rxjs,Failing test cases for reentrant ReplaySubject,open
+1190676705,https//api.github.com/repos/ReactiveX/rxjs,fix innerFrom throw ObservableTypeError when Observable Class is different (different version duplicate code),open
+1190573781,https//api.github.com/repos/ReactiveX/rxjs,Subject specs run mode,open
+1190568796,https//api.github.com/repos/ReactiveX/rxjs,chore(partition) convert partition specs to run mode,open
+1190567806,https//api.github.com/repos/ReactiveX/rxjs,chore(pairs) convert pairs specs to run mode,open
+1190567173,https//api.github.com/repos/ReactiveX/rxjs,chore(onErrorResumeNext) convert onErrorResumeNext specs to run mode,open
+1190566292,https//api.github.com/repos/ReactiveX/rxjs,chore(of) convert of specs to run mode,open
+1190563786,https//api.github.com/repos/ReactiveX/rxjs,chore(merge) convert merge specs to run mode,open
+1190562365,https//api.github.com/repos/ReactiveX/rxjs,chore(interval) convert interval specs to run mode,open
+1190560678,https//api.github.com/repos/ReactiveX/rxjs,chore(iif) convert iif specs to run mode,open
+1184001954,https//api.github.com/repos/ReactiveX/rxjs,chore include docs build scripts in pipeline,open
+1183963851,https//api.github.com/repos/ReactiveX/rxjs,chore remove deprecated IE polyfills,open
+1180888223,https//api.github.com/repos/ReactiveX/rxjs,exhaustAll marble diagram references deprecated exhaust function,open
+1174249342,https//api.github.com/repos/ReactiveX/rxjs,7.5.5 increased bundle size,open
+1169571393,https//api.github.com/repos/ReactiveX/rxjs,fix add missing deprecated JSDoc tag to pluck overload signatures,open
+1168489510,https//api.github.com/repos/ReactiveX/rxjs,fix animationFrameScheduler prematurely executing actions without delay,open
+1168445505,https//api.github.com/repos/ReactiveX/rxjs,animationFrameScheduler with delay causes incorrect behavior (and exception),open
+1168397691,https//api.github.com/repos/ReactiveX/rxjs,fix animationFrameScheduler and asapScheduler no longer executing actions,open
+1166778240,https//api.github.com/repos/ReactiveX/rxjs,docs add UnaryFunction documentation,open
+1164482986,https//api.github.com/repos/ReactiveX/rxjs,Kill dependabot because its stupid.,open
+1164481799,https//api.github.com/repos/ReactiveX/rxjs,windowWhen should NOT be accepting completions as notification signals,open
+1164445258,https//api.github.com/repos/ReactiveX/rxjs,Switching branches,open
+1163903728,https//api.github.com/repos/ReactiveX/rxjs,debounceTime() stops working when computer time changes,open
+1163431267,https//api.github.com/repos/ReactiveX/rxjs,fix share and connect no longer bundle scheduling code by default,open
+1163417054,https//api.github.com/repos/ReactiveX/rxjs,Dont use from(x) in the library use innerFrom,open
+1162919617,https//api.github.com/repos/ReactiveX/rxjs,add effect causes do the function inside the action pipe twice,open
+1161839214,https//api.github.com/repos/ReactiveX/rxjs,New timeout operator no longer supports configuring a timeout regarding source completion,open
+1159027366,https//api.github.com/repos/ReactiveX/rxjs,Implement Symbol.asyncIterator on Observable,open
+1158989466,https//api.github.com/repos/ReactiveX/rxjs,esbuild is unable to tree-shake rxjs under node platform,open
+1157120557,https//api.github.com/repos/ReactiveX/rxjs,animationFrameScheduler incorrect behavior,open
+1197901863,https//api.github.com/repos/baconjs/bacon.js,Bump minimist from 1.2.5 to 1.2.6,open
+1131337466,https//api.github.com/repos/baconjs/bacon.js,Bump pathval from 1.1.0 to 1.1.1,open
+1116307833,https//api.github.com/repos/baconjs/bacon.js,Bump cached-path-relative from 1.0.2 to 1.1.0,open
+1104261005,https//api.github.com/repos/baconjs/bacon.js,Bump shelljs from 0.8.4 to 0.8.5,open
+965511781,https//api.github.com/repos/baconjs/bacon.js,Bump path-parse from 1.0.6 to 1.0.7,open
+918351741,https//api.github.com/repos/baconjs/bacon.js,Bump normalize-url from 4.5.0 to 4.5.1,open
+914148728,https//api.github.com/repos/baconjs/bacon.js,Bump glob-parent from 5.1.1 to 5.1.2,open
+877802209,https//api.github.com/repos/baconjs/bacon.js,Bump lodash from 4.17.15 to 4.17.21,open
+877776367,https//api.github.com/repos/baconjs/bacon.js,Bump handlebars from 4.7.6 to 4.7.7,open
+877736179,https//api.github.com/repos/baconjs/bacon.js,Bump underscore from 1.10.2 to 1.13.1,open
+864011677,https//api.github.com/repos/baconjs/bacon.js,Propertystring is not assignable to type Propertystring | null,open
+844705770,https//api.github.com/repos/baconjs/bacon.js,Bump y18n from 4.0.0 to 4.0.1,open
+825172642,https//api.github.com/repos/baconjs/bacon.js,Bump elliptic from 6.5.2 to 6.5.4,open
+804760583,https//api.github.com/repos/baconjs/bacon.js,flatMapLatest spawns next substream before the previous is disposed,open
+771352444,https//api.github.com/repos/baconjs/bacon.js,Travis needs to be replaced,open
+761748630,https//api.github.com/repos/baconjs/bacon.js,Bump ini from 1.3.5 to 1.3.7,open
+757281885,https//api.github.com/repos/baconjs/bacon.js,Bump highlight.js from 10.1.2 to 10.4.1,open
+754266407,https//api.github.com/repos/baconjs/bacon.js,Internet Explorer problem as of version 3.0.17 (minor upgrade),open
+749694182,https//api.github.com/repos/baconjs/bacon.js,Event type guards,open
+728989913,https//api.github.com/repos/baconjs/bacon.js,Remove dist directory from git,open
+683497681,https//api.github.com/repos/baconjs/bacon.js,Bacon.js 4.0,open
+683494275,https//api.github.com/repos/baconjs/bacon.js,Property current value handling in case of re-activation,open
+640720122,https//api.github.com/repos/baconjs/bacon.js,Shorthand for filter map ,open
+639903332,https//api.github.com/repos/baconjs/bacon.js,Bacon.when doesnt respect the syncronization pattern unless I subscribe to the source stream,open
+538670125,https//api.github.com/repos/baconjs/bacon.js,flatMapLatest(Bacon.once) is unlike flatMap(Bacon.once),open
+468343635,https//api.github.com/repos/baconjs/bacon.js,Seedless versions of .fold (aka .reduce) and .scan,open
+461912523,https//api.github.com/repos/baconjs/bacon.js,Solving cyclic dependencies,open
+456538845,https//api.github.com/repos/baconjs/bacon.js,Observable.filter with type guard predicate,open
+454315091,https//api.github.com/repos/baconjs/bacon.js,Make .flatScan work seedless,open
+423514218,https//api.github.com/repos/baconjs/bacon.js,.onValue side-effect function can unsubscribe itself by returning Bacon.noMore,open
+955276532,https//api.github.com/repos/caolan/highland,memo does not accept array,open
+673664672,https//api.github.com/repos/caolan/highland,how to wait for async operations inside iterator of Stream.reduce,open
+656245513,https//api.github.com/repos/caolan/highland,I think that toPromise is taking a wrong value,open
+633575704,https//api.github.com/repos/caolan/highland,Suggestion update docs to indicate async generators support,open
+631569044,https//api.github.com/repos/caolan/highland,Calling src.destroy() in src.map(...).stopOnError(ex) errors with Cannot write to stream after nil.,open
+619786557,https//api.github.com/repos/caolan/highland,Is this project semi-abandoned,open
+616714963,https//api.github.com/repos/caolan/highland,Returning an async iterable,open
+580563272,https//api.github.com/repos/caolan/highland,How to terminate a generator should be documented,open
+553091986,https//api.github.com/repos/caolan/highland,UnhandledPromiseRejectionWarning in node,open
+550507524,https//api.github.com/repos/caolan/highland,deadlock when using batch with flatMap and mongo stream as source (node  10),open
+548558754,https//api.github.com/repos/caolan/highland,691 Propagate destroy from consumers to sources,open
+548218419,https//api.github.com/repos/caolan/highland,_(readable).pipe(writable) does not destroy readable when writable closes,open
+536816397,https//api.github.com/repos/caolan/highland,mention merge in parallel doc,open
+534336293,https//api.github.com/repos/caolan/highland,Docs fix,open
+523936937,https//api.github.com/repos/caolan/highland,Piping through to a new stream,open
+453679277,https//api.github.com/repos/caolan/highland,toPromise() does not propagate errors properly,open
+425424472,https//api.github.com/repos/caolan/highland,Using async/await in doto - toPromise resolves to early ,open
+421490869,https//api.github.com/repos/caolan/highland,Worker Threads,open
+381857325,https//api.github.com/repos/caolan/highland,pipe to writable with parameters,open
+371281314,https//api.github.com/repos/caolan/highland,Proposal Stream.buffer(highWaterMark),open
+339278148,https//api.github.com/repos/caolan/highland,concat stream not emitting end event,open
+332329871,https//api.github.com/repos/caolan/highland,Implement flatTap,open
+329379657,https//api.github.com/repos/caolan/highland,How to extract the result from reduce(),open
+322359437,https//api.github.com/repos/caolan/highland,Make .toPromise attempt to use default Promise constructor,open
+282103700,https//api.github.com/repos/caolan/highland,Pausing a rate-limited stream doesnt work,open
+268233416,https//api.github.com/repos/caolan/highland,Question how can I consume this array of Streams,open
+265377883,https//api.github.com/repos/caolan/highland,Dynamic forking inconsistent behavior,open
+226596804,https//api.github.com/repos/caolan/highland,Any way to convert array into individual values,open
+223823161,https//api.github.com/repos/caolan/highland,Piped streams not flowing with batch,open
+223209601,https//api.github.com/repos/caolan/highland,FlatTap,open
+881547833,https//api.github.com/repos/cujojs/most,chore(deps) bump hosted-git-info from 2.5.0 to 2.8.9,open
+877744882,https//api.github.com/repos/cujojs/most,chore(deps) bump handlebars from 4.0.11 to 4.7.7,open
+791026199,https//api.github.com/repos/cujojs/most,Make subscribe callbacks optional in typings,open
+767535412,https//api.github.com/repos/cujojs/most,Wrong typescript type for .ap(),open
+714449471,https//api.github.com/repos/cujojs/most,chore(deps) bump is-my-json-valid from 2.16.1 to 2.20.5,open
+714449468,https//api.github.com/repos/cujojs/most,chore(deps) bump websocket-extensions from 0.1.3 to 0.1.4,open
+686271787,https//api.github.com/repos/cujojs/most,Clarify currently recommended version of Most,open
+646999081,https//api.github.com/repos/cujojs/most,adding Solid.js into the perf comparison,open
+633562663,https//api.github.com/repos/cujojs/most,Claiming support for asynchronous generators creates confusion,open
+618043667,https//api.github.com/repos/cujojs/most,Typescript Bad function signature for .sample().,open
+604706895,https//api.github.com/repos/cujojs/most,Update typescript typings for .sample(),open
+387252124,https//api.github.com/repos/cujojs/most,Update the Perf Test readme,open
+349313682,https//api.github.com/repos/cujojs/most,test performance upgrade,open
+347565827,https//api.github.com/repos/cujojs/most,Streams became covariant,open
+319895553,https//api.github.com/repos/cujojs/most,How to write a transducer,open
+288058918,https//api.github.com/repos/cujojs/most,How to test delayed observables,open
+283625191,https//api.github.com/repos/cujojs/most,transduce() is missing from the type definition,open
+277496590,https//api.github.com/repos/cujojs/most,An in-range update of symbol-observable is breaking the build ,open
+276696557,https//api.github.com/repos/cujojs/most,Fix typings for unfold,open
+275097505,https//api.github.com/repos/cujojs/most,Make mergeMapConcurrently a public API,open
+261902790,https//api.github.com/repos/cujojs/most,An in-range update of uglify-js is breaking the build ,open
+261175235,https//api.github.com/repos/cujojs/most,An in-range update of most/multicast is breaking the build ,open
+258344271,https//api.github.com/repos/cujojs/most,events from fromEvent  scan out of order,open
+255589088,https//api.github.com/repos/cujojs/most,Type definitions for observables,open
+252238871,https//api.github.com/repos/cujojs/most,Stacktrace of crypric errors is not descriptive,open
+239942196,https//api.github.com/repos/cujojs/most,Suggestions on the best way to replicate RxJS buffer(),open
+238437209,https//api.github.com/repos/cujojs/most,Marble Testing,open
+227193430,https//api.github.com/repos/cujojs/most,Question assert that a stream is active/has emitted/holds a value,open
+209436915,https//api.github.com/repos/cujojs/most,Added spreadability to sample,open
+203855748,https//api.github.com/repos/cujojs/most,Unexpected raising error sequence,open
+1200553206,https//api.github.com/repos/mobxjs/mobx,Mobx action not registering on Object.assign,open
+1198670961,https//api.github.com/repos/mobxjs/mobx,Install mobx-react peer dependency error on react v18.0.0,open
+1195929900,https//api.github.com/repos/mobxjs/mobx,Observed component names show as Memo(ComponentName) with mobx-react-lite 3.2.3,open
+1190556372,https//api.github.com/repos/mobxjs/mobx,Mock console.warn in tests and verify warnings are called in the right place,open
+1175532647,https//api.github.com/repos/mobxjs/mobx,Allow using as const for creating tuples for map.replace,open
+1165078870,https//api.github.com/repos/mobxjs/mobx,Little grammar fix in doc,open
+1162175398,https//api.github.com/repos/mobxjs/mobx,Bug in Example domain store code - infinite reaction loop,open
+1157530325,https//api.github.com/repos/mobxjs/mobx,eslint-plugin-mobx no-anonymous-observer rule false positive on arrow functions,open
+1150326058,https//api.github.com/repos/mobxjs/mobx,Error mobx action fields are not reassignable while using multiple inheritance,open
+1131642022,https//api.github.com/repos/mobxjs/mobx,Postfix dist/mobx.esm with .mjs; Add package exports,open
+1128634840,https//api.github.com/repos/mobxjs/mobx,eslint missing-make-observable-rule support for namespaces and fix imports,open
+1099602693,https//api.github.com/repos/mobxjs/mobx,Documentation Add installation.md note about Next.js,open
+1081466294,https//api.github.com/repos/mobxjs/mobx,Move away from TSDX,open
+1067463431,https//api.github.com/repos/mobxjs/mobx,Mobx-react observer() wrapped components break babel component transforms.,open
+1046083110,https//api.github.com/repos/mobxjs/mobx,add comment to help react-native users avoid react bug with flatlist,open
+1034211396,https//api.github.com/repos/mobxjs/mobx,Bugs when using mobx in react native (fast-refresh),open
+988275791,https//api.github.com/repos/mobxjs/mobx,Setting loose false on babel/plugin-proposal-class-properties breaks fast refresh on React Native,open
+983717373,https//api.github.com/repos/mobxjs/mobx,react native and mobx 6.x with TypeScript and Babel recommend options cause network request without any response,open
+929099426,https//api.github.com/repos/mobxjs/mobx,WIP Support React 18,open
+921918555,https//api.github.com/repos/mobxjs/mobx,Add computed.shallow annotation,open
+804350716,https//api.github.com/repos/mobxjs/mobx,mobx-undecorate problem with flow js nullable types,open
+792453862,https//api.github.com/repos/mobxjs/mobx,replace the deprecated react type definition with recommended type def,open
+788324435,https//api.github.com/repos/mobxjs/mobx,displayName not working in React 17 with observer,open
+724039055,https//api.github.com/repos/mobxjs/mobx,Consolidate behavior of React.forwardRef  observer,open
+725663280,https//api.github.com/repos/mobxjs/mobx,Separate Provider/inject from package,open
+724035460,https//api.github.com/repos/mobxjs/mobx,Support concurrent features React / React 18,open
+906352955,https//api.github.com/repos/cyclejs/cyclejs,Returned value of makeHTTPDriver() doesnt typecheck when passed two arguments,open
+868936831,https//api.github.com/repos/cyclejs/cyclejs,Cycle.js Neo The new DOM driver,open
+787145286,https//api.github.com/repos/cyclejs/cyclejs,Example build fails,open
+690106852,https//api.github.com/repos/cyclejs/cyclejs,Consider renaming MainDOMSource to DOMSource,open
+688563550,https//api.github.com/repos/cyclejs/cyclejs,Fix isolate outer si typing,open
+687995096,https//api.github.com/repos/cyclejs/cyclejs,cycle/state Reducer to expect defined state,open
+605105022,https//api.github.com/repos/cyclejs/cyclejs,fix  Make captureClicks compatible with history driver push,open
+592202773,https//api.github.com/repos/cyclejs/cyclejs,cycle/state ignores write effects until youve actually read from the source,open
+591296402,https//api.github.com/repos/cyclejs/cyclejs,Unable to sort a Collection with cycle/state,open
+591174146,https//api.github.com/repos/cyclejs/cyclejs,tsx-seconds-elapse example doesnt compiles,open
+569560383,https//api.github.com/repos/cyclejs/cyclejs,The next evolution of Cycle.js -- Cycle.js Neo,open
+554244257,https//api.github.com/repos/cyclejs/cyclejs,DOM driver imports both ES and CommonJS snabbdom modules,open
+526858741,https//api.github.com/repos/cyclejs/cyclejs,Migrate from TSLint to TypeScript ESLint,open
+507489392,https//api.github.com/repos/cyclejs/cyclejs,History pathname can no longer contain the search query and/or hash,open
+476177968,https//api.github.com/repos/cyclejs/cyclejs,dom ownerTarget approach not backwards compatible with v20,open
+473289312,https//api.github.com/repos/cyclejs/cyclejs,Improper ES6 import statement breaks (so far unnoticed because of correct CJS result),open
+473114582,https//api.github.com/repos/cyclejs/cyclejs,Fix improper import statement,open
+462395334,https//api.github.com/repos/cyclejs/cyclejs,New state ignored when reducer returned reference to same state it had received,open
+458111311,https//api.github.com/repos/cyclejs/cyclejs,Added info about bubbles param in events method,open
+456567578,https//api.github.com/repos/cyclejs/cyclejs,the Cycle run() function to be used with most/core,open
+432573982,https//api.github.com/repos/cyclejs/cyclejs,window driver,open
+424666058,https//api.github.com/repos/cyclejs/cyclejs,Examples menu document,open
+424539673,https//api.github.com/repos/cyclejs/cyclejs,DOM lifecycle events selection,open
+413685877,https//api.github.com/repos/cyclejs/cyclejs,cycle/time surprising behavior of Time.diagram in combination with flatten,open
+412584406,https//api.github.com/repos/cyclejs/cyclejs,Pre-existing style attribute is removed from vnode,open
+403556607,https//api.github.com/repos/cyclejs/cyclejs,Add dataset to default snabbdom modules for html,open
+394560722,https//api.github.com/repos/cyclejs/cyclejs,MockedDOMSource is not assignable to DOMSource,open
+393644323,https//api.github.com/repos/cyclejs/cyclejs,Add file upload example and address issue 294 with solution.,open
+387394038,https//api.github.com/repos/cyclejs/cyclejs,Cannot import cycle/time/rxjs,open
+371108833,https//api.github.com/repos/cyclejs/cyclejs,Docs revamp,open
+1062194618,https//api.github.com/repos/concentjs/concent,,open
+1041843222,https//api.github.com/repos/concentjs/concent,,open
+1161767070,https//api.github.com/repos/immutable-js/immutable-js,Example implementations for hashCode() in documentation,open
+1129580606,https//api.github.com/repos/immutable-js/immutable-js,Immutable.Map hashCode collision when swapping the boolean values in an object,open
+1094712666,https//api.github.com/repos/immutable-js/immutable-js,Would be nice to have OrderedMap and OrderedSet be indexed,open
+1051505613,https//api.github.com/repos/immutable-js/immutable-js,Collection.Indexed implementations inconsistently handle non-integer indices,open
+1042262779,https//api.github.com/repos/immutable-js/immutable-js,Immutable v4 Records confusing behavior with undefined,open
+1040477888,https//api.github.com/repos/immutable-js/immutable-js,BREAKING ES6 tree-shaking by only using named exports and preserving modules,open
+1035641934,https//api.github.com/repos/immutable-js/immutable-js,update typings to indicate Seq() faux-iterator support,open
+1034268986,https//api.github.com/repos/immutable-js/immutable-js,Immutable.Map and Immutable.Ordered.Map from { p string T },open
+1034265425,https//api.github.com/repos/immutable-js/immutable-js,types are wrong for using plain arrays instead of iterable,open
+1029305063,https//api.github.com/repos/immutable-js/immutable-js,Flow Union Types do not work with RecordOf,open
+957165400,https//api.github.com/repos/immutable-js/immutable-js,Record Flow type improvements,open
+955739250,https//api.github.com/repos/immutable-js/immutable-js,Wrap immutable.d.ts type declarations in a module to avoid a global declaration,open
+948027760,https//api.github.com/repos/immutable-js/immutable-js,Handle circular reference with toJS,open
+942746203,https//api.github.com/repos/immutable-js/immutable-js,test replace make-synchronous with synckit which is much faster,open
+937859944,https//api.github.com/repos/immutable-js/immutable-js,Improve Typescript definition for Map,open
+892107101,https//api.github.com/repos/immutable-js/immutable-js,Better Type Inference,open
+799507470,https//api.github.com/repos/immutable-js/immutable-js,mergeIn throws Cannot read property merge of null when mergeIn on keyPath that has a null value,open
+791150220,https//api.github.com/repos/immutable-js/immutable-js,Mutating the Prototype of an object will cause your code to run very slowly;,open
+757096561,https//api.github.com/repos/immutable-js/immutable-js,Range() defaulting to infinite is easy to misuse and end up with a silent infinite loop,open
+728251751,https//api.github.com/repos/immutable-js/immutable-js,Time complexities to every function,open
+723826480,https//api.github.com/repos/immutable-js/immutable-js,SortedList type,open
+717027947,https//api.github.com/repos/immutable-js/immutable-js,Feature request Priority queue / self-sorting list can PR,open
+687755255,https//api.github.com/repos/immutable-js/immutable-js,TECH.compact code of VNode,open
+652047907,https//api.github.com/repos/immutable-js/immutable-js,Inconsistency logic behavior between mergeWith  mergeDeepWith,open
+612423141,https//api.github.com/repos/immutable-js/immutable-js,Regression v4 Filtering via skipUntil vs findIndex/takeLast,open
+560814814,https//api.github.com/repos/immutable-js/immutable-js,Immutable Js in Typescript,open
+541852099,https//api.github.com/repos/immutable-js/immutable-js,Inheritance cheatsheet,open
+538893163,https//api.github.com/repos/immutable-js/immutable-js,Equivalent ImmutableJS object seems to have high memory usage ,open
+528561228,https//api.github.com/repos/immutable-js/immutable-js,updateWhere to update a sublist,open
+520555117,https//api.github.com/repos/immutable-js/immutable-js,Feature request API for memoizing unchanged collection subtrees in  .map .filter etc,open
+602806542,https//api.github.com/repos/swannodette/mori,docs Fix simple typo begining - beginning,open
+372332812,https//api.github.com/repos/swannodette/mori,build updated version for es6 based on latest version of clojurescript,open
+214274744,https//api.github.com/repos/swannodette/mori,toClj throws exception for js object with property j having a numeric value,open
+212325020,https//api.github.com/repos/swannodette/mori,add vec as PersistentVector.fromArray,open
+199282547,https//api.github.com/repos/swannodette/mori,Unix like Build Failing on fresh repository.,open
+196007083,https//api.github.com/repos/swannodette/mori,npm alias run-script - run,open
+185639392,https//api.github.com/repos/swannodette/mori,Essential vector methods missing,open
+174731920,https//api.github.com/repos/swannodette/mori,A typo in documentation,open
+164406450,https//api.github.com/repos/swannodette/mori,sortedSet sort order,open
+164406205,https//api.github.com/repos/swannodette/mori,set what determines uniqueness,open
+164202390,https//api.github.com/repos/swannodette/mori,doc typo repeatedly ,open
+164201962,https//api.github.com/repos/swannodette/mori,doc typo repeat ,open
+164201830,https//api.github.com/repos/swannodette/mori,doc typo iterate ,open
+164199817,https//api.github.com/repos/swannodette/mori,doc typo takeWhile,open
+164199472,https//api.github.com/repos/swannodette/mori,doc typos take ,open
+164197989,https//api.github.com/repos/swannodette/mori,doc typo reduce ,open
+162251873,https//api.github.com/repos/swannodette/mori,React propTypes,open
+158672740,https//api.github.com/repos/swannodette/mori,Collections should implement toJSON,open
+158132541,https//api.github.com/repos/swannodette/mori,Documentation for transduce is missing,open
+143143564,https//api.github.com/repos/swannodette/mori,How do you get the index of a given string in a sequence of strings,open
+134123713,https//api.github.com/repos/swannodette/mori,Export type declarations for type-checking with Flow,open
+133603912,https//api.github.com/repos/swannodette/mori,Fixes lein_prefer script,open
+122366949,https//api.github.com/repos/swannodette/mori,Calling m.toClj on an object with key uc breaks,open
+116363061,https//api.github.com/repos/swannodette/mori,ES6 is final.,open
+106663795,https//api.github.com/repos/swannodette/mori,No unit tests,open
+104215507,https//api.github.com/repos/swannodette/mori,ES2015 iterator support not really provided,open
+100734224,https//api.github.com/repos/swannodette/mori,Documentation for sortedMap is broken,open
+96310811,https//api.github.com/repos/swannodette/mori,Idiomatic JS method names being obfuscated by Closure,open
+94345760,https//api.github.com/repos/swannodette/mori,perhaps a different license,open
+90938082,https//api.github.com/repos/swannodette/mori,Please use the JS conventions for mori.js,open
+772531416,https//api.github.com/repos/mauriciosantos/Buckets-JS,Balancing BSTree using AVL,open
+771621285,https//api.github.com/repos/mauriciosantos/Buckets-JS,added inorder using node,open
+562573335,https//api.github.com/repos/mauriciosantos/Buckets-JS,BSTree isnt balancing,open
+480919815,https//api.github.com/repos/mauriciosantos/Buckets-JS,Feature Request Add N-ary tree data structure,open
+474191839,https//api.github.com/repos/mauriciosantos/Buckets-JS,Removing the last element from a LinkedList is unnecessarily slow,open
+402022550,https//api.github.com/repos/mauriciosantos/Buckets-JS,BSTree - inorderTraversal from specific starting point,open
+206075788,https//api.github.com/repos/mauriciosantos/Buckets-JS,methods created when creating new object should be in prototype chain not in object itself,open
+817931401,https//api.github.com/repos/flesler/hashmap,HashMap Support with React Native,open
+812498232,https//api.github.com/repos/flesler/hashmap,3.0.0 Switched to hashmap with performance improvements,open
+1178648040,https//api.github.com/repos/anvaka/ngraph.graph,Documentation Error removeLink using two arguments,open
+1176069345,https//api.github.com/repos/anvaka/ngraph.graph,Linking nodes in the graph doesnt create links in the nodes,open
+964954113,https//api.github.com/repos/anvaka/ngraph.graph,About weighted graph support.,open
+933682315,https//api.github.com/repos/anvaka/ngraph.graph,Merging multiple graphs,open
+550304965,https//api.github.com/repos/anvaka/ngraph.graph,See link direction,open
+520715231,https//api.github.com/repos/anvaka/ngraph.graph,Adds oriented version of getLink and allow people to set default orientatidness,open
+423943399,https//api.github.com/repos/anvaka/ngraph.graph,Add more advanced ways of iterating nodes and links,open
+1202874873,https//api.github.com/repos/moment/moment,ES5 support is broken with the addition of const in 2.29.2,open
+1200036014,https//api.github.com/repos/moment/moment,bugfix Remove const usage (fixes 5989 5996),open
+1199374936,https//api.github.com/repos/moment/moment,Patch for Path Traversal dir/../../filename in moment.locale,open
+1198049087,https//api.github.com/repos/moment/moment,locale Update pt-br.js,open
+1194787723,https//api.github.com/repos/moment/moment,Moment objects should be comparable,open
+1193890266,https//api.github.com/repos/moment/moment,v2.29.2 of moment with locales doesnt exist on CDNJS,open
+1193667480,https//api.github.com/repos/moment/moment,fix advisory link,open
+1193391945,https//api.github.com/repos/moment/moment,Const usage added which adds new consumption requirements and breaks tests,open
+1193137001,https//api.github.com/repos/moment/moment,Converting to locale date subtracts 7 minutes,open
+1193010749,https//api.github.com/repos/moment/moment,bugfix undefined-locale-name,open
+1180528261,https//api.github.com/repos/moment/moment,Add information about the war in Ukraine to the site and add the possibility of donation,open
+1171724550,https//api.github.com/repos/moment/moment,deleted,open
+1164817836,https//api.github.com/repos/moment/moment,changing the months name in persian locale js file,open
+1164815126,https//api.github.com/repos/moment/moment,incorrect months names in the locale js file,open
+1158694561,https//api.github.com/repos/moment/moment,By Iterator is not returning the last date given a range,open
+1138156603,https//api.github.com/repos/moment/moment,moment.updateLocale not effect,open
+1119243890,https//api.github.com/repos/moment/moment,Moment-with-locale.js is missing its comment,open
+1116359453,https//api.github.com/repos/moment/moment,Russian locale - wrong time creation from string date,open
+1113558590,https//api.github.com/repos/moment/moment,tests Add test(s) for the weird days of JAN2022,open
+1109983611,https//api.github.com/repos/moment/moment,Update and rename ku.js to ckb.js,open
+1109884364,https//api.github.com/repos/moment/moment,Subtract months from a string date using moment library,open
+1105682945,https//api.github.com/repos/moment/moment,moment.utc drops time part when used as mongoose default,open
+1097927496,https//api.github.com/repos/moment/moment,Locale.weekdaysMin(Boolean) not declared,open
+1085544670,https//api.github.com/repos/moment/moment,how to mock moment() in jest,open
+1083232553,https//api.github.com/repos/moment/moment,Bug Wrong time when an object is sent to the moment function,open
+1080470132,https//api.github.com/repos/moment/moment,Bug with moment.year(x).week(y).endOf(week).  Results differ depending on current date.,open
+1067276791,https//api.github.com/repos/moment/moment,Bug in getting week of the year,open
+1054008629,https//api.github.com/repos/moment/moment,Parsing date with different timezone Z is returning previous date,open
+1036709867,https//api.github.com/repos/moment/moment,Adding new locale is not possible,open
+1034530426,https//api.github.com/repos/moment/moment,new locale added new locale ku-kmr (Northern Kurdish),open
+860750887,https//api.github.com/repos/rmm5t/jquery-timeago,How can I add translation for months names,open
+744802649,https//api.github.com/repos/rmm5t/jquery-timeago,NaN variable appear after pasing variable to timeago,open
+704872078,https//api.github.com/repos/rmm5t/jquery-timeago,Support multiple locales concurrent,open
+606752976,https//api.github.com/repos/rmm5t/jquery-timeago,Fix 363 Replace jQuery deprecated methods trim and isFunction,open
+604320827,https//api.github.com/repos/rmm5t/jquery-timeago,JQuery Deprecated Methods,open
+512202045,https//api.github.com/repos/rmm5t/jquery-timeago,Add setting to pass options for date.toLocaleString() ,open
+364562757,https//api.github.com/repos/rmm5t/jquery-timeago,substitute function does not work for numbers  9,open
+351828585,https//api.github.com/repos/rmm5t/jquery-timeago,add use strict; to most files to avoid more warnings,open
+344857549,https//api.github.com/repos/rmm5t/jquery-timeago,Uncaught TypeError Cannot read property replace of undefined,open
+327802891,https//api.github.com/repos/rmm5t/jquery-timeago,Update jquery.timeago.zh-CN.js,open
+320693864,https//api.github.com/repos/rmm5t/jquery-timeago,Hindi locale,open
+297458795,https//api.github.com/repos/rmm5t/jquery-timeago,Add jquery-timeago dependency to UMD wrappers,open
+183932660,https//api.github.com/repos/rmm5t/jquery-timeago,added secondaryFuzzing support to allow customized post-processing,open
+158381284,https//api.github.com/repos/rmm5t/jquery-timeago,Multiple locale support,open
+119669560,https//api.github.com/repos/rmm5t/jquery-timeago,Prevent multiple initialization,open
+113814824,https//api.github.com/repos/rmm5t/jquery-timeago,Perfomance issue onLoad on larger page,open
+111073337,https//api.github.com/repos/rmm5t/jquery-timeago,Performance Issue setTimeout/setInterval,open
+108144137,https//api.github.com/repos/rmm5t/jquery-timeago,Tense class,open
+79904735,https//api.github.com/repos/rmm5t/jquery-timeago,Add a CSS Class or Style Color to Past DateTime,open
+45755141,https//api.github.com/repos/rmm5t/jquery-timeago,Cant activate timeago on elements prior to inserting them into the DOM,open
+40108362,https//api.github.com/repos/rmm5t/jquery-timeago,Use a single interval for all elements,open
+38734087,https//api.github.com/repos/rmm5t/jquery-timeago,specify locale when calling timeago,open
+35221013,https//api.github.com/repos/rmm5t/jquery-timeago,different setings for different page,open
+31927026,https//api.github.com/repos/rmm5t/jquery-timeago,Make each timeout interval depend on the timestamp itself,open
+29341927,https//api.github.com/repos/rmm5t/jquery-timeago,Enable programmatic locale switching,open
+29325452,https//api.github.com/repos/rmm5t/jquery-timeago,Treat dates as dates rather than midnight,open
+27944667,https//api.github.com/repos/rmm5t/jquery-timeago,Less than a minute from now,open
+27556094,https//api.github.com/repos/rmm5t/jquery-timeago,Changed words var into a table lookup,open
+25765282,https//api.github.com/repos/rmm5t/jquery-timeago,Only days,open
+25036956,https//api.github.com/repos/rmm5t/jquery-timeago,Optionally set a cutoff message.,open
+784548292,https//api.github.com/repos/matthewmueller/date,Unofficial date.js has new v4.0.0 - possible malware,open
+782903735,https//api.github.com/repos/matthewmueller/date,Why are you returning a default date when the supplied input is invalid,open
+766281042,https//api.github.com/repos/matthewmueller/date,post meridiem is ignored in at 300 p.m. but not in at 300 pm,open
+748664737,https//api.github.com/repos/matthewmueller/date,date(30 days ago at 1800) gives date which is 1 month ahead in nodeJS. (instead of 1 month old date),open
+604285603,https//api.github.com/repos/matthewmueller/date,docs Fix simple typo proprocessed - preprocessed,open
+455071344,https//api.github.com/repos/matthewmueller/date,in 120 seconds return wrong time.,open
+423178749,https//api.github.com/repos/matthewmueller/date,at 6.09am does not work but at 609am does,open
+422876442,https//api.github.com/repos/matthewmueller/date,Today is tomorrow,open
+273357141,https//api.github.com/repos/matthewmueller/date,Querying next monday on a monday gives you today when it should return next weeks monday,open
+183692598,https//api.github.com/repos/matthewmueller/date,100 days from now not working,open
+183040273,https//api.github.com/repos/matthewmueller/date,(WIP DONT MERGE) NLP fix 3,open
+159768979,https//api.github.com/repos/matthewmueller/date,Return error if date not understood,open
+154884373,https//api.github.com/repos/matthewmueller/date,100 days ago not working,open
+138219845,https//api.github.com/repos/matthewmueller/date,Decimal values cause unexpected results,open
+137782001,https//api.github.com/repos/matthewmueller/date,started removing lodash to bring down the build size,open
+137689913,https//api.github.com/repos/matthewmueller/date,Fixes with NLP,open
+124921402,https//api.github.com/repos/matthewmueller/date,3.99 is interpreted as 4.39am,open
+114493130,https//api.github.com/repos/matthewmueller/date,support for timezones,open
+96095650,https//api.github.com/repos/matthewmueller/date,an hour later half an hour later seem not working,open
+91230333,https//api.github.com/repos/matthewmueller/date,Fix the bug of comparing dates by reference,open
+84442030,https//api.github.com/repos/matthewmueller/date,how about this yearthis month this week today,open
+80973411,https//api.github.com/repos/matthewmueller/date,Bug  in x days y hours z minutes giving incorrect result,open
+42589447,https//api.github.com/repos/matthewmueller/date,Support for non-relative date-time strings,open
+42588976,https//api.github.com/repos/matthewmueller/date,Support of EDTF,open
+38176072,https//api.github.com/repos/matthewmueller/date,Support for before/after,open
+38175420,https//api.github.com/repos/matthewmueller/date,Support for date-specific times,open
+28293575,https//api.github.com/repos/matthewmueller/date,favour current day (optionally),open
+26934689,https//api.github.com/repos/matthewmueller/date,same results for ago and from now,open
+25328191,https//api.github.com/repos/matthewmueller/date,Demo clicks broken in FireFox,open
+21214777,https//api.github.com/repos/matthewmueller/date,Fix monthByName,open
+1202105865,https//api.github.com/repos/date-fns/date-fns,Easy way to override just abbreviated month values for a locale,open
+1200316772,https//api.github.com/repos/date-fns/date-fns, Tajik (tg) language support,open
+1199541981,https//api.github.com/repos/date-fns/date-fns,Bug with subQuarters,open
+1195714200,https//api.github.com/repos/date-fns/date-fns,Problem with getWeekOfMonth function,open
+1191027547,https//api.github.com/repos/date-fns/date-fns,Uncaught TypeError Failed to resolve module specifier date-fns/_lib/toInteger/index.js. Relative references must start with either / ./ or ../.,open
+1188085872,https//api.github.com/repos/date-fns/date-fns,locale en-ZA has wrong short date format,open
+1188066559,https//api.github.com/repos/date-fns/date-fns,feat add decimals options to monthsToYears(),open
+1186604499,https//api.github.com/repos/date-fns/date-fns,Tree shaking issue in v2.28,open
+1183252212,https//api.github.com/repos/date-fns/date-fns,Sum two times,open
+1182994042,https//api.github.com/repos/date-fns/date-fns,Can we use YYYY or DD in format(),open
+1180750545,https//api.github.com/repos/date-fns/date-fns,Abbreviated dayValues for rusian locale ru,open
+1179584810,https//api.github.com/repos/date-fns/date-fns,Type definitions for format patterns,open
+1176927049,https//api.github.com/repos/date-fns/date-fns,Refactor differenceInYears and use differenceInMonths to calculate,open
+1175976867,https//api.github.com/repos/date-fns/date-fns,intervalToDuration doesnt work with DST times,open
+1175272217,https//api.github.com/repos/date-fns/date-fns,Change pt formatRelativeLocale to display masculine and feminine,open
+1174013500,https//api.github.com/repos/date-fns/date-fns,convert moment.js format strings to date-fns format strings,open
+1171753100,https//api.github.com/repos/date-fns/date-fns,Invalid time value,open
+1171589745,https//api.github.com/repos/date-fns/date-fns,Problem with intervalToDuration function,open
+1171357944,https//api.github.com/repos/date-fns/date-fns,Problem in Interval documentation,open
+1169547249,https//api.github.com/repos/date-fns/date-fns,set() returns wrong hour when DST changes,open
+1166329418,https//api.github.com/repos/date-fns/date-fns,Inconsistency with Danish (da) time format.,open
+1165759072,https//api.github.com/repos/date-fns/date-fns,Supporting Centuries and Millenia,open
+1164734501,https//api.github.com/repos/date-fns/date-fns,intlFormat missing one to one props mapping.,open
+1160526516,https//api.github.com/repos/date-fns/date-fns,Documentation site is not working properly.,open
+1158447694,https//api.github.com/repos/date-fns/date-fns,Missing dot for abbreviated Saturday in IS locale,open
+1158178144,https//api.github.com/repos/date-fns/date-fns,parse with format yyMd gives unexpected result,open
+1153271484,https//api.github.com/repos/date-fns/date-fns,format ISO doesnt support milliseconds,open
+1150865999,https//api.github.com/repos/date-fns/date-fns,Inject in the APP the locale of the database,open
+1146892723,https//api.github.com/repos/date-fns/date-fns,Problem with formatDistanceToNow function in Safari 15.3 on MacOS Monterey 12.2.1,open
+1144913851,https//api.github.com/repos/date-fns/date-fns,formatISO does not support milliseconds,open
+1202105583,https//api.github.com/repos/iamkun/dayjs,fix 1788- parsing negative Iso for duration correctly,open
+1200267105,https//api.github.com/repos/iamkun/dayjs,Output is NaN for a specific date format,open
+1199615217,https//api.github.com/repos/iamkun/dayjs,ambiguous definition of isValid(),open
+1198765071,https//api.github.com/repos/iamkun/dayjs,Format doesnt add a leading zero if the year is three digits,open
+1198660800,https//api.github.com/repos/iamkun/dayjs,fix Kurdish locale strings and formatted output contains non-standard kurdish characters,open
+1198405822,https//api.github.com/repos/iamkun/dayjs,dayjs function toArray() produces an illogical result,open
+1198044169,https//api.github.com/repos/iamkun/dayjs,Update pt-br.js,open
+1195829087,https//api.github.com/repos/iamkun/dayjs,.isValid() error on iphone,open
+1194886981,https//api.github.com/repos/iamkun/dayjs,Drop parse yyyy-Wnn format,open
+1192995319,https//api.github.com/repos/iamkun/dayjs,Wrong result when manipulating timezone date,open
+1189587166,https//api.github.com/repos/iamkun/dayjs,Duration Add Multiply option,open
+1188402677,https//api.github.com/repos/iamkun/dayjs,Add support for non-canonical timezones,open
+1186914121,https//api.github.com/repos/iamkun/dayjs,Add Turkish README.md,open
+1183253076,https//api.github.com/repos/iamkun/dayjs,Sum two times,open
+1178789202,https//api.github.com/repos/iamkun/dayjs,Dayjs.diff appears to malfunction when the dates have different time zones,open
+1178098598,https//api.github.com/repos/iamkun/dayjs,refactor replace deprecated String.prototype.substr(),open
+1176589600,https//api.github.com/repos/iamkun/dayjs,Year format incorrect,open
+1169755491,https//api.github.com/repos/iamkun/dayjs,moment to dayjs how to print UTC timezone flag,open
+1168927186,https//api.github.com/repos/iamkun/dayjs,Update de.js,open
+1168563937,https//api.github.com/repos/iamkun/dayjs,Update it-ch.js,open
+1166471720,https//api.github.com/repos/iamkun/dayjs,dayjs.tz() is not building dates with correct timezone in many cases,open
+1165329556,https//api.github.com/repos/iamkun/dayjs,Slovenian localized formats not by standard,open
+1165323848,https//api.github.com/repos/iamkun/dayjs,Native support for highly desirable date times,open
+1165171252,https//api.github.com/repos/iamkun/dayjs,dayjs().tz() not working as expected with math operations,open
+1162391456,https//api.github.com/repos/iamkun/dayjs,fix Locale bo Tibetan corrected the orders in formats,open
+1161198635,https//api.github.com/repos/iamkun/dayjs,safari cannot format 2022-09-11 000000 0800,open
+1160216762,https//api.github.com/repos/iamkun/dayjs,day() returns wrong value,open
+1158258536,https//api.github.com/repos/iamkun/dayjs,valueOf offset calculate not correctly when crossing summertime,open
+1158252566,https//api.github.com/repos/iamkun/dayjs,fix valueOf not correct when cross summertime,open
+1155765143,https//api.github.com/repos/iamkun/dayjs,tz() produces incorrect time when passing in milliseconds since the epoch near DST boundary.,open
+1202851224,https//api.github.com/repos/moment/luxon,style(demo) add background on hover,open
+1202782794,https//api.github.com/repos/moment/luxon,Update math.md,open
+1202586845,https//api.github.com/repos/moment/luxon,Date offset is wrong for negative date,open
+1200823937,https//api.github.com/repos/moment/luxon,Duration Infinity is converted to 0 by some methods,open
+1197895365,https//api.github.com/repos/moment/luxon,Bump minimist from 1.2.5 to 1.2.6,open
+1193539852,https//api.github.com/repos/moment/luxon,Add docs section about missing leap second support,open
+1190959850,https//api.github.com/repos/moment/luxon,Many 404 File not found errors for links in API docs,open
+1190954348,https//api.github.com/repos/moment/luxon,luxon global not available in dev console on API pages,open
+1185064695,https//api.github.com/repos/moment/luxon,Parsing error in Vietnamese,open
+1182265489,https//api.github.com/repos/moment/luxon,Duration.diff returns negative number,open
+1176403720,https//api.github.com/repos/moment/luxon,Broken links on documentation site,open
+1174257259,https//api.github.com/repos/moment/luxon,add a new YY (uppercase yy) parsing option to strictly parse two digit year,open
+1162776122,https//api.github.com/repos/moment/luxon,Unable to parse 7 digit milliseconds,open
+1162713651,https//api.github.com/repos/moment/luxon,Add mention and example of validity behavior in the intro docs,open
+1149611278,https//api.github.com/repos/moment/luxon,DateTimes toJSON and Nullish Coalescing ,open
+1142838878,https//api.github.com/repos/moment/luxon,FixedOffsetZone fails to parse Python parsable offsets (namely -HHMM),open
+1128331010,https//api.github.com/repos/moment/luxon,DurationtoHuman does not print human-readable strings,open
+1125319025,https//api.github.com/repos/moment/luxon,Duration returns a formatted string.,open
+1120101940,https//api.github.com/repos/moment/luxon,Date plus slow performance,open
+1117811745,https//api.github.com/repos/moment/luxon,More control over DateTimetoRelative rounding behavior,open
+1111695686,https//api.github.com/repos/moment/luxon,Rehydrate/recreate Luxon object (structural cloning),open
+1105987901,https//api.github.com/repos/moment/luxon,Unable to parse a luxons formatted DateTime with a locale having a different numbering system,open
+1101597825,https//api.github.com/repos/moment/luxon,Open interval with infinity as start/end,open
+1091933154,https//api.github.com/repos/moment/luxon,Sort Local Times,open
+1089129316,https//api.github.com/repos/moment/luxon,DateTime.min()/DateTime.max() when no argument is given,open
+1088677567,https//api.github.com/repos/moment/luxon,Mismatched weekday when close to next year,open
+1077637941,https//api.github.com/repos/moment/luxon,Update contributing guide for Node 17,open
+1070598494,https//api.github.com/repos/moment/luxon,Add type checking for the different parsing functions.,open
+1047702438,https//api.github.com/repos/moment/luxon,Duration.toISOTime() displays milliseconds incorrectly,open
+1041412195,https//api.github.com/repos/moment/luxon,FixedOffsetZone constructor accepts bad inputs but isValid returns true,open
+22923962,https//api.github.com/repos/gumroad/countdown.js,Allow user to specify the step interval,open
+21197907,https//api.github.com/repos/gumroad/countdown.js,why not add a param to let it count up ,open
+19712172,https//api.github.com/repos/gumroad/countdown.js,Support for float as a duration,open
