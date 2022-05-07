@@ -213,6 +213,25 @@ and finally by userLogin in ascending order.</p>
                 <input type="submit">
             </form>
         </div>
+
+        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1000px;">
+            <h3> Insertion</h3>
+            <form action="Insertion.php" method="post">
+                <p> 1. Select what type of data you want to insert </p>
+                Organization(*orgID, login, name, description, email, createdAt, updatedAt, location, type) <input type="radio" name="type" value="Organization" checked> <br />
+                User(*userID, login, url, type) <input type="radio" name="type" value="User" checked> <br />
+                Package (*packageName, version, star, score) <input type="radio" name="type" value="Package"> <br />
+                HasPackage(*orgID, *packageName) <input type="radio" name="type" value="HasPackage"> <br />
+                <p> 2. Enter data </p>
+                parameter 1: <input type="text" name="p1"> <br />
+                parameter 2: <input type="text" name="p2"> <br />
+                parameter 3: <input type="text" name="p3"> <br />
+                parameter 4: <input type="text" name="p4"> <br />
+                parameter 5: <input type="text" name="p5"> <br />
+                <input type="submit">
+            </form>
+            
+        </div>
     </div>
 </body>
 
