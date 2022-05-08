@@ -9,21 +9,35 @@
     $dataPoints = array();
 
     if (!empty($issueCount) && !empty($repoCount)) {
-        if ($result = $conn->query("CALL CountUserCommits('".$issueCount."', '".$repoCount."');")) {
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>user ID</td><td>user login</td><td>commits count</td></tr>";
+        if ($stmt = $conn->prepare("CALL CountUserCommits(?, ?)")) {
+            $stmt->bind_param("ss", $issueCount, $repoCount);
+            if ($stmt->execute()) {
+                $result = $stmt->get_result();
+                if (($result) && ($result->num_rows != 0)) {
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>user ID</td><td>user login</td><td>commits count</td></tr>";
 
-            foreach($result as $row) {
-                echo "<tr><td>".$row["userID"]."</td><td>".$row["userLogin"]."</td><td>".$row["commitsCount"]."</td></tr>";
-                array_push($dataPoints, array( "label"=> $row["userLogin"], "y"=> $row["commitsCount"]));
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["userID"]."</td><td>".$row["userLogin"]."</td><td>".$row["commitsCount"]."</td></tr>";
+                        array_push($dataPoints, array( "label"=> $row["userLogin"], "y"=> $row["commitsCount"]));
+                    }
+                    
+                    echo "</table>";
+                } else {
+                    echo "No data found.";
+                }
+                $result->free_result();
+            } else {
+                echo "Execute failed.<br>";
             }
-
-            echo "</table>";
+            $stmt->close();
         } else {
-            echo "Call to CountUserCommits failed<br>";
+            echo "Prepare failed.<br>";
+            $error = $conn->errno . ' ' . $conn->error;
+            echo $error; 
         }
     } else {
-        echo "You have to give a number of issues and a number of repositories";
+        echo "You have to give a number of issues and a number of repositories.";
     }
     $conn->close();
 ?>

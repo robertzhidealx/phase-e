@@ -12,7 +12,7 @@ BEGIN
     WITH D AS (
             SELECT packageName, SUM(downloads) AS 'downloadsGained'
             FROM DownloadsOnDate
-            WHERE _day > '2021-04-12' AND _day <= '2021-12-31'
+            WHERE _day BETWEEN startDate AND endDate
             GROUP BY packageName
     )
     SELECT D.packageName, version, downloadsGained

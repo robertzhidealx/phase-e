@@ -180,3 +180,5 @@ CREATE TABLE OwnsRepo(
 );
 
 LOAD DATA LOCAL INFILE './db_small/ownsRepo-small.txt' INTO TABLE OwnsRepo FIELDS TERMINATED BY ',';
+
+-- Stored procedures

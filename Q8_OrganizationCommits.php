@@ -8,20 +8,34 @@
     $dataPoints = array();
 
     if (!empty($order)) {
-        if ($result = $conn->query("CALL OrganizationCommits('".$order."');")) {
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>organization ID</td><td>organization name</td><td>organization email</td><td>organization commits</td></tr>";
+        if ($stmt = $conn->prepare("CALL OrganizationCommits(?)")) {
+            $stmt->bind_param("s", $order);
+            if ($stmt->execute()) {
+                $result = $stmt->get_result();
+                if (($result) && ($result->num_rows != 0)) {
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>organization ID</td><td>organization name</td><td>organization email</td><td>organization commits</td></tr>";
 
-            foreach($result as $row) {
-                $curEmail = "";
-                if ($row["orgEmail"] != "null") $curEmail = $row["orgEmail"];
-                echo "<tr><td>".$row["orgID"]."</td><td>".$row["orgName"]."</td><td>".$curEmail."</td><td>".$row["orgCommits"]."</td></tr>";
-                array_push($dataPoints, array( "label"=> $row["orgName"], "y"=> $row["orgCommits"]));
+                    foreach($result as $row) {
+                        $curEmail = "";
+                        if ($row["orgEmail"] != "null") $curEmail = $row["orgEmail"];
+                        echo "<tr><td>".$row["orgID"]."</td><td>".$row["orgName"]."</td><td>".$curEmail."</td><td>".$row["orgCommits"]."</td></tr>";
+                        array_push($dataPoints, array( "label"=> $row["orgName"], "y"=> $row["orgCommits"]));
+                    }
+                    
+                    echo "</table>";
+                } else {
+                    echo "No data found.";
+                }
+                $result->free_result();
+            } else {
+                echo "Execute failed.<br>";
             }
-
-            echo "</table>";
+            $stmt->close();
         } else {
-            echo "Call to OrganizationCommits failed<br>";
+            echo "Prepare failed.<br>";
+            $error = $conn->errno . ' ' . $conn->error;
+            echo $error; 
         }
     } else {
         echo "not set";

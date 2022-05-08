@@ -6,31 +6,44 @@
 
     echo "<h2>Rank select users by number of repositories committed to</h2><br>";
 
-
     $repoCountData = array();
 
     if (!empty($order) && !empty($repoCount)) {
-        if ($result = $conn->query("CALL CommittedRepoCount('".$order."', ".$repoCount.");")) {
-            foreach($result as $row) {
-                echo "The average number of issues per repository is ".$row["avgIssues"].".";
-                break;
+        if ($stmt = $conn->prepare("CALL CommittedRepoCount(?, ?)")) {
+            $stmt->bind_param("ss", $order, $repoCount);
+            if ($stmt->execute()) {
+                $result = $stmt->get_result();
+                if (($result) && ($result->num_rows != 0)) {
+                    foreach($result as $row) {
+                        echo "<p style='margin-bottom: 10px'>The average number of issues per repository is ".$row["avgIssues"].".</p>";
+                        break;
+                    }
+                    echo "<br>";
+
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>user ID</td><td>user login</td><td>number of repositories committed to</td><td>total number of user comments</td></tr>";
+
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["userID"]."</td><td>".$row["userLogin"]."</td><td>".$row["commitedRepoCount"]."</td><td>".$row["commentCount"]."</td></tr>";
+                        array_push($repoCountData, array( "label"=> $row["userLogin"], "y"=> $row["commitedRepoCount"]));
+                    }
+                    
+                    echo "</table>";
+                } else {
+                    echo "No data found.";
+                }
+                $result->free_result();
+            } else {
+                echo "Execute failed.<br>";
             }
-            echo "<br>";
-
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>user ID</td><td>user login</td><td>number of repositories committed to</td><td>total number of user comments</td></tr>";
-
-            foreach($result as $row) {
-                echo "<tr><td>".$row["userID"]."</td><td>".$row["userLogin"]."</td><td>".$row["commitedRepoCount"]."</td><td>".$row["commentCount"]."</td></tr>";
-                array_push($repoCountData, array( "label"=> $row["userLogin"], "y"=> $row["commitedRepoCount"]));
-            }
-
-            echo "</table>";
+            $stmt->close();
         } else {
-            echo "Call to CommittedRepoCount failed<br>";
+            echo "Prepare failed.<br>";
+            $error = $conn->errno . ' ' . $conn->error;
+            echo $error; 
         }
     } else {
-        echo "not set";
+        echo "You have to give a nonempty input.";
     }
     $conn->close();
 ?>

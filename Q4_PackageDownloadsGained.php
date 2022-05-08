@@ -14,18 +14,32 @@
         if ($startDateLen > 10 || $endDateLen > 10) {
             echo "Bad input. please make sure the date format is YYYY-MM-DD.";
         } else {
-            if ($result = $conn->query("CALL PackageDownloadsGained('".$startDate."', '".$endDate."');")) {
-                echo "<table border=\"2px solid black\">";
-                echo "<tr><td>package name</td><td>package version</td><td>downloads gained</td></tr>";
+            if ($stmt = $conn->prepare("CALL PackageDownloadsGained(?, ?)")) {
+                $stmt->bind_param("ss", "2021-04-12", "2021-12-31");
+                if ($stmt->execute()) {
+                    $result = $stmt->get_result();
+                    if (($result) && ($result->num_rows != 0)) {
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>package name</td><td>package version</td><td>downloads gained</td></tr>";
 
-                foreach($result as $row) {
-                    echo "<tr><td>".$row["packageName"]."</td><td>".$row["version"]."</td><td>".$row["downloadsGained"]."</td></tr>";
-                    array_push($dataPoints, array( "label"=> $row["packageName"], "y"=> $row["downloadsGained"]));
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["packageName"]."</td><td>".$row["version"]."</td><td>".$row["downloadsGained"]."</td></tr>";
+                            array_push($dataPoints, array( "label"=> $row["packageName"], "y"=> $row["downloadsGained"]));
+                        }
+                        
+                        echo "</table>";
+                    } else {
+                        echo "No data found for this keyword";
+                    }
+                    $result->free_result();
+                } else {
+                    echo "Execute failed.<br>";
                 }
-
-                echo "</table>";
+                $stmt->close();
             } else {
-                echo "Call to PackageDownloadsGained failed<br>";
+                echo "Prepare failed.<br>";
+                $error = $conn->errno . ' ' . $conn->error;
+                echo $error; 
             }
         }
     } else {

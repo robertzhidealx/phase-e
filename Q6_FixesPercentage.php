@@ -8,21 +8,35 @@
     $dataPoints = array();
 
     if (!empty($order)) {
-        if ($result = $conn->query("CALL FixesPercentage('".$order."');")) {
-            echo "<table border=\"2px solid black\">";
-            echo "<tr><td>repository ID</td><td>repository name</td><td>number of fixes</td><td>number of open issues</td><td>percentage of fixing issues</td></tr>";
+        if ($stmt = $conn->prepare("CALL FixesPercentage(?)")) {
+            $stmt->bind_param("s", $order);
+            if ($stmt->execute()) {
+                $result = $stmt->get_result();
+                if (($result) && ($result->num_rows != 0)) {
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>repository ID</td><td>repository name</td><td>number of fixes</td><td>number of open issues</td><td>percentage of fixing issues</td></tr>";
 
-            foreach($result as $row) {
-                echo "<tr><td>".$row["repoID"]."</td><td>".$row["repoName"]."</td><td>".$row["fixesCount"]."</td><td>".$row["openIssuesCount"]."</td><td>".$row["fixesPercentage"]."</td></tr>";
-                array_push($dataPoints, array( "label"=> $row["repoName"], "y"=> $row["fixesPercentage"]));
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["repoID"]."</td><td>".$row["repoName"]."</td><td>".$row["fixesCount"]."</td><td>".$row["openIssuesCount"]."</td><td>".$row["fixesPercentage"]."</td></tr>";
+                        array_push($dataPoints, array( "label"=> $row["repoName"], "y"=> $row["fixesPercentage"]));
+                    }
+                    
+                    echo "</table>";
+                } else {
+                    echo "No data found.";
+                }
+                $result->free_result();
+            } else {
+                echo "Execute failed.<br>";
             }
-
-            echo "</table>";
+            $stmt->close();
         } else {
-            echo "Call to AveragePackageDownloads failed<br>";
+            echo "Prepare failed.<br>";
+            $error = $conn->errno . ' ' . $conn->error;
+            echo $error; 
         }
     } else {
-        echo "not set";
+        echo "You have to make a selection.";
     }
     $conn->close();
 ?>
