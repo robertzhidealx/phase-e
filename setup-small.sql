@@ -716,3 +716,65 @@ BEGIN
 END; //
 
 DELIMITER ;
+
+-- DisplayTables
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DisplayTables //
+
+CREATE PROCEDURE DisplayTables()
+BEGIN
+    SELECT *
+    FROM Organization;
+
+    SELECT *
+    FROM _User;
+
+    SELECT *
+    FROM Package;
+
+    SELECT *
+    FROM HasPackage;
+END; //
+
+DELIMITER ;
+
+-- InsertHasPackage
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS InsertHasPackage //
+
+CREATE PROCEDURE InsertHasPackage(IN o_id VARCHAR(150), IN p_name VARCHAR(150))
+BEGIN
+    INSERT INTO HasPackage(orgID, packageName) VALUES (o_id, p_name);
+END; //
+
+DELIMITER ;
+
+-- InsertPackage
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS InsertPackage //
+
+CREATE PROCEDURE InsertPackage(IN p_name VARCHAR(150), IN p_version VARCHAR(150), IN p_stars VARCHAR(150), IN p_score VARCHAR(150))
+BEGIN
+    INSERT INTO Package(packageName, version, stars, score) VALUES (p_name, p_version, p_stars, p_score);
+END; //
+
+DELIMITER ;
+
+-- PackageDownloadsGained
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS InsertUser //
+
+CREATE PROCEDURE InsertUser(IN u_id VARCHAR(150), IN u_login VARCHAR(150), IN u_url VARCHAR(150), IN u_type VARCHAR(150))
+BEGIN
+    INSERT INTO _User(userID, login, url, type) VALUES (u_id, u_login, u_url, u_type);
+END; //
+
+DELIMITER ;
