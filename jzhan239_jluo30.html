@@ -219,6 +219,21 @@
             </form>
         </div>
 
+        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
+            <!-- 16 -->
+            <h3> 16. Rank packages by downloads gained </h3>
+            <p> For each package, find the amount of downloads it gained from ___ to ___. Display packageName, version,
+                and downloadsGained. Rank the result by downloadsGained in descending order, then by packageName in
+                ascending order.</p>
+            <p>Date format: YYYY-MM-DD</p>
+            <p>Sample input: 2021-04-12, 2021-12-31</p>
+            <form action="Q4_DownloadsGained.php" method="post">
+                start: <input type="text" name="start" value="2021-04-12"> <br />
+                end: <input type="text" name="end" value="2021-12-31"> <br />
+                <input type="submit">
+            </form>
+        </div>
+
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1100px;">
             <form action="DisplayTables.php" method="post">
                 <h3>CLICK BELOW TO VIEW CURRENT TABLES</h3>
@@ -238,7 +253,8 @@
                 User(*user ID, login, url, type) <input type="radio" name="type" value="User" checked> <br />
                 Package (*package name, version, star, score) <input type="radio" name="type" value="Package"> <br />
                 HasPackage(*organization ID, *package name) <input type="radio" name="type" value="HasPackage"> <br />
-                Repository(*repository ID, repository name, description, url, forks count, stargazers count, watchers count, open issues count) <input type="radio" name="type" value="Repository"> <br />
+                Repository(*repository ID, repository name, description, url, forks count, stargazers count, watchers
+                count, open issues count) <input type="radio" name="type" value="Repository"> <br />
                 OwnsRepo(*repository ID, *user ID) <input type="radio" name="type" value="OwnsRepo"> <br />
                 <p>Note: HasPackage is a relation between Organization and Package. When adding value to HasPackage,
                     please make sure the organization(orgID) and package(packageName) are in the current database.
@@ -263,32 +279,36 @@
             </form>
         </div>
 
-        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 10px 10px; width: 1100px;">
+        <div
+            style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 10px 10px; width: 1100px;">
             <h3>Deletion queries</h3>
             <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px">
                 <!-- Deletion queries -->
-                <div style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
+                <div
+                    style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
                     <h4>Delete a package</h3>
-                    <form action="Deletion_Package.php" method="post">
-                        Package name: <input type="text" name="packageName" value="react"> <br />
-                        <input type="submit">
-                    </form>
+                        <form action="Deletion_Package.php" method="post">
+                            Package name: <input type="text" name="packageName" value="react"> <br />
+                            <input type="submit">
+                        </form>
                 </div>
 
-                <div style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
+                <div
+                    style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
                     <h4>Delete a user</h3>
-                    <form action="Deletion_User.php" method="post">
-                        User ID: <input type="text" name="userID" value=69631> <br />
-                        <input type="submit">
-                    </form>
+                        <form action="Deletion_User.php" method="post">
+                            User ID: <input type="text" name="userID" value=69631> <br />
+                            <input type="submit">
+                        </form>
                 </div>
 
-                <div style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
+                <div
+                    style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
                     <h4>Delete package dowloads</h3>
-                    <form action="Deletion_PackageDownloads.php" method="post">
-                        Package name: <input type="text" name="packageName" value="react"> <br />
-                        <input type="submit">
-                    </form>
+                        <form action="Deletion_PackageDownloads.php" method="post">
+                            Package name: <input type="text" name="packageName" value="react"> <br />
+                            <input type="submit">
+                        </form>
                 </div>
             </div>
         </div>

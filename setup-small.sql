@@ -335,27 +335,6 @@ END; //
 
 DELIMITER ;
 
--- PackageDownloadsGained
-
-DELIMITER //
-
-DROP PROCEDURE IF EXISTS PackageDownloadsGained //
-
-CREATE PROCEDURE PackageDownloadsGained(IN startDate DATE, IN endDate DATE)
-BEGIN
-    WITH D AS (
-            SELECT packageName, SUM(downloads) AS 'downloadsGained'
-            FROM DownloadsOnDate
-            WHERE _day BETWEEN startDate AND endDate
-            GROUP BY packageName
-    )
-    SELECT D.packageName, version, downloadsGained
-    FROM D JOIN Package AS P ON D.packageName = P.packageName
-    ORDER BY downloadsGained DESC, D.packageName ASC;
-END; //
-
-DELIMITER ;
-
 -- CountCommits
 
 DELIMITER //
@@ -775,6 +754,27 @@ DROP PROCEDURE IF EXISTS InsertUser //
 CREATE PROCEDURE InsertUser(IN u_id VARCHAR(150), IN u_login VARCHAR(150), IN u_url VARCHAR(150), IN u_type VARCHAR(150))
 BEGIN
     INSERT INTO _User(userID, login, url, type) VALUES (u_id, u_login, u_url, u_type);
+END; //
+
+DELIMITER ;
+
+DELIMITER //
+
+-- DownloadsGained
+
+DROP PROCEDURE IF EXISTS DownloadsGained //
+
+CREATE PROCEDURE DownloadsGained(IN d_start VARCHAR(100),IN d_end VARCHAR(100))
+BEGIN
+    WITH D AS (
+        SELECT packageName, SUM(downloads) AS 'downloadsGained'
+        FROM DownloadsOnDate
+        WHERE _day > d_start AND _day <= d_end
+        GROUP BY packageName
+    )
+    SELECT D.packageName, version, downloadsGained
+    FROM D JOIN Package AS P ON D.packageName = P.packageName
+    ORDER BY downloadsGained DESC, D.packageName ASC;
 END; //
 
 DELIMITER ;

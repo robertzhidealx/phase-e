@@ -772,7 +772,7 @@ END; //
 
 DELIMITER ;
 
--- PackageDownloadsGained
+-- InsertUser
 
 DELIMITER //
 
@@ -874,6 +874,27 @@ BEGIN
     ELSE
         SELECT 'ERROR: package not found' AS error;
     END IF;
+END; //
+
+DELIMITER ;
+
+DELIMITER //
+
+-- DownloadsGained
+
+DROP PROCEDURE IF EXISTS DownloadsGained //
+
+CREATE PROCEDURE DownloadsGained(IN d_start VARCHAR(100),IN d_end VARCHAR(100))
+BEGIN
+    WITH D AS (
+        SELECT packageName, SUM(downloads) AS 'downloadsGained'
+        FROM DownloadsOnDate
+        WHERE _day > d_start AND _day <= d_end
+        GROUP BY packageName
+    )
+    SELECT D.packageName, version, downloadsGained
+    FROM D JOIN Package AS P ON D.packageName = P.packageName
+    ORDER BY downloadsGained DESC, D.packageName ASC;
 END; //
 
 DELIMITER ;
