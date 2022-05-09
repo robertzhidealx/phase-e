@@ -16,15 +16,19 @@
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>commit ID</td><td>commit additions</td><td>commit deletions</td><td>repository name</td><td>author</td></tr>";
+                    if ($result->num_rows > 0){
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>commit ID</td><td>commit additions</td><td>commit deletions</td><td>repository name</td><td>author</td></tr>";
 
-                    foreach($result as $row) {
-                        echo "<tr><td>".$row["commitID"]."</td><td>".$row["commit additions"]."</td><td>".$row["commit deletions"]."</td><td>".$row["repository name"]."</td><td>".$row["author"]."</td></tr>";
-                        array_push($dataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
-                    }
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["commitID"]."</td><td>".$row["commit additions"]."</td><td>".$row["commit deletions"]."</td><td>".$row["repository name"]."</td><td>".$row["author"]."</td></tr>";
+                            array_push($dataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
+                        }
             
-                    echo "</table>";
+                        echo "</table>";
+                    } else {
+                        echo "No result fit the requirement.";
+                    }
                 } else {
                     echo "Call to CommitChange failed<br>";
                 }

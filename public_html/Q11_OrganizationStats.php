@@ -22,14 +22,18 @@
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>Orgnization ID</td><td>Orgnization Name</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
+                    if ($result->num_rows > 0){
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>Orgnization ID</td><td>Orgnization Name</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
 
-                    foreach($result as $row) {
-                        echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
-                        array_push($dataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
+                            array_push($dataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
+                        }
+                        echo "</table><br>";
+                    } else {
+                        echo "No result fits the requirement.";
                     }
-                    echo "</table><br>";
                 } else {
                     echo "Call to OrganizationStats failed<br>";
                 }

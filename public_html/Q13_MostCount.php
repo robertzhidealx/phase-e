@@ -16,16 +16,20 @@
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td><td>$count</td></tr>";
+                    if ($result->num_rows > 0){
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td><td>$count</td></tr>";
 
-                    foreach($result as $row) {
-                        echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
-                        array_push($dataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
-                        array_push($dataPoints, array( "label"=> "Average", "y"=> $row["average"]));
-                    }
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
+                            array_push($dataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
+                            array_push($dataPoints, array( "label"=> "Average", "y"=> $row["average"]));
+                        }
             
-                    echo "</table>";
+                        echo "</table>";
+                    } else {
+                        echo "No result fits the requirement.";
+                    }
                 } else {
                     echo "Invalid input, call to MostCount failed<br>";
                 }

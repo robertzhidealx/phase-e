@@ -16,19 +16,23 @@
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>Percentage of verified commits</td></tr>";
+                    if ($result->num_rows > 0){
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>Percentage of verified commits</td></tr>";
 
-                    foreach($result as $row) {
-                        echo "<tr><td>".$row["Percentage of verified commits committed by by Github"]."</td></tr>";
-                        $percentage = $row["Percentage of verified commits committed by by Github"];
-                    }
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["Percentage of verified commits committed by by Github"]."</td></tr>";
+                            $percentage = $row["Percentage of verified commits committed by by Github"];
+                        }
             
-                    echo "</table><br>";
-                    $dataPoints = array( 
-                        array("label"=>"Verified commits", "y"=>$percentage),
-                        array("label"=>"Unverified commits", "y"=>(100-$percentage))
-                    );
+                        echo "</table><br>";
+                        $dataPoints = array( 
+                            array("label"=>"Verified commits", "y"=>$percentage),
+                            array("label"=>"Unverified commits", "y"=>(100-$percentage))
+                        );
+                    } else {
+                        echo "No result fit the requirement.";
+                    }
                 } else {
                     echo "Call to VerifiedCommitsPercentage failed<br>";
                 }
