@@ -1,0 +1,6 @@
+-- Jiaxuan Zhang, jzhan239
+-- Jessie Luo, jluo30
+
+Use cleanup.sql for clean up.
+
+No special instructions needed.

@@ -4,32 +4,28 @@
     include 'open.php';
 
     // collect the posted value in a variable called $item
-    $num = $_POST['num'];
+    $year = $_POST['year'];
 
-    echo "<h2>List package name, score, and total downloads for package that gets more than ".$num." downloads from 2020-10-01 to 2020-10-05</h2>";
+    echo "<h2> list Orgnization ID, Orgnization Name, created, updated date, and users num, by created date ascending order </h2>";
 
     $DataPoints = array();
 
-    if (!empty($num)) {
-        if ($stmt = $conn->prepare("CALL DownloadsNum(?)")) {
-            $stmt->bind_param("i", $num);
+    if (!empty($year)) {
+        if ($stmt = $conn->prepare("CALL OrganizationStats(?)")) {
+            $stmt->bind_param("s", $year);
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    if ($result->num_rows > 0){
-                        echo "<table border=\"2px solid black\">";
-                        echo "<tr><td>package name</td><td>score</td><td>downloads count</td></tr>";
-                        foreach($result as $row) {
-                            echo "<tr><td>".$row["packageName"]."</td><td>".$row["score"]."</td><td>".$row["total downloads"]."</td></tr>";
-                            array_push($DataPoints, array( "label"=> $row["packageName"], "y"=> $row["score"]));
-                        }
-                        echo "</table><br>";
-                    } else {
-                        echo "No package fit the requirement.";
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>Orgnization ID</td><td>Orgnization Name</td><td>created date</td><td>updated date</td><td>users num</td></tr>";
+
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
+                        array_push($DataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
                     }
-            
+                    echo "</table><br>";
                 } else {
-                    echo "Call to DownloadsNum failed<br>";
+                    echo "Call to OrganizationStats failed<br>";
                 }
             } else {
                 //Call to execute failed, e.g. because server is no longer reachable,
@@ -49,7 +45,7 @@
 
 <html>
     <head>
-        <title>Rank GitHub Organizations</title>
+        <title>Organizations Stats</title>
         <script>
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
@@ -57,7 +53,7 @@
                 exportEnabled: true,
                 theme: "light1", // "light1", "light2", "dark1", "dark2"
                 title:{
-                    text: "Package Score"
+                    text: "How many users does the organization have in our database?"
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc

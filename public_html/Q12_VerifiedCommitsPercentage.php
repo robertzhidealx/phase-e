@@ -52,11 +52,9 @@
 <head>
 <script>
 window.onload = function() {
- 
- 
-var chart = new CanvasJS.Chart("chartContainer", {
-	animationEnabled: true,
-	title: {
+    var chart = new CanvasJS.Chart("chartContainer", {
+	    animationEnabled: true,
+	    title: {
 		text: "Verified commit vs. Unverified commit"
 	},
 	data: [{
@@ -65,9 +63,8 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		indexLabel: "{label} ({y})",
 		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
 	}]
-});
-chart.render();
- 
+    });
+    chart.render();
 }
 </script>
 </head>

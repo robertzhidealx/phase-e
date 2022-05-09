@@ -1,4 +1,4 @@
-<head><title>Rank GitHub Organizations</title></head>
+<head><title>Organization Location</title></head>
 <body>
 <?php
 

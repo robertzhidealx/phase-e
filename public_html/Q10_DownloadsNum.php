@@ -4,29 +4,32 @@
     include 'open.php';
 
     // collect the posted value in a variable called $item
-    $type = $_POST['type'];
+    $num = $_POST['num'];
 
-    echo "<h2>List commitID, amount of additions and deletions, its author and the name of repo committed to order by descending additions.</h2><br>";
+    echo "<h2>List package name, score, and total downloads for package that gets more than ".$num." downloads from 2020-10-01 to 2020-10-05</h2>";
 
     $DataPoints = array();
 
-    if (!empty($type)) {
-        if ($stmt = $conn->prepare("CALL CommitChange(?)")) {
-            $stmt->bind_param("s", $type);
+    if (!empty($num)) {
+        if ($stmt = $conn->prepare("CALL DownloadsNum(?)")) {
+            $stmt->bind_param("i", $num);
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>commit ID</td><td>commit additions</td><td>commit deletions</td><td>repository name</td><td>author</td></tr>";
-
-                    foreach($result as $row) {
-                        echo "<tr><td>".$row["commitID"]."</td><td>".$row["commit additions"]."</td><td>".$row["commit deletions"]."</td><td>".$row["repository name"]."</td><td>".$row["author"]."</td></tr>";
-                        array_push($DataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
+                    if ($result->num_rows > 0){
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>package name</td><td>score</td><td>downloads count</td></tr>";
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["packageName"]."</td><td>".$row["score"]."</td><td>".$row["total downloads"]."</td></tr>";
+                            array_push($DataPoints, array( "label"=> $row["packageName"], "y"=> $row["score"]));
+                        }
+                        echo "</table><br>";
+                    } else {
+                        echo "No package fit the requirement.";
                     }
             
-                    echo "</table>";
                 } else {
-                    echo "Call to CommitChange failed<br>";
+                    echo "Call to DownloadsNum failed<br>";
                 }
             } else {
                 //Call to execute failed, e.g. because server is no longer reachable,
@@ -46,7 +49,7 @@
 
 <html>
     <head>
-        <title>Rank GitHub Organizations</title>
+        <title>Downloads Num</title>
         <script>
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
@@ -54,7 +57,7 @@
                 exportEnabled: true,
                 theme: "light1", // "light1", "light2", "dark1", "dark2"
                 title:{
-                    text: "Repository Commits Total (Additions + Deletions)"
+                    text: "Package Score"
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc

@@ -40,7 +40,7 @@
 
 <html>
     <head>
-        <title>Rank GitHub Organizations</title>
+        <title>Package Version</title>
         <script>
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {

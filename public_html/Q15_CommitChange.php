@@ -4,30 +4,29 @@
     include 'open.php';
 
     // collect the posted value in a variable called $item
-    $countType = $_POST['count'];
+    $type = $_POST['type'];
 
-    echo "<h2>For repo that has the most ".$countType.", list its userID, userLogin, userURL, and repo name and description.</h2><br>";
+    echo "<h2>List commitID, amount of additions and deletions, its author and the name of repo committed to order by descending additions.</h2><br>";
 
     $DataPoints = array();
 
-    if (!empty($countType)) {
-        if ($stmt = $conn->prepare("CALL MostCount(?)")) {
-            $stmt->bind_param("s", $countType);
+    if (!empty($type)) {
+        if ($stmt = $conn->prepare("CALL CommitChange(?)")) {
+            $stmt->bind_param("s", $type);
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
                     echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td><td>$count</td></tr>";
+                    echo "<tr><td>commit ID</td><td>commit additions</td><td>commit deletions</td><td>repository name</td><td>author</td></tr>";
 
                     foreach($result as $row) {
-                        echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
-                        array_push($DataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
-                        array_push($DataPoints, array( "label"=> "Average", "y"=> $row["average"]));
+                        echo "<tr><td>".$row["commitID"]."</td><td>".$row["commit additions"]."</td><td>".$row["commit deletions"]."</td><td>".$row["repository name"]."</td><td>".$row["author"]."</td></tr>";
+                        array_push($DataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
                     }
             
                     echo "</table>";
                 } else {
-                    echo "Invalid input, call to MostCount failed<br>";
+                    echo "Call to CommitChange failed<br>";
                 }
             } else {
                 //Call to execute failed, e.g. because server is no longer reachable,
@@ -47,7 +46,7 @@
 
 <html>
     <head>
-        <title>Rank GitHub Organizations</title>
+        <title>Commit Change</title>
         <script>
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
@@ -55,7 +54,7 @@
                 exportEnabled: true,
                 theme: "light1", // "light1", "light2", "dark1", "dark2"
                 title:{
-                    text: "Maximum Repository Count vs. Average Count"
+                    text: "Repository Commits Total (Additions + Deletions)"
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc
