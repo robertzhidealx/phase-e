@@ -335,27 +335,6 @@ END; //
 
 DELIMITER ;
 
--- PackageDownloadsGained
-
-DELIMITER //
-
-DROP PROCEDURE IF EXISTS PackageDownloadsGained //
-
-CREATE PROCEDURE PackageDownloadsGained(IN startDate DATE, IN endDate DATE)
-BEGIN
-    WITH D AS (
-            SELECT packageName, SUM(downloads) AS 'downloadsGained'
-            FROM DownloadsOnDate
-            WHERE _day BETWEEN startDate AND endDate
-            GROUP BY packageName
-    )
-    SELECT D.packageName, version, downloadsGained
-    FROM D JOIN Package AS P ON D.packageName = P.packageName
-    ORDER BY downloadsGained DESC, D.packageName ASC;
-END; //
-
-DELIMITER ;
-
 -- CountCommits
 
 DELIMITER //
@@ -753,6 +732,33 @@ END; //
 
 DELIMITER ;
 
+-- InsertRepository
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS InsertRepository //
+
+CREATE PROCEDURE InsertRepository(IN repoIDParam VARCHAR(150), IN nameParam VARCHAR(100), IN descriptionParam VARCHAR(600), IN urlParam VARCHAR(100), IN forksCountParam VARCHAR(150), IN stargazersCountParam VARCHAR(150), IN watchersCountParam VARCHAR(150), IN openIssuesCountParam VARCHAR(150))
+BEGIN
+    INSERT INTO Repository(repoID, name, description, url, forksCount, stargazersCount, watchersCount, openIssuesCount) VALUES (repoIDParam, nameParam, descriptionParam, urlParam, forksCountParam, stargazersCountParam, watchersCountParam, openIssuesCountParam);
+END; //
+
+DELIMITER ;
+
+-- InsertOwnsRepo
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS InsertOwnsRepo //
+
+CREATE PROCEDURE InsertOwnsRepo(IN repoIDParam VARCHAR(150), IN userIDParam VARCHAR(150))
+BEGIN
+    INSERT INTO OwnsRepo(repoID, userID) VALUES (repoIDParam, userIDParam);
+END; //
+
+DELIMITER ;
+
+
 -- InsertPackage
 
 DELIMITER //
@@ -775,6 +781,99 @@ DROP PROCEDURE IF EXISTS InsertUser //
 CREATE PROCEDURE InsertUser(IN u_id VARCHAR(150), IN u_login VARCHAR(150), IN u_url VARCHAR(150), IN u_type VARCHAR(150))
 BEGIN
     INSERT INTO _User(userID, login, url, type) VALUES (u_id, u_login, u_url, u_type);
+END; //
+
+DELIMITER ;
+
+-- FindPackage
+
+DELIMITER //
+
+DROP FUNCTION IF EXISTS FindPackage //
+
+CREATE FUNCTION FindPackage(packageNameParam VARCHAR(10))
+RETURNS BOOLEAN
+BEGIN
+      RETURN (SELECT COUNT(*) FROM Package WHERE packageName = packageNameParam);
+END; //
+
+DELIMITER ;
+
+-- DeletePackage
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DeletePackage //
+
+CREATE PROCEDURE DeletePackage(IN packageNameParam VARCHAR(10))
+BEGIN
+    IF FindPackage(packageNameParam) THEN
+        DELETE FROM Package WHERE packageName = packageNameParam;
+    ELSE
+        SELECT 'ERROR: package not found' AS error;
+    END IF;
+END; //
+
+DELIMITER ;
+
+-- FindUser
+
+DELIMITER //
+
+DROP FUNCTION IF EXISTS FindUser //
+
+CREATE FUNCTION FindUser(userIDParam INT)
+RETURNS BOOLEAN
+BEGIN
+      RETURN (SELECT COUNT(*) FROM _User WHERE userID = userIDParam);
+END; //
+
+DELIMITER ;
+
+-- DeleteUser
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DeleteUser //
+
+CREATE PROCEDURE DeleteUser(IN userIDParam VARCHAR(10))
+BEGIN
+    IF FindUser(userIDParam) THEN
+        DELETE FROM _User WHERE userID = userIDParam;
+    ELSE
+        SELECT 'ERROR: user not found' AS error;
+    END IF;
+END; //
+
+DELIMITER ;
+
+-- FindPackageDownloads
+
+DELIMITER //
+
+DROP FUNCTION IF EXISTS FindPackageDownloads //
+
+CREATE FUNCTION FindPackageDownloads(packageNameParam VARCHAR(10))
+RETURNS BOOLEAN
+BEGIN
+      RETURN (SELECT COUNT(*) FROM Downloads WHERE packageName = packageNameParam);
+END; //
+
+DELIMITER ;
+
+-- DeletePackageDownloads
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DeletePackageDownloads //
+
+CREATE PROCEDURE DeletePackageDownloads(IN packageNameParam VARCHAR(10))
+BEGIN
+    IF FindPackageDownloads(packageNameParam) THEN
+        DELETE FROM Downloads WHERE packageName = packageNameParam;
+    ELSE
+        SELECT 'ERROR: package not found' AS error;
+    END IF;
 END; //
 
 DELIMITER ;
