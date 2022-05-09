@@ -8,7 +8,7 @@
 
     echo "<h2>List package name, score, and total downloads for package that gets more than ".$num." downloads from 2020-10-01 to 2020-10-05</h2>";
 
-    $DataPoints = array();
+    $dataPoints = array();
 
     if (!empty($num)) {
         if ($stmt = $conn->prepare("CALL DownloadsNum(?)")) {
@@ -21,7 +21,7 @@
                         echo "<tr><td>package name</td><td>score</td><td>downloads count</td></tr>";
                         foreach($result as $row) {
                             echo "<tr><td>".$row["packageName"]."</td><td>".$row["score"]."</td><td>".$row["total downloads"]."</td></tr>";
-                            array_push($DataPoints, array( "label"=> $row["packageName"], "y"=> $row["score"]));
+                            array_push($dataPoints, array( "label"=> $row["packageName"], "y"=> $row["score"]));
                         }
                         echo "</table><br>";
                     } else {
@@ -61,7 +61,7 @@
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc
-                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
             chart.render();

@@ -3,16 +3,20 @@
     // open a connection to dbase server 
     include 'open.php';
 
-    // collect the posted value in a variable called $item
-    //$num = "2021-04-12";
     $start = $_POST['start'];
     $end = $_POST['end'];
 
     echo "<h2>Rank packages by downloads gained</h2>";
 
-    $DataPoints = array();
+    $dataPoints = array();
+
+    $pattern = "/[0-9]{4}-[0-9]{2}-[0-9]{2}/i";    
 
     if (!empty($start) && !empty($end)) {
+        if (strlen($start) > 10 || strlen($end) > 10 || !preg_match($pattern, $start) || !preg_match($pattern, $end)) {
+            echo "Invalid date. Please format into YYYY-MM-DD.";
+            exit();
+        }
         if ($stmt = $conn->prepare("CALL DownloadsGained(?,?)")) {
             $stmt->bind_param("ss", $start, $end);
             if ($stmt->execute()) {
@@ -23,11 +27,11 @@
                         echo "<tr><td>package name</td><td>version</td><td>downloadsGained</td></tr>";
                         foreach($result as $row) {
                             echo "<tr><td>".$row["packageName"]."</td><td>".$row["version"]."</td><td>".$row["downloadsGained"]."</td></tr>";
-                            array_push($DataPoints, array( "label"=> $row["packageName"], "y"=> $row["downloadsGained"]));
+                            array_push($dataPoints, array( "label"=> $row["packageName"], "y"=> $row["downloadsGained"]));
                         }
                         echo "</table><br>";
                     } else {
-                        echo "No package fit the requirement.";
+                        echo "No package fits the requirement.";
                     }
             
                 } else {
@@ -43,7 +47,7 @@
             $stmt->close();
         }
     } else {
-        echo "invalid input";
+        echo "You have to enter the start and end dates";
     }
     $conn->close();
 
@@ -63,7 +67,7 @@
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc
-                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
             chart.render();

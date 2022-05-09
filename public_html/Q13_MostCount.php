@@ -8,7 +8,7 @@
 
     echo "<h2>For repo that has the most ".$countType.", list its userID, userLogin, userURL, and repo name and description.</h2><br>";
 
-    $DataPoints = array();
+    $dataPoints = array();
 
     if (!empty($countType)) {
         if ($stmt = $conn->prepare("CALL MostCount(?)")) {
@@ -21,8 +21,8 @@
 
                     foreach($result as $row) {
                         echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
-                        array_push($DataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
-                        array_push($DataPoints, array( "label"=> "Average", "y"=> $row["average"]));
+                        array_push($dataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
+                        array_push($dataPoints, array( "label"=> "Average", "y"=> $row["average"]));
                     }
             
                     echo "</table>";
@@ -59,7 +59,7 @@
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc
-                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
             chart.render();

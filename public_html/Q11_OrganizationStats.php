@@ -8,9 +8,15 @@
 
     echo "<h2> list Orgnization ID, Orgnization Name, created, updated date, and users num, by created date ascending order </h2>";
 
-    $DataPoints = array();
+    $dataPoints = array();
+
+    $pattern = "/[0-9]{4}/i";
 
     if (!empty($year)) {
+        if (strlen($year) > 4 || !preg_match($pattern, $year)) {
+            echo "Invalid year. Please format into YYYY.";
+            exit();
+        }
         if ($stmt = $conn->prepare("CALL OrganizationStats(?)")) {
             $stmt->bind_param("s", $year);
             if ($stmt->execute()) {
@@ -21,7 +27,7 @@
 
                     foreach($result as $row) {
                         echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["createdAt"]."</td><td>".$row["updatedAt"]."</td><td>".$row["userNum"]."</td></tr>";
-                        array_push($DataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
+                        array_push($dataPoints, array( "label"=> $row["name"], "y"=> $row["userNum"]));
                     }
                     echo "</table><br>";
                 } else {
@@ -57,7 +63,7 @@
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc
-                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
             chart.render();

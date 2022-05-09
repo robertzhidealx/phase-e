@@ -7,9 +7,9 @@
 
     echo "<h2>Calculate average stars and scores for package versions, and list how many package in each category</h2>";
     
-    $DataPoints = array();
+    $dataPoints = array();
+
     if ($stmt = $conn->prepare("CALL PackageVersion()")) {
-        //$stmt->bind_param("s", $type);
         if ($stmt->execute()) {
             $result = $stmt->get_result();
             if ($result) {
@@ -18,7 +18,7 @@
 
                 foreach($result as $row) {
                     echo "<tr><td>".$row["packageVersion"]."</td><td>".$row["average stars"]."</td><td>".$row["average score"]."</td><td>".$row["count"]."</td></tr>";
-                    array_push($DataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
+                    array_push($dataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
                 }
             
                 echo "</table><br>";
@@ -52,7 +52,7 @@
                 },
                 data: [{
                     type: "line", //change type to column, bar, line, area, pie, etc
-                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
             chart.render();

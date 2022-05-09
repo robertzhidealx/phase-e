@@ -3,7 +3,7 @@
 <body>
     <h1>601.315 Databases (A+++) Project</h1>
     <h4>[Team members] Jiaxuan Zhang, jzhan239; Jessie Luo, jluo30</h4>
-    <h4>[Project Domian] Github Organization, Repository, NPM Packages...</h4>
+    <h4>[Project Domian] Patterns in development in the JavaScript ecosystem. Discovering patterns from GitHub organizations, users, repositories, etc. and NPM packages.</h4>
     <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px">
         <!-- (1) -->
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
@@ -53,6 +53,21 @@
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
             <!-- (4) -->
+            <h3> 16. Rank packages by downloads gained </h3>
+            <p> For each package, find the amount of downloads it gained from ___ to ___. Display packageName, version,
+                and downloadsGained. Rank the result by downloadsGained in descending order, then by packageName in
+                ascending order.</p>
+            <p>Date format: YYYY-MM-DD</p>
+            <p>Sample input: 2021-04-12, 2021-12-31</p>
+            <form action="Q4_DownloadsGained.php" method="post">
+                start: <input type="text" name="start" value="2021-04-12"> <br />
+                end: <input type="text" name="end" value="2021-12-31"> <br />
+                <input type="submit">
+            </form>
+        </div>
+
+        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
+            <!-- (5) -->
             <h3>4. Rank select users by number of commits</h3>
             <p>Find the number of commits for each user who has created more than ___ issues in more than ___
                 repositories. Display
@@ -68,7 +83,7 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- (5) -->
+            <!-- (6) -->
             <h3>5. Rank repositories by percentage of fixing issues</h3>
             <p>For each repository, find the number of issues in the repository that contains 'fix', and calculate the
                 percentage
@@ -85,7 +100,7 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- (6) -->
+            <!-- (7) -->
             <h3>6. Rank select users by number of repositories committed to</h3>
             <p>Find all the users who have created at least 1 issue in any repository, made verified commits to these
                 repositories, and made commits to at least
@@ -106,7 +121,7 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- (7) -->
+            <!-- (8) -->
             <h3>7. Rank organizations by total commits</h3>
             <p>For each organization, count the total number of commits by all its users to any repository. Rank the
                 organizations with
@@ -121,8 +136,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 8 -->
-            <h3> 8. What does this organizartion do?</h3>
+            <!-- (9) -->
+            <h3> 9. What does this organizartion do?</h3>
             <p> For specific organization, list organization ID, name, description, and the total number of stars in its
                 packages, by descending number of stars.</p>
             <p> Sample input: Babel, Microsoft, Meta, Mocha, AVA, Rollup </p>
@@ -133,8 +148,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 9 -->
-            <h3> 9. Packages downloads from 2020-10-01 to 2020-10-05</h3>
+            <!-- (10) -->
+            <h3> 10. Packages downloads from 2020-10-01 to 2020-10-05</h3>
             <p> For package gets more than _____ downloads from 2020-10-01 to 2020-10-05, list package name, score, and
                 total downloads during the period.</p>
             <p> Sample input: 1500000 </p>
@@ -145,8 +160,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 10 -->
-            <h3> 10. Organization statistics (ID, dates, users...)</h3>
+            <!-- 11 -->
+            <h3> 11. Organization statistics (ID, dates, users...)</h3>
             <p> For organization that have "js" in its name and is created after ________ , list organization ID, name,
                 created,
                 updated date, and how many users the organization owns in the databases, by created date ascending
@@ -159,8 +174,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 11 -->
-            <h3> 11. For a specific user, what percentage of its commit is verified?</h3>
+            <!-- (12) -->
+            <h3> 12. For a specific user, what percentage of its commit is verified?</h3>
             <p> Out of all commits whose committer is ______ , what percentage is verified?</p>
             <p> Sample input: Github, Jessica Janiuk </p>
             <form action="Q12_VerifiedCommitsPercentage.php" method="post">
@@ -170,8 +185,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 12 -->
-            <h3> 12. Find repository with most forks count/stargazers count/watchers count</h3>
+            <!-- (13) -->
+            <h3> 13. Find repository with most forks count/stargazers count/watchers count</h3>
             <p> For repository that has the most _______, list its userID,
                 userLogin, userURL, and repo name and description.</p>
 
@@ -184,8 +199,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 13 -->
-            <h3> 13. Find organization by location</h3>
+            <!-- (14) -->
+            <h3> 14. Find organization by location</h3>
             <p> For orgnization located in _____, list their ID, name, create date, and name of package they own by
                 ascending order of the date organizartion is created.</p>
             <p> Sample input: San Francisco, Chicago, Global, California </p>
@@ -196,8 +211,8 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 14 -->
-            <h3> 14. Find commits with more than average total changes/additions/deletions</h3>
+            <!-- (15) -->
+            <h3> 15. Find commits with more than average total changes/additions/deletions</h3>
             <p> For commits that have more than average _______, list commitID,
                 amount of additions and deletions, its author and the name of repo committed to order by descending
                 additions.</p>
@@ -210,26 +225,11 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 15 -->
-            <h3> 15. Sort packages by versions</h3>
+            <!-- (16) -->
+            <h3> 16. Sort packages by versions</h3>
             <p> Calculate average stars and scores for package with versions start with 1, 2, 3, 4, and list how
                 many package in each category, order by version ascending order.</p>
             <form action="Q16_PackageVersion.php" method="post">
-                <input type="submit">
-            </form>
-        </div>
-
-        <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-            <!-- 16 -->
-            <h3> 16. Rank packages by downloads gained </h3>
-            <p> For each package, find the amount of downloads it gained from ___ to ___. Display packageName, version,
-                and downloadsGained. Rank the result by downloadsGained in descending order, then by packageName in
-                ascending order.</p>
-            <p>Date format: YYYY-MM-DD</p>
-            <p>Sample input: 2021-04-12, 2021-12-31</p>
-            <form action="Q4_DownloadsGained.php" method="post">
-                start: <input type="text" name="start" value="2021-04-12"> <br />
-                end: <input type="text" name="end" value="2021-12-31"> <br />
                 <input type="submit">
             </form>
         </div>
@@ -303,29 +303,71 @@
                 <!-- Deletion queries -->
                 <div
                     style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-                    <h4>Delete a package</h3>
-                        <form action="Deletion_Package.php" method="post">
-                            Package name: <input type="text" name="packageName" value="react"> <br />
-                            <input type="submit">
-                        </form>
+                    <h4>Delete a package</h4>
+                    <p>
+                        Delete the row with the packageName ____ from the table Package. Since packageName is unique and is the only
+                        primary key in Package, this DELETE statement will only remove this one row from package.
+                        Additionally, the following will also be deleted as a result:
+                    </p>
+                    <p>
+                        1. The row in Downloads with the same packageName<br />
+                        Since the packageName attribute in Downloads is created as foreign key that references the one in Package, and
+                        'ON DELETE CASCADE ON UPDATE CASCADE' is set up for this foreign key so that if the row in Package is deleted,
+                        the row in Downloads with the same packageName will also be deleted.<br /><br />
+
+                        2. The rows in DownloadsOnDate with the same packageName<br />
+                        Since the packageName attribute in DownloadsOnDate is created as foreign key that references the one in Package, and
+                        'ON DELETE CASCADE ON UPDATE CASCADE' is set up for this foreign key so that if the row in Package is deleted,
+                        the rows in DownloadsOnDate with the same packageName will also be deleted.<br /><br />
+
+                        3. The row in HasPackage with the same packageName<br />
+                        Since the packageName attribute in HasPackage is created as foreign key that references the one in Package, and
+                        'ON DELETE CASCADE ON UPDATE CASCADE' is set up for this foreign key so that if the row in Package is deleted,
+                        the row in HasPackage with the same packageName will also be deleted.<br />
+                    </p>
+                    <form action="Deletion_Package.php" method="post">
+                        Package name: <input type="text" name="packageName" value="react"> <br />
+                        <input type="submit">
+                    </form>
                 </div>
 
                 <div
                     style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-                    <h4>Delete a user</h3>
-                        <form action="Deletion_User.php" method="post">
-                            User ID: <input type="text" name="userID" value=69631> <br />
-                            <input type="submit">
-                        </form>
+                    <h4>Delete a user</h4>
+                    <p>
+                        Delete the row with the userID ____ from the table _User. Since userID is unique and is the only
+                        primary key in _User, this DELETE statement will only remove this one row from package.
+                        Additionally, the following will also be deleted as a result:
+                    </p>
+                    <p>
+                        1. The row in InOrg with the same userID<br />
+                        Since the userID attribute in InOrg is created as foreign key that references the one in _User, and
+                        'ON DELETE CASCADE ON UPDATE CASCADE' is set up for this foreign key so that if the row in _User is deleted,
+                        the row in InOrg with the same userID will also be deleted.<br /><br />
+
+                        2. The row in OwnsRepo with the same userID<br />
+                        Since the userID attribute in OwnsRepo is created as foreign key that references the one in _User, and
+                        'ON DELETE CASCADE ON UPDATE CASCADE' is set up for this foreign key so that if the row in _User is deleted,
+                        the row in OwnsRepo with the same userID will also be deleted, if it exists.<br />
+                    </p>
+                    <form action="Deletion_User.php" method="post">
+                        User ID: <input type="text" name="userID" value=69631> <br />
+                        <input type="submit">
+                    </form>
                 </div>
 
                 <div
                     style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
-                    <h4>Delete package dowloads</h3>
-                        <form action="Deletion_PackageDownloads.php" method="post">
-                            Package name: <input type="text" name="packageName" value="react"> <br />
-                            <input type="submit">
-                        </form>
+                    <h4>Delete package dowloads</h4>
+                    <p>
+                        Delete the rows where packageName is ____ from the table Downloads.
+                        Since there is no foreign key constraints in other relations referencing any attribute in Downloads,
+                        only the specified rows in Downloads are deleted, and nothing else.
+                    </p>
+                    <form action="Deletion_PackageDownloads.php" method="post">
+                        Package name: <input type="text" name="packageName" value="react"> <br />
+                        <input type="submit">
+                    </form>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
 
     echo "<h2>List commitID, amount of additions and deletions, its author and the name of repo committed to order by descending additions.</h2><br>";
 
-    $DataPoints = array();
+    $dataPoints = array();
 
     if (!empty($type)) {
         if ($stmt = $conn->prepare("CALL CommitChange(?)")) {
@@ -21,7 +21,7 @@
 
                     foreach($result as $row) {
                         echo "<tr><td>".$row["commitID"]."</td><td>".$row["commit additions"]."</td><td>".$row["commit deletions"]."</td><td>".$row["repository name"]."</td><td>".$row["author"]."</td></tr>";
-                        array_push($DataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
+                        array_push($dataPoints, array( "label"=> $row["repository name"], "y"=> $row["total"]));
                     }
             
                     echo "</table>";
@@ -58,7 +58,7 @@
                 },
                 data: [{
                     type: "column", //change type to column, bar, line, area, pie, etc
-                    dataPoints: <?php echo json_encode($DataPoints, JSON_NUMERIC_CHECK); ?>
+                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
             chart.render();
