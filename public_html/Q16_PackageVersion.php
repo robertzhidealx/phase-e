@@ -13,15 +13,19 @@
         if ($stmt->execute()) {
             $result = $stmt->get_result();
             if ($result) {
-                echo "<table border=\"2px solid black\">";
-                echo "<tr><td>Package Version</td><td>Average Stars</td><td>Average Score</td><td>Package Count</td></tr>";
+                if ($result->num_rows > 0){
+                    echo "<table border=\"2px solid black\">";
+                    echo "<tr><td>Package Version</td><td>Average Stars</td><td>Average Score</td><td>Package Count</td></tr>";
 
-                foreach($result as $row) {
-                    echo "<tr><td>".$row["packageVersion"]."</td><td>".$row["average stars"]."</td><td>".$row["average score"]."</td><td>".$row["count"]."</td></tr>";
-                    array_push($DataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
-                }
+                    foreach($result as $row) {
+                        echo "<tr><td>".$row["packageVersion"]."</td><td>".$row["average stars"]."</td><td>".$row["average score"]."</td><td>".$row["count"]."</td></tr>";
+                        array_push($DataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
+                    }
             
-                echo "</table><br>";
+                    echo "</table><br>";
+                } else {
+                    echo "No result fit the requirement.";
+                }
             } else {
                 echo "Call to PackageVersion failed<br>";
             }

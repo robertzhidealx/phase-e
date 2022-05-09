@@ -16,14 +16,18 @@
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    echo "<table border=\"2px solid black\">";
-                    echo "<tr><td>Orgnization ID</td><td>name</td><td>description</td><td>total stars</td></tr>";
+                    if ($result->num_rows > 0){
+                        echo "<table border=\"2px solid black\">";
+                        echo "<tr><td>Orgnization ID</td><td>name</td><td>description</td><td>total stars</td></tr>";
 
-                    foreach($result as $row) {
-                        echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["description"]."</td><td>".$row["total stars"]."</td></tr>";
-                    }
+                        foreach($result as $row) {
+                            echo "<tr><td>".$row["orgnization ID"]."</td><td>".$row["name"]."</td><td>".$row["description"]."</td><td>".$row["total stars"]."</td></tr>";
+                        }
             
-                    echo "</table><br>";
+                        echo "</table><br>";
+                    } else {
+                        echo "No result fit the requirement.";
+                    }
                 } else {
                     echo "Call to OrganizationInfo failed<br>";
                 }
