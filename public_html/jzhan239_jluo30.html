@@ -235,11 +235,28 @@
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1100px;">
-            <form action="DisplayTables.php" method="post">
-                <h3>CLICK BELOW TO VIEW CURRENT TABLES</h3>
-                <P>After each insertion/deletion, you should be able to see the update here</P>
-                <input type="submit">
-            </form>
+            <h3>View current database entities</h3>
+            <P>After each insertion/deletion, you should be able to see the update here.</P>
+            <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px">
+                <form action="DisplayOrganization.php" method="post">
+                    <input type="submit" value="Organization">
+                </form>
+                <form action="DisplayUser.php" method="post">
+                    <input type="submit" value="User">
+                </form>
+                <form action="DisplayPackage.php" method="post">
+                    <input type="submit" value="Package">
+                </form>
+                <form action="DisplayHasPackage.php" method="post">
+                    <input type="submit" value="HasPackage">
+                </form>
+                <form action="DisplayRepository.php" method="post">
+                    <input type="submit" value="Repository">
+                </form>
+                <form action="DisplayOwnsRepo.php" method="post">
+                    <input type="submit" value="OwnsRepo">
+                </form>
+            </div>
         </div>
 
         <div style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 1100px;">
@@ -285,7 +302,7 @@
             <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px">
                 <!-- Deletion queries -->
                 <div
-                    style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
+                    style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
                     <h4>Delete a package</h3>
                         <form action="Deletion_Package.php" method="post">
                             Package name: <input type="text" name="packageName" value="react"> <br />
@@ -294,7 +311,7 @@
                 </div>
 
                 <div
-                    style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
+                    style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
                     <h4>Delete a user</h3>
                         <form action="Deletion_User.php" method="post">
                             User ID: <input type="text" name="userID" value=69631> <br />
@@ -303,7 +320,7 @@
                 </div>
 
                 <div
-                    style='border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;'>
+                    style="border: 1.5px solid rgb(148 163 184); border-radius: 10px; padding: 0 10px 0 10px; width: 500px;">
                     <h4>Delete package dowloads</h3>
                         <form action="Deletion_PackageDownloads.php" method="post">
                             Package name: <input type="text" name="packageName" value="react"> <br />

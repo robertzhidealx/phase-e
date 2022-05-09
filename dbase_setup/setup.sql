@@ -696,29 +696,6 @@ END; //
 
 DELIMITER ;
 
--- DisplayTables
-
-DELIMITER //
-
-DROP PROCEDURE IF EXISTS DisplayTables //
-
-CREATE PROCEDURE DisplayTables()
-BEGIN
-    SELECT *
-    FROM Organization;
-
-    SELECT *
-    FROM _User;
-
-    SELECT *
-    FROM Package;
-
-    SELECT *
-    FROM HasPackage;
-END; //
-
-DELIMITER ;
-
 -- InsertHasPackage
 
 DELIMITER //
@@ -878,9 +855,9 @@ END; //
 
 DELIMITER ;
 
-DELIMITER //
-
 -- DownloadsGained
+
+DELIMITER //
 
 DROP PROCEDURE IF EXISTS DownloadsGained //
 

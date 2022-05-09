@@ -696,29 +696,6 @@ END; //
 
 DELIMITER ;
 
--- DisplayTables
-
-DELIMITER //
-
-DROP PROCEDURE IF EXISTS DisplayTables //
-
-CREATE PROCEDURE DisplayTables()
-BEGIN
-    SELECT *
-    FROM Organization;
-
-    SELECT *
-    FROM _User;
-
-    SELECT *
-    FROM Package;
-
-    SELECT *
-    FROM HasPackage;
-END; //
-
-DELIMITER ;
-
 -- InsertHasPackage
 
 DELIMITER //
@@ -745,7 +722,7 @@ END; //
 
 DELIMITER ;
 
--- PackageDownloadsGained
+-- InsertUser
 
 DELIMITER //
 
@@ -760,7 +737,102 @@ DELIMITER ;
 
 DELIMITER //
 
+-- FindPackage
+
+DELIMITER //
+
+DROP FUNCTION IF EXISTS FindPackage //
+
+CREATE FUNCTION FindPackage(packageNameParam VARCHAR(10))
+RETURNS BOOLEAN
+BEGIN
+      RETURN (SELECT COUNT(*) FROM Package WHERE packageName = packageNameParam);
+END; //
+
+DELIMITER ;
+
+-- DeletePackage
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DeletePackage //
+
+CREATE PROCEDURE DeletePackage(IN packageNameParam VARCHAR(10))
+BEGIN
+    IF FindPackage(packageNameParam) THEN
+        DELETE FROM Package WHERE packageName = packageNameParam;
+    ELSE
+        SELECT 'ERROR: package not found' AS error;
+    END IF;
+END; //
+
+DELIMITER ;
+
+-- FindUser
+
+DELIMITER //
+
+DROP FUNCTION IF EXISTS FindUser //
+
+CREATE FUNCTION FindUser(userIDParam INT)
+RETURNS BOOLEAN
+BEGIN
+      RETURN (SELECT COUNT(*) FROM _User WHERE userID = userIDParam);
+END; //
+
+DELIMITER ;
+
+-- DeleteUser
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DeleteUser //
+
+CREATE PROCEDURE DeleteUser(IN userIDParam VARCHAR(10))
+BEGIN
+    IF FindUser(userIDParam) THEN
+        DELETE FROM _User WHERE userID = userIDParam;
+    ELSE
+        SELECT 'ERROR: user not found' AS error;
+    END IF;
+END; //
+
+DELIMITER ;
+
+-- FindPackageDownloads
+
+DELIMITER //
+
+DROP FUNCTION IF EXISTS FindPackageDownloads //
+
+CREATE FUNCTION FindPackageDownloads(packageNameParam VARCHAR(10))
+RETURNS BOOLEAN
+BEGIN
+      RETURN (SELECT COUNT(*) FROM Downloads WHERE packageName = packageNameParam);
+END; //
+
+DELIMITER ;
+
+-- DeletePackageDownloads
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS DeletePackageDownloads //
+
+CREATE PROCEDURE DeletePackageDownloads(IN packageNameParam VARCHAR(10))
+BEGIN
+    IF FindPackageDownloads(packageNameParam) THEN
+        DELETE FROM Downloads WHERE packageName = packageNameParam;
+    ELSE
+        SELECT 'ERROR: package not found' AS error;
+    END IF;
+END; //
+
+DELIMITER ;
+
 -- DownloadsGained
+
+DELIMITER //
 
 DROP PROCEDURE IF EXISTS DownloadsGained //
 
