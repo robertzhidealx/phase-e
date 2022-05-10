@@ -7,6 +7,8 @@
 
     $dataPoints = array();
 
+    $show = true;
+
     if (!empty($order)) {
         if ($stmt = $conn->prepare("CALL FixesPercentage(?)")) {
             $stmt->bind_param("s", $order);
@@ -23,6 +25,7 @@
                     
                     echo "</table>";
                 } else {
+                    $show = false;
                     echo "No result fits the requirement.";
                 }
                 $result->free_result();
@@ -45,6 +48,8 @@
     <head>
         <title>Rank repositories by percentage of fixing issues</title>
         <script>
+        var show = <?php echo json_encode($show); ?>;
+
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -58,7 +63,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

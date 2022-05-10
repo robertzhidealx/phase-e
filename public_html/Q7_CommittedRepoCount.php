@@ -7,6 +7,8 @@
     echo "<h2>Rank select users by number of repositories committed to</h2><br>";
 
     $repoCountData = array();
+    
+    $show = true;
 
     $pattern = "/[0-9]+/i";    
 
@@ -36,6 +38,7 @@
                     
                     echo "</table>";
                 } else {
+                    $show = false;
                     echo "No result fits the requirement.";
                 }
                 $result->free_result();
@@ -58,6 +61,8 @@
     <head>
         <title>Rank select users by number of repositories committed to</title>
         <script>
+        var show = <?php echo json_encode($show); ?>;
+
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -71,7 +76,7 @@
                     dataPoints: <?php echo json_encode($repoCountData, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

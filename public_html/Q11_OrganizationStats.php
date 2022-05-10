@@ -10,6 +10,8 @@
 
     $dataPoints = array();
 
+    $show = true;
+
     $pattern = "/[0-9]{4}/i";
 
     if (!empty($year)) {
@@ -32,6 +34,7 @@
                         }
                         echo "</table><br>";
                     } else {
+                        $show = false;
                         echo "No result fits the requirement.";
                     }
                 } else {
@@ -58,6 +61,8 @@
         <title>Organizations Stats</title>
         <script>
         window.onload = function () {
+        var show = <?php echo json_encode($show); ?>;
+
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
                 exportEnabled: true,
@@ -70,7 +75,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

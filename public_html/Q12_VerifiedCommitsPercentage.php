@@ -9,6 +9,8 @@
     echo "<h2>Out of all commits whose committer is ".$user.", what percentage is verified?</h2>";
 
     $percentage = 0;
+    
+    $show = true;
 
     if (!empty($user)) {
         if ($stmt = $conn->prepare("CALL VerifiedCommitsPercentage(?)")) {
@@ -37,7 +39,8 @@
                             array("label"=>"Unverified commits", "y"=>(100-$percentage))
                         );
                     } else {
-                        echo "No result fit the requirement.";
+                        $show = false;
+                        echo "No result fits the requirement.";
                     }
                 } else {
                     echo "Call to VerifiedCommitsPercentage failed<br>";
@@ -59,27 +62,30 @@
 ?>
 
 <html>
-<head>
-<script>
-window.onload = function() {
-    var chart = new CanvasJS.Chart("chartContainer", {
-	    animationEnabled: true,
-	    title: {
-		text: "Verified commit vs. Unverified commit"
-	},
-	data: [{
-		type: "pie",
-		yValueFormatString: "#,##0.00\"%\"",
-		indexLabel: "{label} ({y})",
-		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-	}]
-    });
-    chart.render();
-}
-</script>
-</head>
+    <head>
+        <title>Verified Commits Percentage</title>
+        <script>
+        var show = <?php echo json_encode($show); ?>;
+
+        window.onload = function() {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                title: {
+                text: "Verified commit vs. Unverified commit"
+            },
+            data: [{
+                type: "pie",
+                yValueFormatString: "#,##0.00\"%\"",
+                indexLabel: "{label} ({y})",
+                dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+            }]
+            });
+            if (show) chart.render();
+        }
+        </script>
+    </head>
 <body>
-<div id="chartContainer" style="height: 370px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-</body>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
 </html>

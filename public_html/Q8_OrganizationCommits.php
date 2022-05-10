@@ -6,6 +6,8 @@
     echo "<h2>Rank organizations by total commits</h2><br>";
 
     $dataPoints = array();
+    
+    $show = true;
 
     if (!empty($order)) {
         if ($stmt = $conn->prepare("CALL OrganizationCommits(?)")) {
@@ -25,6 +27,7 @@
                     
                     echo "</table>";
                 } else {
+                    $show = false;
                     echo "No result fits the requirement.";
                 }
                 $result->free_result();
@@ -47,6 +50,8 @@
     <head>
         <title>Rank organizations by total commits</title>
         <script>
+        var show = <?php echo json_encode($show); ?>;
+
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -60,7 +65,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

@@ -7,6 +7,8 @@
 
     $dataPoints = array();
 
+    $show = true;
+
     if (!empty($keyword)) {
         echo "<p style='margin-bottom: 10px'>You have selected <span style='font-weight: bold'>".$keyword."</span> as the search term.</p><br>";
 
@@ -29,6 +31,7 @@
                         
                         echo "</table>";
                     } else {
+                        $show = false;
                         echo "No data found for this keyword.";
                     }
                     $result->free_result();
@@ -52,6 +55,8 @@
     <head>
         <title>Rank GitHub Organizations</title>
         <script>
+        var show =<?php echo json_encode($show); ?>;
+
         window.onload = function () { 
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -65,7 +70,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render(); 
+            if (show) chart.render(); 
         }
         </script>
     </head>

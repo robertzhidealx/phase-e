@@ -9,6 +9,8 @@
     echo "<h2>Rank packages by downloads gained</h2>";
 
     $dataPoints = array();
+    
+    $show = true;
 
     $pattern = "/[0-9]{4}-[0-9]{2}-[0-9]{2}/i";    
 
@@ -31,6 +33,7 @@
                         }
                         echo "</table><br>";
                     } else {
+                        $show = false;
                         echo "No result fits the requirement.";
                     }
             
@@ -57,6 +60,8 @@
     <head>
         <title>Packages Downloads Gained</title>
         <script>
+        var show =<?php echo json_encode($show); ?>;
+
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -70,7 +75,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

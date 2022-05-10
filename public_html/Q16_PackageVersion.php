@@ -8,6 +8,8 @@
     echo "<h2>Calculate average stars and scores for package versions, and list how many package in each category</h2>";
     
     $dataPoints = array();
+    
+    $show = true;
 
     if ($stmt = $conn->prepare("CALL PackageVersion()")) {
         if ($stmt->execute()) {
@@ -19,12 +21,13 @@
 
                     foreach($result as $row) {
                         echo "<tr><td>".$row["packageVersion"]."</td><td>".$row["average stars"]."</td><td>".$row["average score"]."</td><td>".$row["count"]."</td></tr>";
-                        array_push($DataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
+                        array_push($dataPoints, array( "label"=> $row["packageVersion"], "y"=> $row["average stars"]));
                     }
             
                     echo "</table><br>";
                 } else {
-                    echo "No result fit the requirement.";
+                    $show = false;
+                    echo "No result fits the requirement.";
                 }
             } else {
                 echo "Call to PackageVersion failed<br>";
@@ -46,6 +49,8 @@
     <head>
         <title>Package Version</title>
         <script>
+        var show = <?php echo json_encode($show); ?>;
+
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -59,7 +64,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

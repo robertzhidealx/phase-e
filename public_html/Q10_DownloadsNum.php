@@ -10,6 +10,8 @@
 
     $dataPoints = array();
 
+    $show = true;
+
     $pattern = "/[0-9]+/i";    
 
     if (!empty($num)) {
@@ -31,7 +33,8 @@
                         }
                         echo "</table><br>";
                     } else {
-                        echo "No package fit the requirement.";
+                        $show = false;
+                        echo "No package fits the requirement.";
                     }
             
                 } else {
@@ -57,6 +60,8 @@
     <head>
         <title>Downloads Num</title>
         <script>
+        var show = <?php echo json_encode($show); ?>;
+
         window.onload = function () {
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
@@ -70,7 +75,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>

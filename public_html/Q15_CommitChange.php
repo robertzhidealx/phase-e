@@ -10,6 +10,8 @@
 
     $dataPoints = array();
 
+    $show = true;
+
     if (!empty($type)) {
         if ($stmt = $conn->prepare("CALL CommitChange(?)")) {
             $stmt->bind_param("s", $type);
@@ -27,7 +29,8 @@
             
                         echo "</table>";
                     } else {
-                        echo "No result fit the requirement.";
+                        $show = false;
+                        echo "No result fits the requirement.";
                     }
                 } else {
                     echo "Call to CommitChange failed<br>";
@@ -53,6 +56,8 @@
         <title>Commit Change</title>
         <script>
         window.onload = function () {
+        var show = <?php echo json_encode($show); ?>;
+
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
                 exportEnabled: true,
@@ -65,7 +70,7 @@
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
-            chart.render();
+            if (show) chart.render();
         }
         </script>
     </head>
