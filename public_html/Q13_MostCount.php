@@ -20,10 +20,10 @@
                 if ($result) {
                     if ($result->num_rows > 0){
                         echo "<table border=\"2px solid black\">";
-                        echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td><td>$count</td></tr>";
+                        echo "<tr><td>user ID</td><td>user login</td><td>user URL</td><td>repository name</td><td>repository description</td></tr>";
 
                         foreach($result as $row) {
-                            echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td><td>".$row["maxCount"]."</td></tr>";
+                            echo "<tr><td>".$row["user ID"]."</td><td>".$row["user login"]."</td><td>".$row["user URL"]."</td><td>".$row["repository name"]."</td><td>".$row["repository description"]."</td></tr>";
                             array_push($dataPoints, array( "label"=> "Maximum", "y"=> $row["maxCount"]));
                             array_push($dataPoints, array( "label"=> "Average", "y"=> $row["average"]));
                         }
