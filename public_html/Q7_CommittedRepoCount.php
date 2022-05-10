@@ -8,7 +8,13 @@
 
     $repoCountData = array();
 
+    $pattern = "/[0-9]+/i";    
+
     if (!empty($order) && !empty($repoCount)) {
+        if (strlen($repoCount) > 10 || !preg_match($pattern, $repoCount)) {
+            echo "Invalid input. Please enter integers within 10 digits.";
+            exit();
+        }
         if ($stmt = $conn->prepare("CALL CommittedRepoCount(?, ?)")) {
             $stmt->bind_param("ss", $order, $repoCount);
             if ($stmt->execute()) {

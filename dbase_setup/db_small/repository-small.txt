@@ -7,7 +7,7 @@
 71995937,nuxt.js,The Intuitive Vue(2) Framework,https://api.github.com/repos/nuxt/nuxt.js,3221,39804,39804,527
 6498492,javascript,JavaScript Style Guide,https://api.github.com/repos/airbnb/javascript,23272,121909,121909,134
 304344049,kit,The fastest way to build Svelte apps,https://api.github.com/repos/sveltejs/kit,699,7854,7854,408
-95797174,lit,Lit is a simple library for building fast, lightweight web components.,https://api.github.com/repos/lit/lit,570,10963,10963,260
+95797174,lit,Lit is a simple library for building fast lightweight web components.,https://api.github.com/repos/lit/lit,570,10963,10963,260
 46769790,solid,Solid - Re-decentralizing the web (project directory),https://api.github.com/repos/solid/solid,384,8110,8110,141
 17814354,mithril.js,A JavaScript Framework for Building Brilliant Applications,https://api.github.com/repos/MithrilJS/mithril.js,944,13173,13173,113
 224663696,alpine,A rugged minimal framework for composing JavaScript behavior in your markup. ,https://api.github.com/repos/alpinejs/alpine,896,20352,20352,16

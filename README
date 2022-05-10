@@ -9,3 +9,7 @@ The data we get directly from API values contained special characters like non-E
 Besides, we are using commas to separate fields in each tuple as in csv format. When importing files, we saw warnings like “row contained more data than there were input columns.” 
 Turned out some strings themselves contained comma(s) that splat them into one or multiple attribute values. 
 Thus, we wrote a regular expression pattern to remove these erratic symbols from the attribute values, which effectively fixed both issues.
+
+Updates from Phase D:
+We noticed that very few rows from the -small.txt files are picked from full data files before we filtered out erractic symbols like the comma. So we removed those symbols from these files.
+This is not a breaking issue, in that setup-small.sql runs perfectly well.

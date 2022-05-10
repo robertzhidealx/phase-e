@@ -8,7 +8,13 @@
 
     $dataPoints = array();
 
+    $pattern = "/[0-9]+/i";    
+
     if (!empty($issueCount) && !empty($repoCount)) {
+        if (strlen($issueCount) > 10 || strlen($repoCount) > 10 || !preg_match($pattern, $issueCount) || !preg_match($pattern, $repoCount)) {
+            echo "Invalid input. Please enter integers within 10 digits.";
+            exit();
+        }
         if ($stmt = $conn->prepare("CALL CountUserCommits(?, ?)")) {
             $stmt->bind_param("ss", $issueCount, $repoCount);
             if ($stmt->execute()) {

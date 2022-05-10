@@ -26,7 +26,7 @@
             
                         echo "</table>";
                     } else {
-                        echo "No result fit the requirement.";
+                        echo "No result fits the requirement.";
                     }
                 } else {
                     echo "Call to OrganizationLocation failed<br>";

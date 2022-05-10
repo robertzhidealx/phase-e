@@ -10,7 +10,13 @@
 
     $dataPoints = array();
 
+    $pattern = "/[0-9]+/i";    
+
     if (!empty($num)) {
+        if (strlen($num) > 15 || !preg_match($pattern, $num)) {
+            echo "Invalid input. Please enter integers within 15 digits.";
+            exit();
+        }
         if ($stmt = $conn->prepare("CALL DownloadsNum(?)")) {
             $stmt->bind_param("i", $num);
             if ($stmt->execute()) {
@@ -41,7 +47,7 @@
             $stmt->close();
         }
     } else {
-        echo "invalid input";
+        echo "You have to enter a number.";
     }
     $conn->close();
 
