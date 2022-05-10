@@ -1,5 +1,6 @@
 -- Jiaxuan Zhang, jzhan239
 -- Jessie Luo, jluo30
+
 DROP TABLE IF EXISTS DownloadsOnDate;
 
 DROP TABLE IF EXISTS Downloads;

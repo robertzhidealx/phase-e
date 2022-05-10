@@ -25,7 +25,7 @@
                     
                     echo "</table>";
                 } else {
-                    echo "No data found.";
+                    echo "No result fits the requirement.";
                 }
                 $result->free_result();
             } else {

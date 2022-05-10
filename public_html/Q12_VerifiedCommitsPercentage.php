@@ -16,7 +16,13 @@
             if ($stmt->execute()) {
                 $result = $stmt->get_result();
                 if ($result) {
-                    if ($result->num_rows > 0){
+                    if ($result->num_rows > 0) {
+                        foreach($result as $row) {
+                            if ($row["Percentage of verified commits committed by by Github"] == NULL) {
+                                echo "No result fits the requirement.";
+                                exit();
+                            }
+                        }
                         echo "<table border=\"2px solid black\">";
                         echo "<tr><td>Percentage of verified commits</td></tr>";
 

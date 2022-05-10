@@ -4,3 +4,6 @@
 Use cleanup.sql for clean up.
 
 No special instructions needed.
+
+(Note that the .txt files for setup.sql and setup-small.sql are in the db and db_small folders respectively,
+please do not change this file structure for the setup scripts to run successfully.)

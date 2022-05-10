@@ -31,7 +31,7 @@
                         }
                         echo "</table><br>";
                     } else {
-                        echo "No package fits the requirement.";
+                        echo "No result fits the requirement.";
                     }
             
                 } else {

@@ -29,7 +29,7 @@
                         
                         echo "</table>";
                     } else {
-                        echo "No data found for this keyword";
+                        echo "No data found for this keyword.";
                     }
                     $result->free_result();
                 } else {

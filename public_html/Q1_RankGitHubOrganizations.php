@@ -5,7 +5,7 @@
 
     echo "<h2>Rank GitHub organizations</h2>";
 
-	$dataPoints = array();
+    $dataPoints = array();
 
     if (!empty($keyword)) {
         echo "<p style='margin-bottom: 10px'>You have selected <span style='font-weight: bold'>".$keyword."</span> as the search term.</p><br>";
@@ -29,7 +29,7 @@
                         
                         echo "</table>";
                     } else {
-                        echo "No data found for this keyword";
+                        echo "No data found for this keyword.";
                     }
                     $result->free_result();
                 } else {

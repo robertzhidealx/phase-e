@@ -1,11 +1,13 @@
 [ Members ]
--- Jiaxuan Zhang, jzhan239
--- Jessie Luo, jluo30
+
+Jiaxuan Zhang, jzhan239
+Jessie Luo, jluo30
 
 [ Modifications ]
-We extended the domian of our project from NPM packages and GITHUB repositories to include GITHUB users and commits because what we initially focused on in Phase A is not complex enough.
-In phase D, we had to adjust basically every questions from our original list of 15 so that them accept user inputs, which in fact expand the range of our questions. For example, in phase C, 
-query #12 obtains info on the repository with the most forksCount, now in phase D, user can chose between forks count, stargazers count, and watchers count on the front page and view corresponding result.
+
+We extended the domian of our project from NPM packages and GitHub repositories to include GitHub users, commits, organizations, etc. because what we initially focused on in Phase A is not complex enough.
+In phase D, we had to adjust some question from our original list of 15 so they can better accept user inputs, which in fact expanded the range of our questions. However, the key idea are retained for many questions.
+For example, in Phase C, query #13 obtains info on the repository with the most forksCount, now in phase D, user can choose between forks count, stargazers count, and watchers count on the front page and view corresponding results.
 
 [ Process ] *same as phase C
 
@@ -168,10 +170,20 @@ We split our files according to each entity and relation:
 [ Successes ]
 - describe 2-3 technical portions of your project about which you’d like to brag a little (for example, what was a particularly challenging aspect of writing your database that you’d like to highlight so the course staff don’t overlook its complexity?)
 
+1. We selected and fetched interesting data ourselves from the various APIs. There are no readily made CSV files and the likes, so we had to pick interesting repositories, packages, etc. that are meaningful ourselves and fetch them from the API. We also had to orchestrate the various relationships between entities by matching on IDs, etc. Another related issue is how to make our data correlate with each other such that it satisfies foreign key constraints. For example, IssueCreator is a relation between entity User and Issue, and it has has foreign key constraints on both. To build the connection, we have to first iterate over Issue to collect creator info, then add the creator with its userID, login, url, and type to user.txt if it wasn’t in it already. This ensures each issueID for IssueCreator is in issue.txt and the person who created it is one of our users. Of course, all of this is done via scripting in Node.js. In the process, we had to deduplicate rows of each data files we generated using a set, and filter out erratic symbols from every string field using a regex pattern we wrote ourselves, which is discussed in README. Our data cleaning effort is accumulated in a GitHub repository with 50 commits and detailed instructions on how to run and automate the process. Feel free to check it out: https://github.com/robertzhidealx/db-phase-c.
+
+2. During Phase E, we implemented a solid suite of error handling mechanisms to protect our database against bad user inputs. For query 4, the user is expected to enter two dates in the format YYYY-MM-DD. In the PHP file related to this query, we once again used regex to guard against any input that does not adhere to this formatting requirement, including "202m-01-01" and "202001-01".
+
+3. During Phase E, we diversified the different ways the user can interact with our queries by not only including text inputs, but also radio buttons for the user to select among several options as input, e.g., whether to display query results in descending or ascending orders. We also made our interface very user-friendly and intutive to use, along with detailed explanations and sample inputs for each query and update. Additionally, we created a section for the user to click on buttons to view individually tables in our database at the time of their request, so that so can very conveniently check out the changes they made to the database via either insertion or deletion queries, or simply to see what each table contains.
+
+4. During Phase E, we coded a very organized and visually pleasing dashboard as our interface where different sections are displayed as evenly spaced out boxes. Our html interface is also responsive, with its content adjusting to screens of all sizes.
+
 [ Known Issues ]
-There is no bug. All desired features are implemented except a dancing koala who welcome you when you enter the website (jk).
+
+There is no bug. All desired features are implemented except a dancing koala who welcomes you when you enter the website (jk).
 
 [ Extensions ]
+
 1. An authentication mechanism for user access control.
-2. Add user interactive components like when user click on the name of an organization, it will be nice to have a pop-up showing the basic stats of the organization.
-3. A graph showing what data the databases store, where they're from, and how they interact.
+2. Add interactive components like one where when a user clicks on the name of an organization in a PHP table or CanvasJS visualization, it will be nice to have a pop up showing the basic stats of the organization.
+3. A graph showing what data the database stores, where they're from, and how they interact.
