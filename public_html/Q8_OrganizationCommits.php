@@ -41,7 +41,8 @@
             echo $error; 
         }
     } else {
-        echo "not set";
+        $show = false;
+        echo "invalid input";
     }
     $conn->close();
 ?>

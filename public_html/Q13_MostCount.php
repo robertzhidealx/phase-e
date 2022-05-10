@@ -46,6 +46,7 @@
             $stmt->close();
         }
     } else {
+        $show = false;
         echo "invalid input";
     }
     $conn->close();

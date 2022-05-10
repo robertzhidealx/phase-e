@@ -55,7 +55,8 @@
             $stmt->close();
         }
     } else {
-        echo "invalid input";
+        $show = false;
+        echo "You have to enter a committer name.";
     }
     $conn->close();
 

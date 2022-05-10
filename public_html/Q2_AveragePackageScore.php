@@ -46,6 +46,7 @@
             }
         }
     } else {
+        $show = false;
         echo "You need to enter a nonempty keyword";
     }
     $conn->close();

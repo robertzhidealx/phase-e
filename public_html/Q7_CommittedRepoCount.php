@@ -52,6 +52,7 @@
             echo $error; 
         }
     } else {
+        $show = false;
         echo "You have to give a nonempty input.";
     }
     $conn->close();

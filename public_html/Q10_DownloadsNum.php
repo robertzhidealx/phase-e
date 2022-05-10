@@ -15,7 +15,7 @@
     $pattern = "/[0-9]+/i";    
 
     if (!empty($num)) {
-        if (strlen($num) > 15 || !preg_match($pattern, $num)) {
+        if (strlen($num) > 10 || !preg_match($pattern, $num)) {
             echo "Invalid input. Please enter integers within 15 digits.";
             exit();
         }
@@ -50,6 +50,7 @@
             $stmt->close();
         }
     } else {
+        $show = false;
         echo "You have to enter a number.";
     }
     $conn->close();

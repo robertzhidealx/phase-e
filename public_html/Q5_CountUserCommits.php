@@ -46,6 +46,7 @@
             echo $error; 
         }
     } else {
+        $show = false;
         echo "You have to give a number of issues and a number of repositories.";
     }
     $conn->close();

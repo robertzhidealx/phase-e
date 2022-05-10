@@ -39,6 +39,7 @@
             echo $error; 
         }
     } else {
+        $show = false;
         echo "You have to make a selection.";
     }
     $conn->close();

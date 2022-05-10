@@ -50,7 +50,8 @@
             $stmt->close();
         }
     } else {
-        echo "invalid input";
+        $show = false;
+        echo "You have to enter a valid year.";
     }
     $conn->close();
 

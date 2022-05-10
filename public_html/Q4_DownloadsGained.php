@@ -50,6 +50,7 @@
             $stmt->close();
         }
     } else {
+        $show = false;
         echo "You have to enter the start and end dates";
     }
     $conn->close();
